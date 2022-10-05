@@ -15,9 +15,9 @@
         <category term="CRYPTO" />
         <category term=" Code" />
         <item>
-            <guid isPermalink="true">http://katelin.github.io/title/</guid>
+            <guid isPermalink="true">http://katelin.github.io/computer-science/CTF/ctf-web/</guid>
             <title>毫无基础的Web学习记录</title>
-            <link>http://katelin.github.io/title/</link>
+            <link>http://katelin.github.io/computer-science/CTF/ctf-web/</link>
             <category term="计算机科学" scheme="http://katelin.github.io/categories/computer-science/" />
             <category term="安全CTF" scheme="http://katelin.github.io/categories/computer-science/CTF/" />
             <pubDate>Wed, 05 Oct 2022 13:58:01 +0800</pubDate>
@@ -35,16 +35,16 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://katelin.github.io/title/</guid>
+            <guid isPermalink="true">http://katelin.github.io/computer-science/article-title/</guid>
             <title>article title</title>
-            <link>http://katelin.github.io/title/</link>
+            <link>http://katelin.github.io/computer-science/article-title/</link>
             <pubDate>Wed, 05 Oct 2022 11:13:30 +0800</pubDate>
             <description><![CDATA[  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://katelin.github.io/title/</guid>
+            <guid isPermalink="true">http://katelin.github.io/hello-world/</guid>
             <title>Hello World</title>
-            <link>http://katelin.github.io/title/</link>
+            <link>http://katelin.github.io/hello-world/</link>
             <pubDate>Wed, 05 Oct 2022 11:04:45 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;Welcome to &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvLw==&#34;&gt;Hexo&lt;/span&gt;! This is your very first post. Check &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv&#34;&gt;documentation&lt;/span&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=&#34;&gt;troubleshooting&lt;/span&gt; or you can ask me on &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==&#34;&gt;GitHub&lt;/span&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;quick-start&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#quick-start&#34;&gt;#&lt;/a&gt; Quick Start&lt;/h2&gt;

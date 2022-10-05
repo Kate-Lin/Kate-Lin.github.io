@@ -12,9 +12,9 @@
     <category term="CRYPTO" />
     <category term=" Code" />
     <entry>
-        <id>http://katelin.github.io/title/</id>
+        <id>http://katelin.github.io/computer-science/CTF/ctf-web/</id>
         <title>毫无基础的Web学习记录</title>
-        <link rel="alternate" href="http://katelin.github.io/title/"/>
+        <link rel="alternate" href="http://katelin.github.io/computer-science/CTF/ctf-web/"/>
         <content type="html">&lt;h1 id=&#34;sql注入&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#sql注入&#34;&gt;#&lt;/a&gt; SQL 注入&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;参考的入门题目：BUUCTF-Web EasySQL，LoveSQL，随便注，三道题目的难度递增。&lt;/li&gt;
@@ -32,16 +32,16 @@
         <updated>2022-10-05T05:58:01.000Z</updated>
     </entry>
     <entry>
-        <id>http://katelin.github.io/title/</id>
+        <id>http://katelin.github.io/computer-science/article-title/</id>
         <title>article title</title>
-        <link rel="alternate" href="http://katelin.github.io/title/"/>
+        <link rel="alternate" href="http://katelin.github.io/computer-science/article-title/"/>
         <content type="html"></content>
         <updated>2022-10-05T03:13:30.000Z</updated>
     </entry>
     <entry>
-        <id>http://katelin.github.io/title/</id>
+        <id>http://katelin.github.io/hello-world/</id>
         <title>Hello World</title>
-        <link rel="alternate" href="http://katelin.github.io/title/"/>
+        <link rel="alternate" href="http://katelin.github.io/hello-world/"/>
         <content type="html">&lt;p&gt;Welcome to &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvLw==&#34;&gt;Hexo&lt;/span&gt;! This is your very first post. Check &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv&#34;&gt;documentation&lt;/span&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=&#34;&gt;troubleshooting&lt;/span&gt; or you can ask me on &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==&#34;&gt;GitHub&lt;/span&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;quick-start&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#quick-start&#34;&gt;#&lt;/a&gt; Quick Start&lt;/h2&gt;
 &lt;h3 id=&#34;create-a-new-post&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#create-a-new-post&#34;&gt;#&lt;/a&gt; Create a new post&lt;/h3&gt;
