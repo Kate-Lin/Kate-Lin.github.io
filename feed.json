@@ -7,6 +7,14 @@
     "home_page_url": "http://katelin.github.io",
     "items": [
         {
+            "id": "http://katelin.github.io/about/",
+            "url": "http://katelin.github.io/about/",
+            "title": "about",
+            "date_published": "2022-10-05T09:46:54.000Z",
+            "content_html": "<h1 id=\"本人\"><a class=\"anchor\" href=\"#本人\">#</a> 本人</h1>\n<p>双木成申，从我名字拆分而来。</p>\n<p>个人现状就是：不愿承认自己是工科生却变得越来越工科的程序媛。平平无奇 ECNU2021 级研究生，自愿从计算机踏入密码学想要摸索一点东西出来。</p>\n<p>典型的 ENFJ，很 E 很 J，其余比较 balance。</p>\n<h1 id=\"profession\"><a class=\"anchor\" href=\"#profession\">#</a> Profession</h1>\n<p>前沿但不好走的密码学，还是从计算机转的密码学。没事儿还是会写一写代码毕竟要保障恰饭。</p>\n<p>对数学越来越感兴趣 ing。研究方向 一些 FE。最近又开始对老本行代码感兴趣，补一些基础的安全知识。</p>\n<p>更了一些笔记之类的，在慢慢从我的 ghost 博客移过来，等全部移过来之后就把域名也更新了。</p>\n<p>上次写的时候说还在补基础熬过研一，结果一到研二就生了场大病，闲不住又开始把新博客搬到这里。</p>\n<h1 id=\"outside-the-lab\"><a class=\"anchor\" href=\"#outside-the-lab\">#</a> Outside the lab</h1>\n<ul>\n<li>一些爱好有：音乐剧、瞎拍水平的摄影、练字</li>\n<li>一些鸡血型人设，很爱玩也很能肝</li>\n</ul>\n<h1 id=\"about-the-blog\"><a class=\"anchor\" href=\"#about-the-blog\">#</a> About the blog</h1>\n<p>最早建于 2021 年的圣诞节，历经无数版本更迭，写于 2022 年 10 月 5 日。</p>\n",
+            "tags": []
+        },
+        {
             "id": "http://katelin.github.io/computer-science/CTF/ctf-web/",
             "url": "http://katelin.github.io/computer-science/CTF/ctf-web/",
             "title": "毫无基础的Web学习记录",
@@ -16,22 +24,6 @@
                 "计算机科学",
                 "安全CTF"
             ]
-        },
-        {
-            "id": "http://katelin.github.io/computer-science/article-title/",
-            "url": "http://katelin.github.io/computer-science/article-title/",
-            "title": "article title",
-            "date_published": "2022-10-05T03:13:30.000Z",
-            "content_html": "",
-            "tags": []
-        },
-        {
-            "id": "http://katelin.github.io/hello-world/",
-            "url": "http://katelin.github.io/hello-world/",
-            "title": "Hello World",
-            "date_published": "2022-10-05T03:04:45.203Z",
-            "content_html": "<p>Welcome to <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvLw==\">Hexo</span>! This is your very first post. Check <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv\">documentation</span> for more info. If you get any problems when using Hexo, you can find the answer in <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=\">troubleshooting</span> or you can ask me on <span class=\"exturl\" data-url=\"aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==\">GitHub</span>.</p>\n<h2 id=\"quick-start\"><a class=\"anchor\" href=\"#quick-start\">#</a> Quick Start</h2>\n<h3 id=\"create-a-new-post\"><a class=\"anchor\" href=\"#create-a-new-post\">#</a> Create a new post</h3>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>$ hexo new <span class=\"token string\">\"My New Post\"</span></pre></td></tr></table></figure><p>More info: <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s\">Writing</span></p>\n<h3 id=\"run-server\"><a class=\"anchor\" href=\"#run-server\">#</a> Run server</h3>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>$ hexo server</pre></td></tr></table></figure><p>More info: <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=\">Server</span></p>\n<h3 id=\"generate-static-files\"><a class=\"anchor\" href=\"#generate-static-files\">#</a> Generate static files</h3>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>$ hexo generate</pre></td></tr></table></figure><p>More info: <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s\">Generating</span></p>\n<h3 id=\"deploy-to-remote-sites\"><a class=\"anchor\" href=\"#deploy-to-remote-sites\">#</a> Deploy to remote sites</h3>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>$ hexo deploy</pre></td></tr></table></figure><p>More info: <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s\">Deployment</span></p>\n",
-            "tags": []
         }
     ]
 }
