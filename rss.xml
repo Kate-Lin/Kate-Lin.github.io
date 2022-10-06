@@ -310,6 +310,64 @@ M1001 80h400000v40h-400000z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/
  ]]></description>
         </item>
         <item>
+            <guid isPermalink="true">http://katelin.github.io/computer-science/experiment/redis/</guid>
+            <title>Redis学习笔记</title>
+            <link>http://katelin.github.io/computer-science/experiment/redis/</link>
+            <category term="计算机科学" scheme="http://katelin.github.io/categories/computer-science/" />
+            <category term="实战" scheme="http://katelin.github.io/categories/computer-science/experiment/" />
+            <pubDate>Wed, 08 Jun 2022 11:24:00 +0800</pubDate>
+            <description><![CDATA[ &lt;ul&gt;
+&lt;li&gt;开发环境: Centos 7.6&lt;/li&gt;
+&lt;li&gt;安装版本：6.0.8（参考菜鸟教程）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;to-begin-with-installing&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#to-begin-with-installing&#34;&gt;#&lt;/a&gt; to begin with installing&lt;/h1&gt;
+&lt;pre&gt;&lt;code&gt;wget http://download.redis.io/releases/redis-6.0.8.tar.gz
+tar xzf redis-6.0.8.tar.gz
+tar xzf redis-6.0.8.tar.gz
+make test
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;报错，出现&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;error: &#39;struct redisServer&#39; has no member named &#39;supervised_mode&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;等错误&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;解决方法：升级 gcc 至 9.0 版&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;yum -y install centos-release-scl
+yum -y install devtoolset-9-gcc devtoolset-9-gcc-c++ devtoolset-9-binutils
+scl enable devtoolset-9 bash
+echo &amp;quot;source /opt/rh/devtoolset-9/enable&amp;quot; &amp;gt;&amp;gt;/etc/profile
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;注意 echo 的引号要是英文的引号。&lt;br /&gt;
+运行&lt;br /&gt;
+（普通版本）&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;cd src
+./redis-server
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;会出现欢迎界面，如果需要运行 redis-cli 就得再开一个窗口&lt;br /&gt;
+（不开另一个窗口运行的版本，开启守护进程）&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;cd src
+./redis-server --daemonize yes
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;启动客户端，开始交互：（在 src 目录下）&lt;/p&gt;
+&lt;h1 id=&#34;basic-usage&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#basic-usage&#34;&gt;#&lt;/a&gt; Basic Usage&lt;/h1&gt;
+&lt;p&gt;设置 key-value: SET [key] [value]&lt;br /&gt;
+ 查询 key-value: GET [key] -&amp;gt; [value]&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://katelin.github.io/computer-science/experiment/clash-for-windows/</guid>
+            <title>一些clash for windows踩雷</title>
+            <link>http://katelin.github.io/computer-science/experiment/clash-for-windows/</link>
+            <category term="计算机科学" scheme="http://katelin.github.io/categories/computer-science/" />
+            <category term="实战" scheme="http://katelin.github.io/categories/computer-science/experiment/" />
+            <pubDate>Wed, 20 Apr 2022 08:04:00 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;配置 profile 中：&lt;br /&gt;
+一些加密 cipher: none 的代理节点，需要将 none 改成 dummy。&lt;br /&gt;
+也可尝试源文件修改，还没试过，&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL01ldGFDdWJlWC9DbGFzaC5NZXRhL2NvbW1pdC81YTQ0NDFjNDdmZGI2MmY0MzkxMDY5OTI5M2EyNDk4MzFmNjQ0NWJm&#34;&gt;https://github.com/MetaCubeX/Clash.Meta/commit/5a4441c47fdb62f43910699293a249831f6445bf&lt;/span&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
             <guid isPermalink="true">http://katelin.github.io/computer-science/crypto/LLL-knapsack/</guid>
             <title>LLL算法应用-背包问题</title>
             <link>http://katelin.github.io/computer-science/crypto/LLL-knapsack/</link>

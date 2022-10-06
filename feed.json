@@ -37,6 +37,28 @@
             ]
         },
         {
+            "id": "http://katelin.github.io/computer-science/experiment/redis/",
+            "url": "http://katelin.github.io/computer-science/experiment/redis/",
+            "title": "Redis学习笔记",
+            "date_published": "2022-06-08T03:24:00.000Z",
+            "content_html": "<ul>\n<li>开发环境: Centos 7.6</li>\n<li>安装版本：6.0.8（参考菜鸟教程）</li>\n</ul>\n<h1 id=\"to-begin-with-installing\"><a class=\"anchor\" href=\"#to-begin-with-installing\">#</a> to begin with installing</h1>\n<pre><code>wget http://download.redis.io/releases/redis-6.0.8.tar.gz\ntar xzf redis-6.0.8.tar.gz\ntar xzf redis-6.0.8.tar.gz\nmake test\n</code></pre>\n<p>报错，出现</p>\n<pre><code>error: 'struct redisServer' has no member named 'supervised_mode'\n</code></pre>\n<p>等错误</p>\n<ul>\n<li>解决方法：升级 gcc 至 9.0 版</li>\n</ul>\n<pre><code>yum -y install centos-release-scl\nyum -y install devtoolset-9-gcc devtoolset-9-gcc-c++ devtoolset-9-binutils\nscl enable devtoolset-9 bash\necho &quot;source /opt/rh/devtoolset-9/enable&quot; &gt;&gt;/etc/profile\n</code></pre>\n<p>注意 echo 的引号要是英文的引号。<br />\n运行<br />\n（普通版本）</p>\n<pre><code>cd src\n./redis-server\n</code></pre>\n<p>会出现欢迎界面，如果需要运行 redis-cli 就得再开一个窗口<br />\n（不开另一个窗口运行的版本，开启守护进程）</p>\n<pre><code>cd src\n./redis-server --daemonize yes\n</code></pre>\n<p>启动客户端，开始交互：（在 src 目录下）</p>\n<h1 id=\"basic-usage\"><a class=\"anchor\" href=\"#basic-usage\">#</a> Basic Usage</h1>\n<p>设置 key-value: SET [key] [value]<br />\n 查询 key-value: GET [key] -&gt; [value]</p>\n",
+            "tags": [
+                "计算机科学",
+                "实战"
+            ]
+        },
+        {
+            "id": "http://katelin.github.io/computer-science/experiment/clash-for-windows/",
+            "url": "http://katelin.github.io/computer-science/experiment/clash-for-windows/",
+            "title": "一些clash for windows踩雷",
+            "date_published": "2022-04-20T00:04:00.000Z",
+            "content_html": "<p>配置 profile 中：<br />\n一些加密 cipher: none 的代理节点，需要将 none 改成 dummy。<br />\n也可尝试源文件修改，还没试过，<span class=\"exturl\" data-url=\"aHR0cHM6Ly9naXRodWIuY29tL01ldGFDdWJlWC9DbGFzaC5NZXRhL2NvbW1pdC81YTQ0NDFjNDdmZGI2MmY0MzkxMDY5OTI5M2EyNDk4MzFmNjQ0NWJm\">https://github.com/MetaCubeX/Clash.Meta/commit/5a4441c47fdb62f43910699293a249831f6445bf</span></p>\n",
+            "tags": [
+                "计算机科学",
+                "实战"
+            ]
+        },
+        {
             "id": "http://katelin.github.io/computer-science/crypto/LLL-knapsack/",
             "url": "http://katelin.github.io/computer-science/crypto/LLL-knapsack/",
             "title": "LLL算法应用-背包问题",
