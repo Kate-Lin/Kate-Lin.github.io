@@ -524,12 +524,44 @@ M834 80h400000v40h-400000z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/s
  ]]></description>
         </item>
         <item>
+            <guid isPermalink="true">http://katelin.github.io/computer-science/crypto/crypto-final-exam/</guid>
+            <title>密码学期末复习【施工暂时完毕】</title>
+            <link>http://katelin.github.io/computer-science/crypto/crypto-final-exam/</link>
+            <category term="计算机科学" scheme="http://katelin.github.io/categories/computer-science/" />
+            <category term="密码学" scheme="http://katelin.github.io/categories/computer-science/crypto/" />
+            <pubDate>Sun, 02 Jan 2022 10:29:00 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;目录&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#目录&#34;&gt;#&lt;/a&gt; 目录&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#%E5%8F%A4%E5%85%B8%E5%AF%86%E7%A0%81%E7%9A%84%E5%AE%89%E5%85%A8%E6%80%A7&#34;&gt;古典密码的安全性&lt;/a&gt;✅&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E5%AF%86%E9%92%A5%E5%8D%8F%E5%95%86&#34;&gt;密钥协商&lt;/a&gt;✅&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#spn%E4%B8%AD%E7%9A%84%E4%BB%A3%E6%8D%A2%E5%92%8C%E7%BD%AE%E6%8D%A2&#34;&gt;SPN 中的代换和置换&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#s%E7%9B%92%E8%BE%93%E5%87%BA%E8%AE%A1%E7%AE%97&#34;&gt;AES S 盒输出&lt;/a&gt;✅&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E7%AC%AC%E4%B8%80%E8%BD%AE%E8%BD%AE%E5%AF%86%E9%92%A5%E8%AE%A1%E7%AE%97&#34;&gt;AES 第一轮轮密钥计算&lt;/a&gt;✅&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E7%AD%BE%E5%90%8D%E6%96%B9%E6%A1%88%E5%AE%89%E5%85%A8%E6%80%A7%E5%AE%9A%E4%B9%89&#34;&gt;签名方案的安全模型&lt;/a&gt;✅&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#rsa%E7%AD%BE%E5%90%8D%E6%96%B9%E6%A1%88%E7%9A%84%E5%AE%89%E5%85%A8%E6%80%A7&#34;&gt;RSA 签名方案的安全性&lt;/a&gt;✅&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#rsa%E7%AD%BE%E5%90%8D%E5%AD%98%E5%9C%A8%E4%BB%A5%E4%B8%8B%E4%B8%89%E7%A7%8D%E5%8F%AF%E8%83%BD%E7%9A%84%E6%94%BB%E5%87%BB&#34;&gt;RSA 签名可能遭受的攻击&lt;/a&gt;✅&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E4%BF%AE%E6%AD%A3rsa%E7%AD%BE%E5%90%8D%E6%96%B9%E6%A1%88%EF%BC%9A%E5%8A%A0%E5%85%A5%E5%93%88%E5%B8%8C&#34;&gt;修正 RSA 签名方案：加入哈希&lt;/a&gt;✅&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#rsa-fdh%E6%96%B9%E6%A1%88%E7%9A%84euf-cma%E5%AE%89%E5%85%A8%E6%80%A7%E8%AF%81%E6%98%8E&#34;&gt;RSA-FDH 方案的 EUF-CMA 安全性证明&lt;/a&gt;✅&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#elgamal%E7%AD%BE%E5%90%8D%E6%96%B9%E6%A1%88%E7%9A%84%E5%AE%89%E5%85%A8%E6%80%A7&#34;&gt;ElGamal 签名方案的安全性&lt;/a&gt;✅&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#rsa%E5%8A%A0%E5%AF%86%E6%96%B9%E6%A1%88%E7%9A%84%E5%AE%89%E5%85%A8%E6%80%A7&#34;&gt;RSA 加密方案的安全性&lt;/a&gt;✅&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#rsa%E7%9A%84%E8%AF%AD%E4%B9%89%E5%AE%89%E5%85%A8%E6%80%A7&#34;&gt;构造语义安全的 RSA 加密方案&lt;/a&gt;✅&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#elgamal%E5%8A%A0%E5%AF%86%E6%96%B9%E6%A1%88%E7%9A%84%E5%AE%89%E5%85%A8%E6%80%A7&#34;&gt;ElGamal 加密方案的安全性&lt;/a&gt;✅&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#elgamal%E5%8A%A0%E5%AF%86%E6%96%B9%E6%A1%88%E7%9A%84%E8%AF%AD%E4%B9%89%E5%AE%89%E5%85%A8%E9%97%AE%E9%A2%98&#34;&gt;ElGamal 加密方案的语义安全问题&lt;/a&gt;✅&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E4%BF%AE%E6%AD%A3elgamal%E5%8A%A0%E5%AF%86%E6%96%B9%E6%A1%88%EF%BC%9A%E5%8A%A0%E5%85%A5%E5%93%88%E5%B8%8C&#34;&gt;修正 ElGamal 加密方案：加入哈希&lt;/a&gt;✅&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E5%85%AC%E9%92%A5%E5%8A%A0%E5%AF%86%E7%9A%84cpa%E5%AE%89%E5%85%A8%E6%A8%A1%E5%9E%8B&#34;&gt;公钥加密的 CPA 安全模型&lt;/a&gt;✅&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E5%85%AC%E9%92%A5%E5%8A%A0%E5%AF%86%E7%9A%84cca%E5%AE%89%E5%85%A8%E6%A8%A1%E5%9E%8B&#34;&gt;公钥加密的 CCA 安全模型&lt;/a&gt;✅&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E5%85%AC%E9%92%A5%E5%8A%A0%E5%AF%86%E7%9A%84cca2%E5%AE%89%E5%85%A8%E6%A8%A1%E5%9E%8B&#34;&gt;公钥加密的 CCA2 安全模型&lt;/a&gt;✅&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#&#34;&gt;#&lt;/a&gt; &lt;/h1&gt;
+ ]]></description>
+        </item>
+        <item>
             <guid isPermalink="true">http://katelin.github.io/computer-science/crypto/crypto-math/</guid>
-            <title>LLL算法应用-背包问题</title>
+            <title>网安数学复习【施工暂时完毕】</title>
             <link>http://katelin.github.io/computer-science/crypto/crypto-math/</link>
             <category term="计算机科学" scheme="http://katelin.github.io/categories/computer-science/" />
             <category term="密码学" scheme="http://katelin.github.io/categories/computer-science/crypto/" />
-            <pubDate>Fri, 04 Mar 2022 15:30:00 +0800</pubDate>
+            <pubDate>Sun, 02 Jan 2022 10:29:00 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;考点整理&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#考点整理&#34;&gt;#&lt;/a&gt; 考点整理：&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#%E7%BE%A4%E7%9A%84%E8%AF%81%E6%98%8E&#34;&gt;证某集合是群&lt;/a&gt; ✅&lt;/li&gt;
@@ -556,7 +588,6 @@ M834 80h400000v40h-400000z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/s
  满足乘法结合律：(\forall a,b,c \in S, a \cdot (b \cdot c)=(a \cdot b) \cdot c );&lt;br /&gt;
  有单位元：(\exists e \in S, 对 \forall a \in S, 有 ea=ae=a);&lt;br /&gt;
  任意元素有逆元：(\forall a \in S,\exists a&#39; \in S, 有 a&#39;a=aa&#39;=e).&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;#%E8%80%83%E7%82%B9%E6%95%B4%E7%90%86%EF%BC%9A&#34;&gt;返回考点目录&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&#34;子群的证明&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#子群的证明&#34;&gt;#&lt;/a&gt; 子群的证明&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;【定义】G 是一个群，H 是 G 的子集，如果 H 在群 G 的运算下也成为一个群，则称 H 是群 G 的子群。&lt;br /&gt;
@@ -599,7 +630,6 @@ HK=KH (\rightarrow) HK 是 G 的子群.&lt;br /&gt;
 (\because (k_1&lt;ruby&gt;k_2} &lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt; {-1&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt; )&lt;ruby&gt;h_2} &lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt; {-1&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt; \in KH=HK)， (\therefore \exists hk = k_1&lt;ruby&gt;k_2} &lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt; {-1&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt; &lt;ruby&gt;h_2} &lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt; {-1&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;)，原式可化为 ((h_1h) k= \in HK).&lt;br /&gt;
 (\therefore) 充分性得证.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;a href=&#34;#%E8%80%83%E7%82%B9%E6%95%B4%E7%90%86%EF%BC%9A&#34;&gt;返回考点目录&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&#34;陪集商集拉格朗日定理&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#陪集商集拉格朗日定理&#34;&gt;#&lt;/a&gt; 陪集，商集，拉格朗日定理&lt;/h1&gt;
 &lt;p&gt;设 H 是 G 的子群，利用 H 来构造 G 的分划，故引入陪集。&lt;/p&gt;
 &lt;h2 id=&#34;陪集&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#陪集&#34;&gt;#&lt;/a&gt; 陪集&lt;/h2&gt;
@@ -624,7 +654,6 @@ HK=KH (\rightarrow) HK 是 G 的子群.&lt;br /&gt;
 &lt;h2 id=&#34;拉格朗日定理&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#拉格朗日定理&#34;&gt;#&lt;/a&gt; 拉格朗日定理&lt;/h2&gt;
 &lt;p&gt;&lt;span class=&#34;katex-display&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34; display=&#34;block&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;∣&lt;/mi&gt;&lt;mi&gt;G&lt;/mi&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;∣&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;∣&lt;/mi&gt;&lt;mi&gt;H&lt;/mi&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;∣&lt;/mi&gt;&lt;mo&gt;⋅&lt;/mo&gt;&lt;mo stretchy=&#34;false&#34;&gt;[&lt;/mo&gt;&lt;mi&gt;G&lt;/mi&gt;&lt;mo&gt;:&lt;/mo&gt;&lt;mi&gt;H&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;]&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;|G| = |H| \cdot [G : H] 
 &lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;∣&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;G&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;∣&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;∣&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.08125em;&#34;&gt;H&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;∣&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;⋅&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;G&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.08125em;&#34;&gt;H&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;]&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;#%E8%80%83%E7%82%B9%E6%95%B4%E7%90%86%EF%BC%9A&#34;&gt;返回考点目录&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&#34;正规子群的证明&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#正规子群的证明&#34;&gt;#&lt;/a&gt; 正规子群的证明&lt;/h1&gt;
 &lt;p&gt;【定义】设 G 是群，H 是 G 的子群，若对任意的 G 中的元素 a，总成立 (Ha=aH)，则称 H 是群 G 的正规子群，记为 (H \lhd G).&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;【证明的常用方法】&lt;/strong&gt;&lt;/p&gt;
@@ -636,15 +665,6 @@ HK=KH (\rightarrow) HK 是 G 的子群.&lt;br /&gt;
 &lt;li&gt;对 (\forall g \in G)，有 (gHg ^ &lt;ruby&gt;-1} \subset H\)，其中 \(gHg &lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt; {-1&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt; = \lbrace ghg ^ {-1} |  h \in H\rbrace).&lt;/li&gt;
 &lt;/ol&gt;
  ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">http://katelin.github.io/computer-science/crypto/crypto-final-exam/</guid>
-            <title>网安数学复习【施工暂时完毕】</title>
-            <link>http://katelin.github.io/computer-science/crypto/crypto-final-exam/</link>
-            <category term="计算机科学" scheme="http://katelin.github.io/categories/computer-science/" />
-            <category term="密码学" scheme="http://katelin.github.io/categories/computer-science/crypto/" />
-            <pubDate>Sun, 02 Jan 2022 10:29:00 +0800</pubDate>
-            <description><![CDATA[  ]]></description>
         </item>
     </channel>
 </rss>
