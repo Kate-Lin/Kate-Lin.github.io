@@ -29,39 +29,16 @@
 &lt;h1 id=&#34;邮箱格式校验问题&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#邮箱格式校验问题&#34;&gt;#&lt;/a&gt; 邮箱格式校验问题&lt;/h1&gt;
 &lt;p&gt;原始评论区输入诸如 &lt;code&gt;xxx.xxx@xxx.com&lt;/code&gt;  和 &lt;code&gt;xxx_xxx@xxx.com&lt;/code&gt;  的邮箱都不能通过校验，初步判断是由于邮件校验正则有误。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;首先检查是否是_config.yml 的问题，发现没有和评论邮箱相关的设置。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;其次考虑在不修改原始的 MiniValine.min.js 文件的情况下，能不能在.js 文件中覆盖正则：&lt;br&gt;
-发现还是不行，加了一个 click 的 function 之后直接卡死了。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;      document.body.addEventListener(&#39;click&#39;, function(e) &amp;#123;
-            if (e.target.classList.contains(&#39;vsubmit&#39;)) &amp;#123;
-                const email = document.querySelector(&#39;input[type=email]&#39;);
-                const nick = document.querySelector(&#39;input[name=nick]&#39;);
-                const reg = /^[A-Za-z0-9_\.\u4e00-\u9fa5]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/;
-                if (!email.value || !nick.value || !reg.test(email.value)) &amp;#123;
-                    const str = `请填写正确的昵称和邮箱！`;
-                    const vmark = document.querySelector(&#39;.vmark&#39;);
-                    vmark.innerHTML = str;
-                    vmark.style.display = &#39;block&#39;;
-                    setTimeout(function() &amp;#123;
-                        vmark.style.display = &#39;none&#39;;
-                        vmark.innerHTML = &#39;&#39;;
-                    &amp;#125;, 2500);
-                &amp;#125;
-            &amp;#125;
-          &amp;#125;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;最后在 GitHub 上看到了有人提交了 bug，解决办法只有修改 MiniValine.min.js，&lt;br&gt;
+&lt;li&gt;首先检查是否是_config.yml 的问题，发现没有和评论邮箱相关的设置。&lt;/li&gt;
+&lt;li&gt;其次考虑在不修改原始的 MiniValine.min.js 文件的情况下，能不能在.js 文件中覆盖正则：&lt;br&gt;
+发现还是不行，加了一个 click 的 function 之后直接卡死了。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;document.body.addEventListener(&amp;#x27;click&amp;#x27;, function(e) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      if (e.target.classList.contains(&amp;#x27;vsubmit&amp;#x27;)) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;          const email = document.querySelector(&amp;#x27;input[type=email]&amp;#x27;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;          const nick = document.querySelector(&amp;#x27;input[name=nick]&amp;#x27;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;          const reg = /^[A-Za-z0-9_\.\u4e00-\u9fa5]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;          if (!email.value || !nick.value || !reg.test(email.value)) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;              const str = `请填写正确的昵称和邮箱！`;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;              const vmark = document.querySelector(&amp;#x27;.vmark&amp;#x27;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;              vmark.innerHTML = str;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;              vmark.style.display = &amp;#x27;block&amp;#x27;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;              setTimeout(function() &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                  vmark.style.display = &amp;#x27;none&amp;#x27;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                  vmark.innerHTML = &amp;#x27;&amp;#x27;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;              &amp;#125;, 2500);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;          &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;最后在 GitHub 上看到了有人提交了 bug，解决办法只有修改 MiniValine.min.js，&lt;br&gt;
 搜索 &lt;code&gt;/^[A-Za-z0-9\u4e00-\u9fa5]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/&lt;/code&gt; ，修改为&lt;br&gt;
- &lt;code&gt;/^[A-Za-z0-9\u4e00-\u9fa5]+(\.[A-Za-z0-9\u4e00-\u9fa5]+)&amp;#123;0,2&amp;#125;@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;将新的 js 部署到 GitHub 仓库中，使用 https://cdn.jsdelivr.net/gh/XXX/YYY/ZZZ/MiniValine.min.js 为链接调用，在 vendors 中修改即为 &lt;code&gt;valine: gh/XXX/YYY/ZZZ/MiniValine.min.js&lt;/code&gt; 。（XXX 为 GitHub 用户名，YYY 为 Github 仓库名，ZZZ 为 js 文件所在的文件夹）。&lt;/p&gt;
-&lt;/li&gt;
+ &lt;code&gt;/^[A-Za-z0-9\u4e00-\u9fa5]+(\.[A-Za-z0-9\u4e00-\u9fa5]+)&amp;#123;0,2&amp;#125;@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;将新的 js 部署到 GitHub 仓库中，使用 https://cdn.jsdelivr.net/gh/XXX/YYY/ZZZ/MiniValine.min.js 为链接调用，在 vendors 中修改即为 &lt;code&gt;valine: gh/XXX/YYY/ZZZ/MiniValine.min.js&lt;/code&gt; 。（XXX 为 GitHub 用户名，YYY 为 Github 仓库名，ZZZ 为 js 文件所在的文件夹）。&lt;/li&gt;
 &lt;/ul&gt;
 </content>
         <category term="计算机科学" scheme="https://kate-lin.github.io/categories/computer-science/" />

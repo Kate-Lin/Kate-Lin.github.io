@@ -74,7 +74,7 @@ Bullet Holes = 双木成申 = 六边形女战士变形中</title>
       <i class="ic i-pen"></i>
     </span>
     <span class="text">本文字数</span>
-    <span>1.5k</span>
+    <span>1.6k</span>
     <span class="text">字</span>
   </span>
   <span class="item" title="阅读时长">
@@ -115,12 +115,12 @@ Bullet Holes = 双木成申 = 六边形女战士变形中</title>
       </div>
       <div id="imgs" class="pjax">
         <ul>
-          <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2022/10/05/f4e611398efa5e2c.jpeg"></li>
-          <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2022/10/05/5613e11cfaf249ad.jpg"></li>
-          <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2022/10/05/ad5e03f2f3815e3b.png"></li>
+          <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2023/01/17/c8e7c49e16a1a640.jpg"></li>
+          <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2022/10/05/7e450bb2359fce06.jpg"></li>
+          <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2022/10/05/24388dfaa57c0e4f.jpg"></li>
+          <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2022/10/05/f860898bde07bbdd.jpg"></li>
           <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2022/10/05/22072775a88a4eba.jpg"></li>
-          <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2022/10/05/0b9340f68c5acd43.jpg"></li>
-          <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2023/01/17/79193c7a500d63d3.jpg"></li>
+          <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2022/10/05/bbaa183ffca5c77b.jpg"></li>
         </ul>
       </div>
     </header>
@@ -183,39 +183,16 @@ Bullet Holes = 双木成申 = 六边形女战士变形中</title>
 <h1 id="邮箱格式校验问题"><a class="markdownIt-Anchor" href="#邮箱格式校验问题">#</a> 邮箱格式校验问题</h1>
 <p>原始评论区输入诸如 <code>xxx.xxx@xxx.com</code>  和 <code>xxx_xxx@xxx.com</code>  的邮箱都不能通过校验，初步判断是由于邮件校验正则有误。</p>
 <ul>
-<li>
-<p>首先检查是否是_config.yml 的问题，发现没有和评论邮箱相关的设置。</p>
-</li>
-<li>
-<p>其次考虑在不修改原始的 MiniValine.min.js 文件的情况下，能不能在.js 文件中覆盖正则：<br>
-发现还是不行，加了一个 click 的 function 之后直接卡死了。</p>
-<pre><code>      document.body.addEventListener('click', function(e) &#123;
-            if (e.target.classList.contains('vsubmit')) &#123;
-                const email = document.querySelector('input[type=email]');
-                const nick = document.querySelector('input[name=nick]');
-                const reg = /^[A-Za-z0-9_\.\u4e00-\u9fa5]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/;
-                if (!email.value || !nick.value || !reg.test(email.value)) &#123;
-                    const str = `请填写正确的昵称和邮箱！`;
-                    const vmark = document.querySelector('.vmark');
-                    vmark.innerHTML = str;
-                    vmark.style.display = 'block';
-                    setTimeout(function() &#123;
-                        vmark.style.display = 'none';
-                        vmark.innerHTML = '';
-                    &#125;, 2500);
-                &#125;
-            &#125;
-          &#125;)
-</code></pre>
-</li>
-<li>
-<p>最后在 GitHub 上看到了有人提交了 bug，解决办法只有修改 MiniValine.min.js，<br>
+<li>首先检查是否是_config.yml 的问题，发现没有和评论邮箱相关的设置。</li>
+<li>其次考虑在不修改原始的 MiniValine.min.js 文件的情况下，能不能在.js 文件中覆盖正则：<br>
+发现还是不行，加了一个 click 的 function 之后直接卡死了。</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">document.body.addEventListener(&#x27;click&#x27;, function(e) &#123;</span><br><span class="line">      if (e.target.classList.contains(&#x27;vsubmit&#x27;)) &#123;</span><br><span class="line">          const email = document.querySelector(&#x27;input[type=email]&#x27;);</span><br><span class="line">          const nick = document.querySelector(&#x27;input[name=nick]&#x27;);</span><br><span class="line">          const reg = /^[A-Za-z0-9_\.\u4e00-\u9fa5]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/;</span><br><span class="line">          if (!email.value || !nick.value || !reg.test(email.value)) &#123;</span><br><span class="line">              const str = `请填写正确的昵称和邮箱！`;</span><br><span class="line">              const vmark = document.querySelector(&#x27;.vmark&#x27;);</span><br><span class="line">              vmark.innerHTML = str;</span><br><span class="line">              vmark.style.display = &#x27;block&#x27;;</span><br><span class="line">              setTimeout(function() &#123;</span><br><span class="line">                  vmark.style.display = &#x27;none&#x27;;</span><br><span class="line">                  vmark.innerHTML = &#x27;&#x27;;</span><br><span class="line">              &#125;, 2500);</span><br><span class="line">          &#125;</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;)</span><br></pre></td></tr></table></figure>
+<ul>
+<li>最后在 GitHub 上看到了有人提交了 bug，解决办法只有修改 MiniValine.min.js，<br>
 搜索 <code>/^[A-Za-z0-9\u4e00-\u9fa5]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/</code> ，修改为<br>
- <code>/^[A-Za-z0-9\u4e00-\u9fa5]+(\.[A-Za-z0-9\u4e00-\u9fa5]+)&#123;0,2&#125;@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/</code></p>
-</li>
-<li>
-<p>将新的 js 部署到 GitHub 仓库中，使用 https://cdn.jsdelivr.net/gh/XXX/YYY/ZZZ/MiniValine.min.js 为链接调用，在 vendors 中修改即为 <code>valine: gh/XXX/YYY/ZZZ/MiniValine.min.js</code> 。（XXX 为 GitHub 用户名，YYY 为 Github 仓库名，ZZZ 为 js 文件所在的文件夹）。</p>
-</li>
+ <code>/^[A-Za-z0-9\u4e00-\u9fa5]+(\.[A-Za-z0-9\u4e00-\u9fa5]+)&#123;0,2&#125;@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/</code></li>
+<li>将新的 js 部署到 GitHub 仓库中，使用 https://cdn.jsdelivr.net/gh/XXX/YYY/ZZZ/MiniValine.min.js 为链接调用，在 vendors 中修改即为 <code>valine: gh/XXX/YYY/ZZZ/MiniValine.min.js</code> 。（XXX 为 GitHub 用户名，YYY 为 Github 仓库名，ZZZ 为 js 文件所在的文件夹）。</li>
 </ul>
 
   </div>
@@ -228,7 +205,7 @@ Bullet Holes = 双木成申 = 六边形女战士变形中</title>
       <i class="ic i-calendar-check"></i>
     </span>
     <span class="text">更新于</span>
-    <time title="修改时间：2023-01-17 15:32:48" itemprop="dateModified" datetime="2023-01-17T15:32:48+08:00">2023-01-17</time>
+    <time title="修改时间：2023-01-17 16:41:00" itemprop="dateModified" datetime="2023-01-17T16:41:00+08:00">2023-01-17</time>
   </span>
   <span id="computer-science/experiment/site-bug-comment/" class="item leancloud_visitors" data-flag-title="Shoka评论区功能bug修复经验" title="阅读次数">
       <span class="icon">
@@ -268,7 +245,7 @@ Bullet Holes = 双木成申 = 六边形女战士变形中</title>
     <div class="item left">
       
 
-  <a href="/notes/notes20221014/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;s3.bmp.ovh&#x2F;imgs&#x2F;2022&#x2F;10&#x2F;05&#x2F;bbaa183ffca5c77b.jpg" title="thoughts on 2022-10-14">
+  <a href="/notes/notes20221014/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;s3.bmp.ovh&#x2F;imgs&#x2F;2023&#x2F;01&#x2F;17&#x2F;79193c7a500d63d3.jpg" title="thoughts on 2022-10-14">
   <span class="type">上一篇</span>
   <span class="category"><i class="ic i-flag"></i> 杂谈</span>
   <h3>thoughts on 2022-10-14</h3>
@@ -388,10 +365,12 @@ Bullet Holes = 双木成申 = 六边形女战士变形中</title>
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/notes/" title="分类于 杂谈">杂谈</a>
+<a href="/categories/computer-science/" title="分类于 计算机科学">计算机科学</a>
+<i class="ic i-angle-right"></i>
+<a href="/categories/computer-science/experiment/" title="分类于 实战">实战</a>
 </div>
 
-    <span><a href="/notes/notes20221014/" title="thoughts on 2022-10-14">thoughts on 2022-10-14</a></span>
+    <span><a href="/computer-science/experiment/site-bug-comment/" title="Shoka评论区功能bug修复经验">Shoka评论区功能bug修复经验</a></span>
   </li>
 
       
@@ -413,7 +392,7 @@ Bullet Holes = 双木成申 = 六边形女战士变形中</title>
 <a href="/categories/computer-science/crypto/" title="分类于 密码学">密码学</a>
 </div>
 
-    <span><a href="/computer-science/crypto/IPE-SA/" title="Fully Secure Functional Encryption for Inner Products, from Standard Assumptions阅读笔记">Fully Secure Functional Encryption for Inner Products, from Standard Assumptions阅读笔记</a></span>
+    <span><a href="/computer-science/crypto/crypto-math2/" title="网安数学复习【2】">网安数学复习【2】</a></span>
   </li>
 
       
@@ -425,7 +404,41 @@ Bullet Holes = 双木成申 = 六边形女战士变形中</title>
 <a href="/categories/computer-science/experiment/" title="分类于 实战">实战</a>
 </div>
 
-    <span><a href="/computer-science/experiment/site-bug-comment/" title="Shoka评论区功能bug修复经验">Shoka评论区功能bug修复经验</a></span>
+    <span><a href="/computer-science/experiment/redis/" title="Redis学习笔记">Redis学习笔记</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/computer-science/" title="分类于 计算机科学">计算机科学</a>
+<i class="ic i-angle-right"></i>
+<a href="/categories/computer-science/crypto/" title="分类于 密码学">密码学</a>
+</div>
+
+    <span><a href="/computer-science/crypto/Koinonia/" title="Koinonia：Verifiable E-Voting with Long-term Privacy研究报告">Koinonia：Verifiable E-Voting with Long-term Privacy研究报告</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/notes/" title="分类于 杂谈">杂谈</a>
+</div>
+
+    <span><a href="/notes/notes20221014/" title="thoughts on 2022-10-14">thoughts on 2022-10-14</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/computer-science/" title="分类于 计算机科学">计算机科学</a>
+<i class="ic i-angle-right"></i>
+<a href="/categories/computer-science/experiment/" title="分类于 实战">实战</a>
+</div>
+
+    <span><a href="/computer-science/experiment/clash-for-windows/" title="一些clash for windows踩雷">一些clash for windows踩雷</a></span>
   </li>
 
       
@@ -446,53 +459,19 @@ Bullet Holes = 双木成申 = 六边形女战士变形中</title>
 <a href="/categories/computer-science/crypto/" title="分类于 密码学">密码学</a>
 </div>
 
-    <span><a href="/computer-science/crypto/LLL-knapsack/" title="LLL算法应用-背包问题">LLL算法应用-背包问题</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/computer-science/" title="分类于 计算机科学">计算机科学</a>
-<i class="ic i-angle-right"></i>
-<a href="/categories/computer-science/crypto/" title="分类于 密码学">密码学</a>
-</div>
-
-    <span><a href="/computer-science/crypto/crypto-math1/" title="网安数学复习【1】">网安数学复习【1】</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/notes/" title="分类于 杂谈">杂谈</a>
-</div>
-
-    <span><a href="/notes/week220102/" title="Weekly Journal 20220102">Weekly Journal 20220102</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/computer-science/" title="分类于 计算机科学">计算机科学</a>
-<i class="ic i-angle-right"></i>
-<a href="/categories/computer-science/crypto/" title="分类于 密码学">密码学</a>
-</div>
-
-    <span><a href="/computer-science/crypto/crypto-final-exam/" title="密码学期末复习【施工暂时完毕】">密码学期末复习【施工暂时完毕】</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/computer-science/" title="分类于 计算机科学">计算机科学</a>
-<i class="ic i-angle-right"></i>
-<a href="/categories/computer-science/crypto/" title="分类于 密码学">密码学</a>
-</div>
-
     <span><a href="/computer-science/crypto/LowMC/" title="Cryptanalysis of Full LowMC and LowMC-M with Algebraic Techniques论文报告">Cryptanalysis of Full LowMC and LowMC-M with Algebraic Techniques论文报告</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/computer-science/" title="分类于 计算机科学">计算机科学</a>
+<i class="ic i-angle-right"></i>
+<a href="/categories/computer-science/crypto/" title="分类于 密码学">密码学</a>
+</div>
+
+    <span><a href="/computer-science/crypto/LLL-knapsack/" title="LLL算法应用-背包问题">LLL算法应用-背包问题</a></span>
   </li>
 
   </ul>
