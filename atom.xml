@@ -35,23 +35,24 @@
 &lt;li&gt;
 &lt;p&gt;其次考虑在不修改原始的 MiniValine.min.js 文件的情况下，能不能在.js 文件中覆盖正则：&lt;br /&gt;
 发现还是不行，加了一个 click 的 function 之后直接卡死了。&lt;/p&gt;
-&lt;p&gt;document.body.addEventListener(&#39;click&#39;, function(e) &lt;ruby&gt;
-       if (e.target.classList.contains(&#39;vsubmit&#39;)) {
-           const email = document.querySelector(&#39;input[type=email]&#39;);
-           const nick = document.querySelector(&#39;input[name=nick]&#39;);
-           const reg = /&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;[A-Za-z0-9_\.\u4e00-\u9fa5]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/;
-           if (!email.value || !nick.value || !reg.test (email.value)) {
-               const str = `请填写正确的昵称和邮箱！`;
-               const vmark = document.querySelector (&#39;.vmark&#39;);
-               vmark.innerHTML = str;
-               vmark.style.display = &#39;block&#39;;
-               setTimeout (function () {
-                   vmark.style.display = &#39;none&#39;;
-                   vmark.innerHTML = &#39;&#39;;
-               &lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;, 2500);&lt;br /&gt;
-          }&lt;br /&gt;
-      }&lt;br /&gt;
-    })&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;     document.body.addEventListener(&#39;click&#39;, function(e) &amp;#123;
+           if (e.target.classList.contains(&#39;vsubmit&#39;)) &amp;#123;
+               const email = document.querySelector(&#39;input[type=email]&#39;);
+               const nick = document.querySelector(&#39;input[name=nick]&#39;);
+               const reg = /^[A-Za-z0-9_\.\u4e00-\u9fa5]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/;
+               if (!email.value || !nick.value || !reg.test(email.value)) &amp;#123;
+                   const str = `请填写正确的昵称和邮箱！`;
+                   const vmark = document.querySelector(&#39;.vmark&#39;);
+                   vmark.innerHTML = str;
+                   vmark.style.display = &#39;block&#39;;
+                   setTimeout(function() &amp;#123;
+                       vmark.style.display = &#39;none&#39;;
+                       vmark.innerHTML = &#39;&#39;;
+                   &amp;#125;, 2500);
+               &amp;#125;
+           &amp;#125;
+         &amp;#125;)
+&lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;最后在 GitHub 上看到了有人提交了 bug，解决办法只有修改 MiniValine.min.js，&lt;br /&gt;
