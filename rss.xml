@@ -23,15 +23,43 @@
             <pubDate>Tue, 17 Jan 2023 14:15:00 +0800</pubDate>
             <description><![CDATA[ &lt;blockquote&gt;
 &lt;p&gt;【写在前面】参考链接：&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://shoka.lostyu.me/computer-science/note/theme-shoka-doc/config/&#34; alt=&#34;Shoka作者的基本配置&#34; /&gt;&lt;br /&gt;
-&lt;img data-src=&#34;https://www.reversesacle.com/computer-science/shoka-theme/Comment/&#34; alt=&#34;ReverseScale MiniValine插件替换思路&#34; /&gt;&lt;br /&gt;
-&lt;img data-src=&#34;https://github.com/amehime/hexo-theme-shoka/issues/71&#34; alt=&#34;MiniValine前端检查邮件格式的bug fix&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWUvY29tcHV0ZXItc2NpZW5jZS9ub3RlL3RoZW1lLXNob2thLWRvYy9jb25maWcv&#34;&gt;Shoka 作者的基本配置&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucmV2ZXJzZXNhY2xlLmNvbS9jb21wdXRlci1zY2llbmNlL3Nob2thLXRoZW1lL0NvbW1lbnQv&#34;&gt; ReverseScale MiniValine 插件替换思路&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2FtZWhpbWUvaGV4by10aGVtZS1zaG9rYS9pc3N1ZXMvNzE=&#34;&gt; MiniValine 前端检查邮件格式的 bug fix&lt;/span&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h1 id=&#34;设置评论区头衔的问题&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#设置评论区头衔的问题&#34;&gt;#&lt;/a&gt; 设置评论区头衔的问题&lt;/h1&gt;
-&lt;p&gt;作者给的原始的 tagmeta 为 &lt;code&gt;tagMeta:[visitor: 新朋友,master: 主人,friend: 小伙伴,investor: 金主粑粑]&lt;/code&gt; ，由于文章不设置打赏所以尝试把 invester 改成 author: 作者，但加入了自己的邮箱的 MD5 哈希后，始终无法识别 “作者” 的 title，一直显示新朋友。&lt;/p&gt;
+&lt;p&gt;作者给的原始的 tagmeta 为 &lt;code&gt;tagMeta:[visitor: 新朋友,master: 主人,friend: 小伙伴,investor: 金主粑粑]&lt;/code&gt; ，由于文章不设置打赏所以尝试把 invester 改成 &lt;code&gt;author: 作者&lt;/code&gt; ，但加入了自己的邮箱的 MD5 哈希后，始终无法识别 “作者” 的 title，一直显示新朋友。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;solve：可能是 author 标签和文章的 front matter 中的 author 标签重复？把 MD5 结果移到 master 栏目下，解决问题。&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h1 id=&#34;邮箱格式校验问题&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#邮箱格式校验问题&#34;&gt;#&lt;/a&gt; 邮箱格式校验问题&lt;/h1&gt;
+&lt;p&gt;原始评论区输入诸如 &lt;code&gt;xxx.xxx@xxx.com&lt;/code&gt;  和 &lt;code&gt;xxx_xxx@xxx.com&lt;/code&gt;  的邮箱都不能通过校验，初步判断是由于邮件校验正则有误。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;首先检查是否是_config.yml 的问题，发现没有和评论邮箱相关的设置。&lt;/li&gt;
+&lt;li&gt;其次考虑在不修改原始的 MiniValine.min.js 文件的情况下，能不能在.js 文件中覆盖正则：&lt;br /&gt;
+发现还是不行，加了一个 click 的 function 之后直接卡死了。&lt;br /&gt;
+document.body.addEventListener(&#39;click&#39;, function(e) &lt;ruby&gt;
+       if (e.target.classList.contains(&#39;vsubmit&#39;)) {
+           const email = document.querySelector(&#39;input[type=email]&#39;);
+           const nick = document.querySelector(&#39;input[name=nick]&#39;);
+           const reg = /&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;[A-Za-z0-9_\.\u4e00-\u9fa5]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/;
+           if (!email.value || !nick.value || !reg.test (email.value)) {
+               const str = `请填写正确的昵称和邮箱！`;
+               const vmark = document.querySelector (&#39;.vmark&#39;);
+               vmark.innerHTML = str;
+               vmark.style.display = &#39;block&#39;;
+               setTimeout (function () {
+                   vmark.style.display = &#39;none&#39;;
+                   vmark.innerHTML = &#39;&#39;;
+               &lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;, 2500);&lt;br /&gt;
+          }&lt;br /&gt;
+      }&lt;br /&gt;
+    })&lt;/li&gt;
+&lt;li&gt;最后在 GitHub 上看到了有人提交了 bug，解决办法只有修改 MiniValine.min.js，&lt;br /&gt;
+搜索 &lt;code&gt;/^[A-Za-z0-9\u4e00-\u9fa5]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/&lt;/code&gt; ，修改为&lt;br /&gt;
+ &lt;code&gt;/^[A-Za-z0-9\u4e00-\u9fa5]+(\.[A-Za-z0-9\u4e00-\u9fa5]+)&amp;#123;0,2&amp;#125;@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;将新的 js 部署到 GitHub 仓库中，使用 https://cdn.jsdelivr.net/gh/XXX/YYY/ZZZ/MiniValine.min.js 为链接调用，在 vendors 中修改即为 &lt;code&gt;valine: gh/XXX/YYY/ZZZ/MiniValine.min.js&lt;/code&gt; 。（XXX 为 GitHub 用户名，YYY 为 Github 仓库名，ZZZ 为 js 文件所在的文件夹）。&lt;/li&gt;
+&lt;/ol&gt;
  ]]></description>
         </item>
         <item>
