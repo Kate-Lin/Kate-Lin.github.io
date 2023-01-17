@@ -8,9 +8,29 @@
     <author>
       <name>Kate Lin</name>
     </author>
-    <updated>2022-10-14T00:44:00.000Z</updated>
+    <updated>2023-01-17T06:15:00.000Z</updated>
     <category term="CRYPTO" />
     <category term=" Code" />
+    <entry>
+        <id>https://kate-lin.github.io/computer-science/experiment/site-bug-comment/</id>
+        <title>Shoka评论区功能bug修复经验</title>
+        <link rel="alternate" href="https://kate-lin.github.io/computer-science/experiment/site-bug-comment/"/>
+        <content type="html">&lt;blockquote&gt;
+&lt;p&gt;【写在前面】参考链接：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://shoka.lostyu.me/computer-science/note/theme-shoka-doc/config/&#34; alt=&#34;Shoka作者的基本配置&#34; /&gt;&lt;br /&gt;
+&lt;img data-src=&#34;https://www.reversesacle.com/computer-science/shoka-theme/Comment/&#34; alt=&#34;ReverseScale MiniValine插件替换思路&#34; /&gt;&lt;br /&gt;
+&lt;img data-src=&#34;https://github.com/amehime/hexo-theme-shoka/issues/71&#34; alt=&#34;MiniValine前端检查邮件格式的bug fix&#34; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;设置评论区头衔的问题&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#设置评论区头衔的问题&#34;&gt;#&lt;/a&gt; 设置评论区头衔的问题&lt;/h1&gt;
+&lt;p&gt;作者给的原始的 tagmeta 为 &lt;code&gt;tagMeta:[visitor: 新朋友,master: 主人,friend: 小伙伴,investor: 金主粑粑]&lt;/code&gt; ，由于文章不设置打赏所以尝试把 invester 改成 author: 作者，但加入了自己的邮箱的 MD5 哈希后，始终无法识别 “作者” 的 title，一直显示新朋友。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;solve：可能是 author 标签和文章的 front matter 中的 author 标签重复？把 MD5 结果移到 master 栏目下，解决问题。&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        <category term="计算机科学" scheme="https://kate-lin.github.io/categories/computer-science/" />
+        <category term="实战" scheme="https://kate-lin.github.io/categories/computer-science/experiment/" />
+        <updated>2023-01-17T06:15:00.000Z</updated>
+    </entry>
     <entry>
         <id>https://kate-lin.github.io/notes/notes20221014/</id>
         <title>thoughts on 2022-10-14</title>

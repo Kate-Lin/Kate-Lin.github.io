@@ -7,6 +7,17 @@
     "home_page_url": "https://kate-lin.github.io",
     "items": [
         {
+            "id": "https://kate-lin.github.io/computer-science/experiment/site-bug-comment/",
+            "url": "https://kate-lin.github.io/computer-science/experiment/site-bug-comment/",
+            "title": "Shoka评论区功能bug修复经验",
+            "date_published": "2023-01-17T06:15:00.000Z",
+            "content_html": "<blockquote>\n<p>【写在前面】参考链接：</p>\n<p><img data-src=\"https://shoka.lostyu.me/computer-science/note/theme-shoka-doc/config/\" alt=\"Shoka作者的基本配置\" /><br />\n<img data-src=\"https://www.reversesacle.com/computer-science/shoka-theme/Comment/\" alt=\"ReverseScale MiniValine插件替换思路\" /><br />\n<img data-src=\"https://github.com/amehime/hexo-theme-shoka/issues/71\" alt=\"MiniValine前端检查邮件格式的bug fix\" /></p>\n</blockquote>\n<h1 id=\"设置评论区头衔的问题\"><a class=\"anchor\" href=\"#设置评论区头衔的问题\">#</a> 设置评论区头衔的问题</h1>\n<p>作者给的原始的 tagmeta 为 <code>tagMeta:[visitor: 新朋友,master: 主人,friend: 小伙伴,investor: 金主粑粑]</code> ，由于文章不设置打赏所以尝试把 invester 改成 author: 作者，但加入了自己的邮箱的 MD5 哈希后，始终无法识别 “作者” 的 title，一直显示新朋友。</p>\n<ul>\n<li>solve：可能是 author 标签和文章的 front matter 中的 author 标签重复？把 MD5 结果移到 master 栏目下，解决问题。</li>\n</ul>\n",
+            "tags": [
+                "计算机科学",
+                "实战"
+            ]
+        },
+        {
             "id": "https://kate-lin.github.io/notes/notes20221014/",
             "url": "https://kate-lin.github.io/notes/notes20221014/",
             "title": "thoughts on 2022-10-14",
