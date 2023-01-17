@@ -74,7 +74,7 @@ Bullet Holes = 双木成申 = 六边形女战士变形中</title>
       <i class="ic i-pen"></i>
     </span>
     <span class="text">本文字数</span>
-    <span>1.6k</span>
+    <span>2.3k</span>
     <span class="text">字</span>
   </span>
   <span class="item" title="阅读时长">
@@ -82,7 +82,7 @@ Bullet Holes = 双木成申 = 六边形女战士变形中</title>
       <i class="ic i-clock"></i>
     </span>
     <span class="text">阅读时长</span>
-    <span>1 分钟</span>
+    <span>2 分钟</span>
   </span>
 </div>
 
@@ -115,12 +115,12 @@ Bullet Holes = 双木成申 = 六边形女战士变形中</title>
       </div>
       <div id="imgs" class="pjax">
         <ul>
-          <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2023/01/17/79193c7a500d63d3.jpg"></li>
-          <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2022/10/05/5613e11cfaf249ad.jpg"></li>
-          <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2022/10/05/29af7d055ca247cf.jpg"></li>
-          <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2022/10/05/bbaa183ffca5c77b.jpg"></li>
-          <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2022/10/05/24388dfaa57c0e4f.jpg"></li>
           <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2022/10/05/f4e611398efa5e2c.jpeg"></li>
+          <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2023/01/17/79193c7a500d63d3.jpg"></li>
+          <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2022/10/05/7e450bb2359fce06.jpg"></li>
+          <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2022/10/05/22072775a88a4eba.jpg"></li>
+          <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2023/01/17/fa230370b161dddd.jpg"></li>
+          <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2022/10/05/29af7d055ca247cf.jpg"></li>
         </ul>
       </div>
     </header>
@@ -172,7 +172,7 @@ Bullet Holes = 双木成申 = 六边形女战士变形中</title>
     <blockquote>
 <p>【写在前面】参考链接：</p>
 <p><span class="exturl" data-url="aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWUvY29tcHV0ZXItc2NpZW5jZS9ub3RlL3RoZW1lLXNob2thLWRvYy9jb25maWcv">Shoka 作者的基本配置</span><br>
-<span class="exturl" data-url="aHR0cHM6Ly93d3cucmV2ZXJzZXNhY2xlLmNvbS9jb21wdXRlci1zY2llbmNlL3Nob2thLXRoZW1lL0NvbW1lbnQv"> ReverseScale MiniValine 插件替换思路</span><br>
+<span class="exturl" data-url="aHR0cHM6Ly93d3cucmV2ZXJzZXNhY2xlLmNvbS9jb21wdXRlci1zY2llbmNlL3Nob2thLXRoZW1lL0ltYWdlLw=="> ReverseScale MiniValine 插件替换思路</span><br>
 <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2FtZWhpbWUvaGV4by10aGVtZS1zaG9rYS9pc3N1ZXMvNzE="> MiniValine 前端检查邮件格式的 bug fix</span></p>
 </blockquote>
 <h1 id="设置评论区头衔的问题"><a class="markdownIt-Anchor" href="#设置评论区头衔的问题">#</a> 设置评论区头衔的问题</h1>
@@ -184,16 +184,38 @@ Bullet Holes = 双木成申 = 六边形女战士变形中</title>
 <p>原始评论区输入诸如 <code>xxx.xxx@xxx.com</code>  和 <code>xxx_xxx@xxx.com</code>  的邮箱都不能通过校验，初步判断是由于邮件校验正则有误。</p>
 <ul>
 <li>首先检查是否是_config.yml 的问题，发现没有和评论邮箱相关的设置。</li>
-<li>其次考虑在不修改原始的 MiniValine.min.js 文件的情况下，能不能在.js 文件中覆盖正则：<br>
+<li>其次考虑在不修改原始的 <code>MiniValine.min.js</code>  文件的情况下，能不能在.js 文件中覆盖正则：<br>
 发现还是不行，加了一个 click 的 function 之后直接卡死了。</li>
 </ul>
 <figure class="highlight js"><figcaption><span>判断邮箱和昵称是否为空</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable language_">document</span>.<span class="property">body</span>.<span class="title function_">addEventListener</span>(<span class="string">&#x27;click&#x27;</span>, <span class="keyword">function</span>(<span class="params">e</span>) &#123;</span><br><span class="line">      <span class="keyword">if</span> (e.<span class="property">target</span>.<span class="property">classList</span>.<span class="title function_">contains</span>(<span class="string">&#x27;vsubmit&#x27;</span>)) &#123;</span><br><span class="line">          <span class="keyword">const</span> email = <span class="variable language_">document</span>.<span class="title function_">querySelector</span>(<span class="string">&#x27;input[type=email]&#x27;</span>);</span><br><span class="line">          <span class="keyword">const</span> nick = <span class="variable language_">document</span>.<span class="title function_">querySelector</span>(<span class="string">&#x27;input[name=nick]&#x27;</span>);</span><br><span class="line">          <span class="keyword">const</span> reg = <span class="regexp">/^[A-Za-z0-9_\.\u4e00-\u9fa5]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/</span>;</span><br><span class="line">          <span class="keyword">if</span> (!email.<span class="property">value</span> || !nick.<span class="property">value</span> || !reg.<span class="title function_">test</span>(email.<span class="property">value</span>)) &#123;</span><br><span class="line">              <span class="keyword">const</span> str = <span class="string">`请填写正确的昵称和邮箱！`</span>;</span><br><span class="line">              <span class="keyword">const</span> vmark = <span class="variable language_">document</span>.<span class="title function_">querySelector</span>(<span class="string">&#x27;.vmark&#x27;</span>);</span><br><span class="line">              vmark.<span class="property">innerHTML</span> = str;</span><br><span class="line">              vmark.<span class="property">style</span>.<span class="property">display</span> = <span class="string">&#x27;block&#x27;</span>;</span><br><span class="line">              <span class="built_in">setTimeout</span>(<span class="keyword">function</span>(<span class="params"></span>) &#123;</span><br><span class="line">                  vmark.<span class="property">style</span>.<span class="property">display</span> = <span class="string">&#x27;none&#x27;</span>;</span><br><span class="line">                  vmark.<span class="property">innerHTML</span> = <span class="string">&#x27;&#x27;</span>;</span><br><span class="line">              &#125;, <span class="number">2500</span>);</span><br><span class="line">          &#125;</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;)</span><br></pre></td></tr></table></figure>
 <ul>
-<li>最后在 GitHub 上看到了有人提交了 bug，解决办法只有修改 MiniValine.min.js，<br>
+<li>最后在 GitHub 上看到了有人提交了 bug，解决办法只有修改 <code>MiniValine.min.js</code> ，<br>
 搜索 <code>/^[A-Za-z0-9\u4e00-\u9fa5]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/</code> ，修改为<br>
  <code>/^[A-Za-z0-9\u4e00-\u9fa5]+(\.[A-Za-z0-9\u4e00-\u9fa5]+)&#123;0,2&#125;@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/</code></li>
-<li>将新的 js 部署到 GitHub 仓库中，使用 https://cdn.jsdelivr.net/gh/XXX/YYY/ZZZ/MiniValine.min.js 为链接调用，在 vendors 中修改即为 <code>valine: gh/XXX/YYY/ZZZ/MiniValine.min.js</code> 。（XXX 为 GitHub 用户名，YYY 为 Github 仓库名，ZZZ 为 js 文件所在的文件夹）。</li>
+<li>将新的 js 部署到 GitHub 仓库中，使用 <code>https://cdn.jsdelivr.net/gh/XXX/YYY/ZZZ/MiniValine.min.js</code>  为链接调用，在 vendors 中修改即为 <code>valine: gh/XXX/YYY/ZZZ/MiniValine.min.js</code> 。（XXX 为 GitHub 用户名，YYY 为 Github 仓库名，ZZZ 为 js 文件所在的文件夹）。</li>
 </ul>
+<h1 id="通过vercel反代理cdnjsdelivrnet"><a class="markdownIt-Anchor" href="#通过vercel反代理cdnjsdelivrnet">#</a> <span class="exturl" data-url="aHR0cDovL3huLS1WZXJjZWxjZG4tdjI3bm42NGJqaThnMG5zZGc3YS5qc2RlbGl2ci5uZXQ=">通过 Vercel 反代理 cdn.jsdelivr.net</span></h1>
+<ul>
+<li>首先新建一任意文件夹，在该文件夹内打开命令行 cmd，输入 <code>npm i -g vercel</code> ，安装 vercel。</li>
+<li>在 vercel 官网先注册账号（可通过 GitHub 接入），然后在之前的命令行内输入 <code>vercel login</code> ，复制授权链接在浏览器内打开，完成登录。</li>
+<li>在文件夹内新建一个名为 <code>cdn.jsdelivr.net</code>  的文件夹，进入文件夹，新建 <code>cdn.jsdelivr.net.json</code>  文件，输入以下反代代码：</li>
+</ul>
+<figure class="highlight json"><figcaption><span>JSON</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;version&quot;</span><span class="punctuation">:</span> <span class="number">2</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;routes&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">                <span class="punctuation">&#123;</span><span class="attr">&quot;src&quot;</span><span class="punctuation">:</span> <span class="string">&quot;/(.*)&quot;</span><span class="punctuation">,</span><span class="attr">&quot;dest&quot;</span><span class="punctuation">:</span> <span class="string">&quot;https://cdn.jsdelivr.net/$1&quot;</span><span class="punctuation">&#125;</span></span><br><span class="line">                <span class="punctuation">]</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>
+<p>在 <code>cdn.jsdelivr.net</code>  文件夹内打开 cmd，输入部署命令 <code>vercel -A cdn.jsdelivr.net.json --prod</code> ，不需要 link to existing project，其余都可以选默认。</p>
+</li>
+<li>
+<p>（可选）此后，进入 Vercel 官网，登录，进入应用控制台，点击刚才创建的项目，view Domains，Edit，Domain 出输入自定义的二级域名绑定应用，界面会弹出需要进行 DNS 解析的 CNAME，复制 CNAME 至 DNS 解析处（购买域名的地方有 DNS 解析），完成 DNS 解析。</p>
+</li>
+<li>
+<p>如果不绑定自定义的域名，也可以在 view domain 的地方直接复制 <code>vercel.app</code>  结尾的域名（有概率被墙）</p>
+</li>
+<li>
+<p>【重点】修改 MiniValine.min.js (见上文)，搜索</p>
+</li>
+</ul>
+<h1 id="通过vercel反代理gravatar"><a class="markdownIt-Anchor" href="#通过vercel反代理gravatar">#</a> 通过 Vercel 反代理 gravatar</h1>
 
   </div>
 
@@ -205,7 +227,7 @@ Bullet Holes = 双木成申 = 六边形女战士变形中</title>
       <i class="ic i-calendar-check"></i>
     </span>
     <span class="text">更新于</span>
-    <time title="修改时间：2023-01-17 16:56:45" itemprop="dateModified" datetime="2023-01-17T16:56:45+08:00">2023-01-17</time>
+    <time title="修改时间：2023-01-17 17:28:26" itemprop="dateModified" datetime="2023-01-17T17:28:26+08:00">2023-01-17</time>
   </span>
   <span id="computer-science/experiment/site-bug-comment/" class="item leancloud_visitors" data-flag-title="Shoka评论区功能bug修复经验" title="阅读次数">
       <span class="icon">
@@ -245,7 +267,7 @@ Bullet Holes = 双木成申 = 六边形女战士变形中</title>
     <div class="item left">
       
 
-  <a href="/notes/notes20221014/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;s3.bmp.ovh&#x2F;imgs&#x2F;2022&#x2F;10&#x2F;05&#x2F;7e450bb2359fce06.jpg" title="thoughts on 2022-10-14">
+  <a href="/notes/notes20221014/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;s3.bmp.ovh&#x2F;imgs&#x2F;2022&#x2F;10&#x2F;05&#x2F;f860898bde07bbdd.jpg" title="thoughts on 2022-10-14">
   <span class="type">上一篇</span>
   <span class="category"><i class="ic i-flag"></i> 杂谈</span>
   <h3>thoughts on 2022-10-14</h3>
@@ -269,7 +291,7 @@ Bullet Holes = 双木成申 = 六边形女战士变形中</title>
   <div class="panels">
     <div class="inner">
       <div class="contents panel pjax" data-title="文章目录">
-          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%AE%BE%E7%BD%AE%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%A4%B4%E8%A1%94%E7%9A%84%E9%97%AE%E9%A2%98"><span class="toc-number">1.</span> <span class="toc-text"> 设置评论区头衔的问题</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%82%AE%E7%AE%B1%E6%A0%BC%E5%BC%8F%E6%A0%A1%E9%AA%8C%E9%97%AE%E9%A2%98"><span class="toc-number">2.</span> <span class="toc-text"> 邮箱格式校验问题</span></a></li></ol>
+          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%AE%BE%E7%BD%AE%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%A4%B4%E8%A1%94%E7%9A%84%E9%97%AE%E9%A2%98"><span class="toc-number">1.</span> <span class="toc-text"> 设置评论区头衔的问题</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%82%AE%E7%AE%B1%E6%A0%BC%E5%BC%8F%E6%A0%A1%E9%AA%8C%E9%97%AE%E9%A2%98"><span class="toc-number">2.</span> <span class="toc-text"> 邮箱格式校验问题</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%80%9A%E8%BF%87vercel%E5%8F%8D%E4%BB%A3%E7%90%86cdnjsdelivrnet"><span class="toc-number">3.</span> <span class="toc-text"> 通过 Vercel 反代理 cdn.jsdelivr.net</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%80%9A%E8%BF%87vercel%E5%8F%8D%E4%BB%A3%E7%90%86gravatar"><span class="toc-number">4.</span> <span class="toc-text"> 通过 Vercel 反代理 gravatar</span></a></li></ol>
       </div>
       <div class="related panel pjax" data-title="系列文章">
         <ul>
@@ -377,19 +399,10 @@ Bullet Holes = 双木成申 = 六边形女战士变形中</title>
 <div class="breadcrumb">
 <a href="/categories/computer-science/" title="分类于 计算机科学">计算机科学</a>
 <i class="ic i-angle-right"></i>
-<a href="/categories/computer-science/experiment/" title="分类于 实战">实战</a>
+<a href="/categories/computer-science/crypto/" title="分类于 密码学">密码学</a>
 </div>
 
-    <span><a href="/computer-science/experiment/clash-for-windows/" title="一些clash for windows踩雷">一些clash for windows踩雷</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-</div>
-
-    <span><a href="/about/" title="about">about</a></span>
+    <span><a href="/computer-science/crypto/crypto-math1/" title="网安数学复习【1】">网安数学复习【1】</a></span>
   </li>
 
       
@@ -401,7 +414,29 @@ Bullet Holes = 双木成申 = 六边形女战士变形中</title>
 <a href="/categories/computer-science/crypto/" title="分类于 密码学">密码学</a>
 </div>
 
-    <span><a href="/computer-science/crypto/crypto-math2/" title="网安数学复习【2】">网安数学复习【2】</a></span>
+    <span><a href="/computer-science/crypto/LLL-knapsack/" title="LLL算法应用-背包问题">LLL算法应用-背包问题</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/notes/" title="分类于 杂谈">杂谈</a>
+</div>
+
+    <span><a href="/notes/week220102/" title="Weekly Journal 20220102">Weekly Journal 20220102</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/computer-science/" title="分类于 计算机科学">计算机科学</a>
+<i class="ic i-angle-right"></i>
+<a href="/categories/computer-science/crypto/" title="分类于 密码学">密码学</a>
+</div>
+
+    <span><a href="/computer-science/crypto/crypto-final-exam/" title="密码学期末复习【施工暂时完毕】">密码学期末复习【施工暂时完毕】</a></span>
   </li>
 
       
@@ -413,7 +448,19 @@ Bullet Holes = 双木成申 = 六边形女战士变形中</title>
 <a href="/categories/computer-science/experiment/" title="分类于 实战">实战</a>
 </div>
 
-    <span><a href="/computer-science/experiment/site-bug-comment/" title="Shoka评论区功能bug修复经验">Shoka评论区功能bug修复经验</a></span>
+    <span><a href="/computer-science/experiment/clash-for-windows/" title="一些clash for windows踩雷">一些clash for windows踩雷</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/computer-science/" title="分类于 计算机科学">计算机科学</a>
+<i class="ic i-angle-right"></i>
+<a href="/categories/computer-science/crypto/" title="分类于 密码学">密码学</a>
+</div>
+
+    <span><a href="/computer-science/crypto/IPE-SA/" title="Fully Secure Functional Encryption for Inner Products, from Standard Assumptions阅读笔记">Fully Secure Functional Encryption for Inner Products, from Standard Assumptions阅读笔记</a></span>
   </li>
 
       
@@ -447,29 +494,7 @@ Bullet Holes = 双木成申 = 六边形女战士变形中</title>
 <a href="/categories/computer-science/crypto/" title="分类于 密码学">密码学</a>
 </div>
 
-    <span><a href="/computer-science/crypto/IPE-SA/" title="Fully Secure Functional Encryption for Inner Products, from Standard Assumptions阅读笔记">Fully Secure Functional Encryption for Inner Products, from Standard Assumptions阅读笔记</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/notes/" title="分类于 杂谈">杂谈</a>
-</div>
-
-    <span><a href="/notes/week220102/" title="Weekly Journal 20220102">Weekly Journal 20220102</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/computer-science/" title="分类于 计算机科学">计算机科学</a>
-<i class="ic i-angle-right"></i>
-<a href="/categories/computer-science/crypto/" title="分类于 密码学">密码学</a>
-</div>
-
-    <span><a href="/computer-science/crypto/Koinonia/" title="Koinonia：Verifiable E-Voting with Long-term Privacy研究报告">Koinonia：Verifiable E-Voting with Long-term Privacy研究报告</a></span>
+    <span><a href="/computer-science/crypto/crypto-math2/" title="网安数学复习【2】">网安数学复习【2】</a></span>
   </li>
 
   </ul>
@@ -496,7 +521,7 @@ Bullet Holes = 双木成申 = 六边形女战士变形中</title>
     <span class="post-meta-item-icon">
       <i class="ic i-coffee"></i>
     </span>
-    <span title="站点阅读时长">57 分钟</span>
+    <span title="站点阅读时长">58 分钟</span>
   </div>
   <div class="powered-by">
     基于 <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & Theme.<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2FtZWhpbWUvaGV4by10aGVtZS1zaG9rYQ==">Shoka</span>
