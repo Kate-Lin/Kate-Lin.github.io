@@ -74,7 +74,7 @@ Bullet Holes = 双木成申 = 六边形女战士变形中</title>
       <i class="ic i-pen"></i>
     </span>
     <span class="text">本文字数</span>
-    <span>2.3k</span>
+    <span>2.1k</span>
     <span class="text">字</span>
   </span>
   <span class="item" title="阅读时长">
@@ -115,12 +115,12 @@ Bullet Holes = 双木成申 = 六边形女战士变形中</title>
       </div>
       <div id="imgs" class="pjax">
         <ul>
-          <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2022/10/05/f4e611398efa5e2c.jpeg"></li>
-          <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2022/10/05/22072775a88a4eba.jpg"></li>
-          <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2022/10/05/29af7d055ca247cf.jpg"></li>
-          <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2022/10/05/0b9340f68c5acd43.jpg"></li>
           <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2022/10/05/bbaa183ffca5c77b.jpg"></li>
-          <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2023/01/17/79193c7a500d63d3.jpg"></li>
+          <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2022/10/05/29af7d055ca247cf.jpg"></li>
+          <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2023/01/17/fa230370b161dddd.jpg"></li>
+          <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2022/10/05/ad5e03f2f3815e3b.png"></li>
+          <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2022/10/05/0b9340f68c5acd43.jpg"></li>
+          <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2022/10/05/5613e11cfaf249ad.jpg"></li>
         </ul>
       </div>
     </header>
@@ -187,7 +187,24 @@ Bullet Holes = 双木成申 = 六边形女战士变形中</title>
 <li>其次考虑在不修改原始的 <code>MiniValine.min.js</code>  文件的情况下，能不能在.js 文件中覆盖正则：<br>
 发现还是不行，加了一个 click 的 function 之后直接卡死了。</li>
 </ul>
-<figure class="highlight js"><figcaption><span>判断邮箱和昵称是否为空</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable language_">document</span>.<span class="property">body</span>.<span class="title function_">addEventListener</span>(<span class="string">&#x27;click&#x27;</span>, <span class="keyword">function</span>(<span class="params">e</span>) &#123;</span><br><span class="line">      <span class="keyword">if</span> (e.<span class="property">target</span>.<span class="property">classList</span>.<span class="title function_">contains</span>(<span class="string">&#x27;vsubmit&#x27;</span>)) &#123;</span><br><span class="line">          <span class="keyword">const</span> email = <span class="variable language_">document</span>.<span class="title function_">querySelector</span>(<span class="string">&#x27;input[type=email]&#x27;</span>);</span><br><span class="line">          <span class="keyword">const</span> nick = <span class="variable language_">document</span>.<span class="title function_">querySelector</span>(<span class="string">&#x27;input[name=nick]&#x27;</span>);</span><br><span class="line">          <span class="keyword">const</span> reg = <span class="regexp">/^[A-Za-z0-9_\.\u4e00-\u9fa5]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/</span>;</span><br><span class="line">          <span class="keyword">if</span> (!email.<span class="property">value</span> || !nick.<span class="property">value</span> || !reg.<span class="title function_">test</span>(email.<span class="property">value</span>)) &#123;</span><br><span class="line">              <span class="keyword">const</span> str = <span class="string">`请填写正确的昵称和邮箱！`</span>;</span><br><span class="line">              <span class="keyword">const</span> vmark = <span class="variable language_">document</span>.<span class="title function_">querySelector</span>(<span class="string">&#x27;.vmark&#x27;</span>);</span><br><span class="line">              vmark.<span class="property">innerHTML</span> = str;</span><br><span class="line">              vmark.<span class="property">style</span>.<span class="property">display</span> = <span class="string">&#x27;block&#x27;</span>;</span><br><span class="line">              <span class="built_in">setTimeout</span>(<span class="keyword">function</span>(<span class="params"></span>) &#123;</span><br><span class="line">                  vmark.<span class="property">style</span>.<span class="property">display</span> = <span class="string">&#x27;none&#x27;</span>;</span><br><span class="line">                  vmark.<span class="property">innerHTML</span> = <span class="string">&#x27;&#x27;</span>;</span><br><span class="line">              &#125;, <span class="number">2500</span>);</span><br><span class="line">          &#125;</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;)</span><br></pre></td></tr></table></figure>
+<pre><code class="language-JS">    document.body.addEventListener('click', function(e) &#123;
+          if (e.target.classList.contains('vsubmit')) &#123;
+              const email = document.querySelector('input[type=email]');
+              const nick = document.querySelector('input[name=nick]');
+              const reg = /^[A-Za-z0-9_\.\u4e00-\u9fa5]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/;
+              if (!email.value || !nick.value || !reg.test(email.value)) &#123;
+                  const str = `请填写正确的昵称和邮箱！`;
+                  const vmark = document.querySelector('.vmark');
+                  vmark.innerHTML = str;
+                  vmark.style.display = 'block';
+                  setTimeout(function() &#123;
+                      vmark.style.display = 'none';
+                      vmark.innerHTML = '';
+                  &#125;, 2500);
+              &#125;
+          &#125;
+        &#125;)
+</code></pre>
 <ul>
 <li>最后在 GitHub 上看到了有人提交了 bug，解决办法只有修改 <code>MiniValine.min.js</code> ，<br>
 搜索 <code>/^[A-Za-z0-9\u4e00-\u9fa5]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/</code> ，修改为<br>
@@ -200,8 +217,7 @@ Bullet Holes = 双木成申 = 六边形女战士变形中</title>
 <li>在 vercel 官网先注册账号（可通过 GitHub 接入），然后在之前的命令行内输入 <code>vercel login</code> ，复制授权链接在浏览器内打开，完成登录。</li>
 <li>在文件夹内新建一个名为 <code>cdn.jsdelivr.net</code>  的文件夹，进入文件夹，新建 <code>cdn.jsdelivr.net.json</code>  文件，输入以下反代代码：</li>
 </ul>
-<figure class="highlight json"><figcaption><span>JSON</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;version&quot;</span><span class="punctuation">:</span> <span class="number">2</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;routes&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">                <span class="punctuation">&#123;</span><span class="attr">&quot;src&quot;</span><span class="punctuation">:</span> <span class="string">&quot;/(.*)&quot;</span><span class="punctuation">,</span><span class="attr">&quot;dest&quot;</span><span class="punctuation">:</span> <span class="string">&quot;https://cdn.jsdelivr.net/$1&quot;</span><span class="punctuation">&#125;</span></span><br><span class="line">                <span class="punctuation">]</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
-<ul>
+<figure class="highlight json"><figcaption data-lang="JSON"><span>JSON</span></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="2"></td><td><pre>        <span class="token property">"version"</span><span class="token operator">:</span> <span class="token number">2</span><span class="token punctuation">,</span></pre></td></tr><tr><td data-num="3"></td><td><pre>        <span class="token property">"routes"</span><span class="token operator">:</span> <span class="token punctuation">[</span></pre></td></tr><tr><td data-num="4"></td><td><pre>                <span class="token punctuation">&#123;</span><span class="token property">"src"</span><span class="token operator">:</span> <span class="token string">"/(.*)"</span><span class="token punctuation">,</span><span class="token property">"dest"</span><span class="token operator">:</span> <span class="token string">"https://cdn.jsdelivr.net/$1"</span><span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="5"></td><td><pre>                <span class="token punctuation">]</span></pre></td></tr><tr><td data-num="6"></td><td><pre><span class="token punctuation">&#125;</span></pre></td></tr></table></figure><ul>
 <li>
 <p>在 <code>cdn.jsdelivr.net</code>  文件夹内打开 cmd，输入部署命令 <code>vercel -A cdn.jsdelivr.net.json --prod</code> ，不需要 link to existing project，其余都可以选默认。</p>
 </li>
@@ -267,7 +283,7 @@ Bullet Holes = 双木成申 = 六边形女战士变形中</title>
     <div class="item left">
       
 
-  <a href="/notes/notes20221014/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;s3.bmp.ovh&#x2F;imgs&#x2F;2022&#x2F;10&#x2F;05&#x2F;bbaa183ffca5c77b.jpg" title="thoughts on 2022-10-14">
+  <a href="/notes/notes20221014/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;s3.bmp.ovh&#x2F;imgs&#x2F;2022&#x2F;10&#x2F;05&#x2F;29af7d055ca247cf.jpg" title="thoughts on 2022-10-14">
   <span class="type">上一篇</span>
   <span class="category"><i class="ic i-flag"></i> 杂谈</span>
   <h3>thoughts on 2022-10-14</h3>
@@ -389,10 +405,10 @@ Bullet Holes = 双木成申 = 六边形女战士变形中</title>
 <div class="breadcrumb">
 <a href="/categories/computer-science/" title="分类于 计算机科学">计算机科学</a>
 <i class="ic i-angle-right"></i>
-<a href="/categories/computer-science/experiment/" title="分类于 实战">实战</a>
+<a href="/categories/computer-science/CTF/" title="分类于 安全CTF">安全CTF</a>
 </div>
 
-    <span><a href="/computer-science/experiment/redis/" title="Redis学习笔记">Redis学习笔记</a></span>
+    <span><a href="/computer-science/CTF/ctf-web/" title="毫无基础的Web学习记录">毫无基础的Web学习记录</a></span>
   </li>
 
       
@@ -401,10 +417,10 @@ Bullet Holes = 双木成申 = 六边形女战士变形中</title>
 <div class="breadcrumb">
 <a href="/categories/computer-science/" title="分类于 计算机科学">计算机科学</a>
 <i class="ic i-angle-right"></i>
-<a href="/categories/computer-science/crypto/" title="分类于 密码学">密码学</a>
+<a href="/categories/computer-science/experiment/" title="分类于 实战">实战</a>
 </div>
 
-    <span><a href="/computer-science/crypto/LLL-knapsack/" title="LLL算法应用-背包问题">LLL算法应用-背包问题</a></span>
+    <span><a href="/computer-science/experiment/site-bug-comment/" title="Shoka评论区功能bug修复经验">Shoka评论区功能bug修复经验</a></span>
   </li>
 
       
@@ -425,19 +441,46 @@ Bullet Holes = 双木成申 = 六边形女战士变形中</title>
 <div class="breadcrumb">
 <a href="/categories/computer-science/" title="分类于 计算机科学">计算机科学</a>
 <i class="ic i-angle-right"></i>
-<a href="/categories/computer-science/experiment/" title="分类于 实战">实战</a>
+<a href="/categories/computer-science/crypto/" title="分类于 密码学">密码学</a>
 </div>
 
-    <span><a href="/computer-science/experiment/site-bug-comment/" title="Shoka评论区功能bug修复经验">Shoka评论区功能bug修复经验</a></span>
+    <span><a href="/computer-science/crypto/IPE-SA/" title="Fully Secure Functional Encryption for Inner Products, from Standard Assumptions阅读笔记">Fully Secure Functional Encryption for Inner Products, from Standard Assumptions阅读笔记</a></span>
   </li>
 
       
   <li class="item">
     
 <div class="breadcrumb">
+<a href="/categories/computer-science/" title="分类于 计算机科学">计算机科学</a>
+<i class="ic i-angle-right"></i>
+<a href="/categories/computer-science/crypto/" title="分类于 密码学">密码学</a>
 </div>
 
-    <span><a href="/about/" title="about">about</a></span>
+    <span><a href="/computer-science/crypto/crypto-final-exam/" title="密码学期末复习【施工暂时完毕】">密码学期末复习【施工暂时完毕】</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/computer-science/" title="分类于 计算机科学">计算机科学</a>
+<i class="ic i-angle-right"></i>
+<a href="/categories/computer-science/crypto/" title="分类于 密码学">密码学</a>
+</div>
+
+    <span><a href="/computer-science/crypto/crypto-math1/" title="网安数学复习【1】">网安数学复习【1】</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/computer-science/" title="分类于 计算机科学">计算机科学</a>
+<i class="ic i-angle-right"></i>
+<a href="/categories/computer-science/crypto/" title="分类于 密码学">密码学</a>
+</div>
+
+    <span><a href="/computer-science/crypto/LowMC/" title="Cryptanalysis of Full LowMC and LowMC-M with Algebraic Techniques论文报告">Cryptanalysis of Full LowMC and LowMC-M with Algebraic Techniques论文报告</a></span>
   </li>
 
       
@@ -458,28 +501,6 @@ Bullet Holes = 双木成申 = 六边形女战士变形中</title>
 <div class="breadcrumb">
 <a href="/categories/computer-science/" title="分类于 计算机科学">计算机科学</a>
 <i class="ic i-angle-right"></i>
-<a href="/categories/computer-science/crypto/" title="分类于 密码学">密码学</a>
-</div>
-
-    <span><a href="/computer-science/crypto/IPE-SA/" title="Fully Secure Functional Encryption for Inner Products, from Standard Assumptions阅读笔记">Fully Secure Functional Encryption for Inner Products, from Standard Assumptions阅读笔记</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/notes/" title="分类于 杂谈">杂谈</a>
-</div>
-
-    <span><a href="/notes/notes20221014/" title="thoughts on 2022-10-14">thoughts on 2022-10-14</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/computer-science/" title="分类于 计算机科学">计算机科学</a>
-<i class="ic i-angle-right"></i>
 <a href="/categories/computer-science/experiment/" title="分类于 实战">实战</a>
 </div>
 
@@ -490,12 +511,9 @@ Bullet Holes = 双木成申 = 六边形女战士变形中</title>
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/computer-science/" title="分类于 计算机科学">计算机科学</a>
-<i class="ic i-angle-right"></i>
-<a href="/categories/computer-science/crypto/" title="分类于 密码学">密码学</a>
 </div>
 
-    <span><a href="/computer-science/crypto/LowMC/" title="Cryptanalysis of Full LowMC and LowMC-M with Algebraic Techniques论文报告">Cryptanalysis of Full LowMC and LowMC-M with Algebraic Techniques论文报告</a></span>
+    <span><a href="/about/" title="about">about</a></span>
   </li>
 
   </ul>
@@ -522,7 +540,7 @@ Bullet Holes = 双木成申 = 六边形女战士变形中</title>
     <span class="post-meta-item-icon">
       <i class="ic i-coffee"></i>
     </span>
-    <span title="站点阅读时长">58 分钟</span>
+    <span title="站点阅读时长">57 分钟</span>
   </div>
   <div class="powered-by">
     基于 <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & Theme.<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2FtZWhpbWUvaGV4by10aGVtZS1zaG9rYQ==">Shoka</span>
