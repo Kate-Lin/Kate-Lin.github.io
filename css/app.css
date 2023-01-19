@@ -108,7 +108,7 @@
   --color-grey: #c3c8ca;
   --body-bg-shadow: #000;
   --box-bg-shadow: #000;
-  --text-color: var(--grey-5);
+  --text-color: var(--grey-4);
   --header-text-color: var(--grey-9);
   --nav-bg: linear-gradient(-225deg, #ece0e9 0, #a1bcd9 100%);
 }
@@ -5283,5 +5283,8 @@ span.label {
   left: 0;
   right: auto;
   border-radius: 0 1rem;
+  background-image: linear-gradient(to right, #61b0db 0, var(--color-green) 100%);
+}
+.ribbon {
   background-image: linear-gradient(to right, #61b0db 0, var(--color-green) 100%);
 }
