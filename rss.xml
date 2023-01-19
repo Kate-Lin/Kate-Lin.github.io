@@ -181,11 +181,11 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://kate-lin.github.io/computer-science/CTF/ctf-web/</guid>
+            <guid isPermalink="true">https://kate-lin.github.io/info-sec/CTF/ctf-web/</guid>
             <title>毫无基础的Web学习记录</title>
-            <link>https://kate-lin.github.io/computer-science/CTF/ctf-web/</link>
-            <category term="计算机科学" scheme="https://kate-lin.github.io/categories/computer-science/" />
-            <category term="安全CTF" scheme="https://kate-lin.github.io/categories/computer-science/CTF/" />
+            <link>https://kate-lin.github.io/info-sec/CTF/ctf-web/</link>
+            <category term="信息安全" scheme="https://kate-lin.github.io/categories/info-sec/" />
+            <category term="安全CTF" scheme="https://kate-lin.github.io/categories/info-sec/CTF/" />
             <category term="代码实战" scheme="https://kate-lin.github.io/tags/%E4%BB%A3%E7%A0%81%E5%AE%9E%E6%88%98/" />
             <category term="Web安全" scheme="https://kate-lin.github.io/tags/Web%E5%AE%89%E5%85%A8/" />
             <category term="SQL注入" scheme="https://kate-lin.github.io/tags/SQL%E6%B3%A8%E5%85%A5/" />
@@ -259,13 +259,14 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://kate-lin.github.io/computer-science/crypto/IPE-SA/</guid>
+            <guid isPermalink="true">https://kate-lin.github.io/info-sec/crypto/research-papers/IPE-SA/</guid>
             <title>Fully Secure Functional Encryption for Inner Products, from Standard Assumptions阅读笔记</title>
-            <link>https://kate-lin.github.io/computer-science/crypto/IPE-SA/</link>
-            <category term="计算机科学" scheme="https://kate-lin.github.io/categories/computer-science/" />
-            <category term="密码学" scheme="https://kate-lin.github.io/categories/computer-science/crypto/" />
-            <category term="文献阅读" scheme="https://kate-lin.github.io/tags/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/" />
+            <link>https://kate-lin.github.io/info-sec/crypto/research-papers/IPE-SA/</link>
+            <category term="信息安全" scheme="https://kate-lin.github.io/categories/info-sec/" />
+            <category term="密码学" scheme="https://kate-lin.github.io/categories/info-sec/crypto/" />
+            <category term="科研论文" scheme="https://kate-lin.github.io/categories/info-sec/crypto/research-papers/" />
             <category term="密码学" scheme="https://kate-lin.github.io/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/" />
+            <category term="文献阅读" scheme="https://kate-lin.github.io/tags/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/" />
             <category term="组会" scheme="https://kate-lin.github.io/tags/%E7%BB%84%E4%BC%9A/" />
             <category term="FE" scheme="https://kate-lin.github.io/tags/FE/" />
             <pubDate>Mon, 22 Aug 2022 13:36:00 +0800</pubDate>
@@ -529,11 +530,12 @@ M1001 80h400000v40h-400000z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://kate-lin.github.io/computer-science/crypto/LLL-knapsack/</guid>
+            <guid isPermalink="true">https://kate-lin.github.io/info-sec/crypto/research-papers/LLL-knapsack/</guid>
             <title>LLL算法应用-背包问题</title>
-            <link>https://kate-lin.github.io/computer-science/crypto/LLL-knapsack/</link>
-            <category term="计算机科学" scheme="https://kate-lin.github.io/categories/computer-science/" />
-            <category term="密码学" scheme="https://kate-lin.github.io/categories/computer-science/crypto/" />
+            <link>https://kate-lin.github.io/info-sec/crypto/research-papers/LLL-knapsack/</link>
+            <category term="信息安全" scheme="https://kate-lin.github.io/categories/info-sec/" />
+            <category term="密码学" scheme="https://kate-lin.github.io/categories/info-sec/crypto/" />
+            <category term="科研论文" scheme="https://kate-lin.github.io/categories/info-sec/crypto/research-papers/" />
             <category term="密码学" scheme="https://kate-lin.github.io/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/" />
             <category term="Lattice,格" scheme="https://kate-lin.github.io/tags/Lattice-%E6%A0%BC/" />
             <category term="LLL算法" scheme="https://kate-lin.github.io/tags/LLL%E7%AE%97%E6%B3%95/" />
@@ -689,11 +691,12 @@ M834 80h400000v40h-400000z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/s
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://kate-lin.github.io/computer-science/crypto/crypto-math2/</guid>
+            <guid isPermalink="true">https://kate-lin.github.io/info-sec/crypto/grad-courses/crypto-math2/</guid>
             <title>网安数学复习【2】</title>
-            <link>https://kate-lin.github.io/computer-science/crypto/crypto-math2/</link>
+            <link>https://kate-lin.github.io/info-sec/crypto/grad-courses/crypto-math2/</link>
             <category term="计算机科学" scheme="https://kate-lin.github.io/categories/computer-science/" />
             <category term="密码学" scheme="https://kate-lin.github.io/categories/computer-science/crypto/" />
+            <category term="研究生课程" scheme="https://kate-lin.github.io/categories/computer-science/crypto/grad-courses/" />
             <category term="课程" scheme="https://kate-lin.github.io/tags/%E8%AF%BE%E7%A8%8B/" />
             <category term="数学" scheme="https://kate-lin.github.io/tags/%E6%95%B0%E5%AD%A6/" />
             <category term="抽象代数" scheme="https://kate-lin.github.io/tags/%E6%8A%BD%E8%B1%A1%E4%BB%A3%E6%95%B0/" />
@@ -830,11 +833,12 @@ I 是 (R, +) 的加法子群。&lt;br&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://kate-lin.github.io/computer-science/crypto/crypto-math1/</guid>
+            <guid isPermalink="true">https://kate-lin.github.io/info-sec/crypto/grad-courses/crypto-math1/</guid>
             <title>网安数学复习【1】</title>
-            <link>https://kate-lin.github.io/computer-science/crypto/crypto-math1/</link>
-            <category term="计算机科学" scheme="https://kate-lin.github.io/categories/computer-science/" />
-            <category term="密码学" scheme="https://kate-lin.github.io/categories/computer-science/crypto/" />
+            <link>https://kate-lin.github.io/info-sec/crypto/grad-courses/crypto-math1/</link>
+            <category term="信息安全" scheme="https://kate-lin.github.io/categories/info-sec/" />
+            <category term="密码学" scheme="https://kate-lin.github.io/categories/info-sec/crypto/" />
+            <category term="研究生课程" scheme="https://kate-lin.github.io/categories/info-sec/crypto/grad-courses/" />
             <category term="课程" scheme="https://kate-lin.github.io/tags/%E8%AF%BE%E7%A8%8B/" />
             <category term="数学" scheme="https://kate-lin.github.io/tags/%E6%95%B0%E5%AD%A6/" />
             <category term="抽象代数" scheme="https://kate-lin.github.io/tags/%E6%8A%BD%E8%B1%A1%E4%BB%A3%E6%95%B0/" />
@@ -1214,13 +1218,14 @@ M834 80h400000v40h-400000z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/s
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://kate-lin.github.io/computer-science/crypto/crypto-final-exam/</guid>
+            <guid isPermalink="true">https://kate-lin.github.io/info-sec/crypto/grad-courses/crypto-final-exam/</guid>
             <title>密码学期末复习【施工暂时完毕】</title>
-            <link>https://kate-lin.github.io/computer-science/crypto/crypto-final-exam/</link>
-            <category term="计算机科学" scheme="https://kate-lin.github.io/categories/computer-science/" />
-            <category term="密码学" scheme="https://kate-lin.github.io/categories/computer-science/crypto/" />
-            <category term="密码学" scheme="https://kate-lin.github.io/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/" />
+            <link>https://kate-lin.github.io/info-sec/crypto/grad-courses/crypto-final-exam/</link>
+            <category term="信息安全" scheme="https://kate-lin.github.io/categories/info-sec/" />
+            <category term="密码学" scheme="https://kate-lin.github.io/categories/info-sec/crypto/" />
+            <category term="研究生课程" scheme="https://kate-lin.github.io/categories/info-sec/crypto/grad-courses/" />
             <category term="课程" scheme="https://kate-lin.github.io/tags/%E8%AF%BE%E7%A8%8B/" />
+            <category term="密码学" scheme="https://kate-lin.github.io/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/" />
             <pubDate>Sat, 01 Jan 2022 20:19:00 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;目录&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#目录&#34;&gt;#&lt;/a&gt; 目录&lt;/h1&gt;
 &lt;ul&gt;
@@ -1699,13 +1704,14 @@ A 给出一对有效消息 - 签名对&lt;span class=&#34;katex&#34;&gt;&lt;span
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://kate-lin.github.io/computer-science/crypto/Koinonia/</guid>
+            <guid isPermalink="true">https://kate-lin.github.io/info-sec/crypto/grad-courses/Koinonia/</guid>
             <title>Koinonia：Verifiable E-Voting with Long-term Privacy研究报告</title>
-            <link>https://kate-lin.github.io/computer-science/crypto/Koinonia/</link>
-            <category term="计算机科学" scheme="https://kate-lin.github.io/categories/computer-science/" />
-            <category term="密码学" scheme="https://kate-lin.github.io/categories/computer-science/crypto/" />
-            <category term="密码学" scheme="https://kate-lin.github.io/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/" />
+            <link>https://kate-lin.github.io/info-sec/crypto/grad-courses/Koinonia/</link>
+            <category term="信息安全" scheme="https://kate-lin.github.io/categories/info-sec/" />
+            <category term="密码学" scheme="https://kate-lin.github.io/categories/info-sec/crypto/" />
+            <category term="研究生课程" scheme="https://kate-lin.github.io/categories/info-sec/crypto/grad-courses/" />
             <category term="课程" scheme="https://kate-lin.github.io/tags/%E8%AF%BE%E7%A8%8B/" />
+            <category term="密码学" scheme="https://kate-lin.github.io/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/" />
             <category term="实践" scheme="https://kate-lin.github.io/tags/%E5%AE%9E%E8%B7%B5/" />
             <category term="电子投票" scheme="https://kate-lin.github.io/tags/%E7%94%B5%E5%AD%90%E6%8A%95%E7%A5%A8/" />
             <pubDate>Sun, 26 Dec 2021 21:03:00 +0800</pubDate>
@@ -1772,11 +1778,12 @@ A 给出一对有效消息 - 签名对&lt;span class=&#34;katex&#34;&gt;&lt;span
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://kate-lin.github.io/computer-science/crypto/LowMC/</guid>
+            <guid isPermalink="true">https://kate-lin.github.io/info-sec/crypto/grad-courses/LowMC/</guid>
             <title>Cryptanalysis of Full LowMC and LowMC-M with Algebraic Techniques论文报告</title>
-            <link>https://kate-lin.github.io/computer-science/crypto/LowMC/</link>
-            <category term="计算机科学" scheme="https://kate-lin.github.io/categories/computer-science/" />
-            <category term="密码学" scheme="https://kate-lin.github.io/categories/computer-science/crypto/" />
+            <link>https://kate-lin.github.io/info-sec/crypto/grad-courses/LowMC/</link>
+            <category term="信息安全" scheme="https://kate-lin.github.io/categories/info-sec/" />
+            <category term="密码学" scheme="https://kate-lin.github.io/categories/info-sec/crypto/" />
+            <category term="研究生课程" scheme="https://kate-lin.github.io/categories/info-sec/crypto/grad-courses/" />
             <category term="密码学" scheme="https://kate-lin.github.io/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/" />
             <category term="对称密码" scheme="https://kate-lin.github.io/tags/%E5%AF%B9%E7%A7%B0%E5%AF%86%E7%A0%81/" />
             <category term="LowMC" scheme="https://kate-lin.github.io/tags/LowMC/" />

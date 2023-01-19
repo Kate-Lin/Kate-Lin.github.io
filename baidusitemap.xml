@@ -1,6 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://kate-lin.github.io/info-sec/CTF/ctf-web/</loc>
+    <lastmod>2023-01-19</lastmod>
+  </url>
+  <url>
+    <loc>https://kate-lin.github.io/info-sec/crypto/research-papers/LLL-knapsack/</loc>
+    <lastmod>2023-01-19</lastmod>
+  </url>
+  <url>
+    <loc>https://kate-lin.github.io/info-sec/crypto/research-papers/IPE-SA/</loc>
+    <lastmod>2023-01-19</lastmod>
+  </url>
+  <url>
+    <loc>https://kate-lin.github.io/info-sec/crypto/grad-courses/LowMC/</loc>
+    <lastmod>2023-01-19</lastmod>
+  </url>
+  <url>
+    <loc>https://kate-lin.github.io/info-sec/crypto/grad-courses/Koinonia/</loc>
+    <lastmod>2023-01-19</lastmod>
+  </url>
+  <url>
+    <loc>https://kate-lin.github.io/info-sec/crypto/grad-courses/crypto-math1/</loc>
+    <lastmod>2023-01-19</lastmod>
+  </url>
+  <url>
+    <loc>https://kate-lin.github.io/info-sec/crypto/grad-courses/crypto-final-exam/</loc>
+    <lastmod>2023-01-19</lastmod>
+  </url>
+  <url>
+    <loc>https://kate-lin.github.io/info-sec/crypto/grad-courses/crypto-math2/</loc>
+    <lastmod>2023-01-19</lastmod>
+  </url>
+  <url>
     <loc>https://kate-lin.github.io/computer-science/experiment/update-log/</loc>
     <lastmod>2023-01-19</lastmod>
   </url>
@@ -17,39 +49,7 @@
     <lastmod>2023-01-19</lastmod>
   </url>
   <url>
-    <loc>https://kate-lin.github.io/computer-science/CTF/ctf-web/</loc>
-    <lastmod>2023-01-19</lastmod>
-  </url>
-  <url>
     <loc>https://kate-lin.github.io/computer-science/experiment/clash-for-windows/</loc>
-    <lastmod>2023-01-19</lastmod>
-  </url>
-  <url>
-    <loc>https://kate-lin.github.io/computer-science/crypto/LowMC/</loc>
-    <lastmod>2023-01-19</lastmod>
-  </url>
-  <url>
-    <loc>https://kate-lin.github.io/computer-science/crypto/LLL-knapsack/</loc>
-    <lastmod>2023-01-19</lastmod>
-  </url>
-  <url>
-    <loc>https://kate-lin.github.io/computer-science/crypto/Koinonia/</loc>
-    <lastmod>2023-01-19</lastmod>
-  </url>
-  <url>
-    <loc>https://kate-lin.github.io/computer-science/crypto/IPE-SA/</loc>
-    <lastmod>2023-01-19</lastmod>
-  </url>
-  <url>
-    <loc>https://kate-lin.github.io/computer-science/crypto/crypto-math1/</loc>
-    <lastmod>2023-01-19</lastmod>
-  </url>
-  <url>
-    <loc>https://kate-lin.github.io/computer-science/crypto/crypto-math2/</loc>
-    <lastmod>2023-01-19</lastmod>
-  </url>
-  <url>
-    <loc>https://kate-lin.github.io/computer-science/crypto/crypto-final-exam/</loc>
     <lastmod>2023-01-19</lastmod>
   </url>
   <url>
