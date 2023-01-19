@@ -7,6 +7,20 @@
     "home_page_url": "https://kate-lin.github.io",
     "items": [
         {
+            "id": "https://kate-lin.github.io/computer-science/experiment/update-log/",
+            "url": "https://kate-lin.github.io/computer-science/experiment/update-log/",
+            "title": "本站更新日志",
+            "date_published": "2023-01-19T10:05:42.000Z",
+            "content_html": "<div class=\"note info\">\n<p>持续更新中 ——</p>\n</div>\n<h1 id=\"20230119\"><a class=\"markdownIt-Anchor\" href=\"#20230119\">#</a> 2023/01/19</h1>\n<h2 id=\"最近修改\"><a class=\"markdownIt-Anchor\" href=\"#最近修改\">#</a> 最近修改：</h2>\n<ol>\n<li>把配色大换血，主体改为蓝绿色调。</li>\n<li>更新了搜索引擎的索引收录，目前已通过了百度盒谷歌的站点验证，应该过段时间就可以搜到本站的内容了。</li>\n<li>增加了两个新的菜单栏：\n<ol>\n<li><code>文章-标签</code> ：目前已经更新了 20 + 标签</li>\n<li><code>友情链接</code> ：虽然现在也没有人来和我投稿，糊逼博客一枚，我链接我自己。</li>\n</ol>\n</li>\n<li>为配合搜索引擎收录，还是绑定了（二级）域名，现在可以通过 <span class=\"exturl\" data-url=\"aHR0cHM6Ly9ibG9nLmJ1bGxldC1ob2xlcy5jbg==\">https://blog.bullet-holes.cn</span> 访问，没有切主域名是因为备案会很麻烦，github.io 没法用 ip 备案（万一 ip 变动），会牵涉到之前的备案，很麻烦，同时 <span class=\"exturl\" data-url=\"aHR0cHM6Ly93d3cuYnVsbGV0LWhvbGVzLmNu\">https://www.bullet-holes.cn</span> 仍可用作旧版 Ghost 博客的入口。</li>\n</ol>\n<h2 id=\"未来todo\"><a class=\"markdownIt-Anchor\" href=\"#未来todo\">#</a> 未来 todo：</h2>\n<ol>\n<li>把<strong>加载动画</strong>换了，学习一下怎么做的（发现原主题好像也用的是开源的，目前已经找到了更换加载动画的方法，见👉<span class=\"exturl\" data-url=\"aHR0cHM6Ly93d3cucmV2ZXJzZXNhY2xlLmNvbS9TdXBwbGVtZW50LWZvci1zaG9rYS10aGVtZS8=\">again 又是这位反转天平大佬</span>）。</li>\n<li>把赞赏按钮改成<strong>分享到微信</strong>的按钮（对微信分享有那么点执念的我本人），要动的是 <code>\\themes\\shoka\\layout\\_partials\\post\\reward.njk</code> （初步看了一下，能看懂，应该能下笔改）。但不知道现在微信开放的接口怎么用，应该可以调个 js，但怎么<strong>设置分享缩略图</strong>也是需要研究一下的，<strong>转发给朋友和转发至朋友圈</strong>是不是也不太一样？</li>\n</ol>\n<h1 id=\"20230117\"><a class=\"markdownIt-Anchor\" href=\"#20230117\">#</a> 2023/01/17</h1>\n<h2 id=\"最近修改-2\"><a class=\"markdownIt-Anchor\" href=\"#最近修改-2\">#</a> 最近修改：</h2>\n<ol>\n<li>把 gravatar 和 cdn.jsdelivr 做了反代，在墙内可以正确加载评论区头像和评论表情。</li>\n<li>因为 jsdelivr 不是实时更新，踩了个大坑（一直调用到没更新的静态文件，反复踩坑），最后给资源打了版本才解决的。</li>\n</ol>\n",
+            "tags": [
+                "计算机科学",
+                "实战",
+                "Hexo",
+                "Shoka",
+                "网站更新"
+            ]
+        },
+        {
             "id": "https://kate-lin.github.io/computer-science/experiment/site-bug-comment/",
             "url": "https://kate-lin.github.io/computer-science/experiment/site-bug-comment/",
             "title": "Shoka评论区功能bug修复经验",
@@ -65,8 +79,8 @@
             "tags": [
                 "计算机科学",
                 "密码学",
-                "文献阅读",
                 "密码学",
+                "文献阅读",
                 "组会",
                 "FE"
             ]
@@ -161,8 +175,8 @@
             "tags": [
                 "计算机科学",
                 "密码学",
-                "密码学",
-                "课程"
+                "课程",
+                "密码学"
             ]
         },
         {
@@ -186,8 +200,8 @@
             "tags": [
                 "计算机科学",
                 "密码学",
-                "密码学",
                 "课程",
+                "密码学",
                 "实践",
                 "电子投票"
             ]

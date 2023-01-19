@@ -8,9 +8,48 @@
     <author>
       <name>Kate Lin</name>
     </author>
-    <updated>2023-01-17T06:15:00.000Z</updated>
+    <updated>2023-01-19T10:05:42.000Z</updated>
     <category term="CRYPTO" />
     <category term=" Code" />
+    <entry>
+        <id>https://kate-lin.github.io/computer-science/experiment/update-log/</id>
+        <title>本站更新日志</title>
+        <link rel="alternate" href="https://kate-lin.github.io/computer-science/experiment/update-log/"/>
+        <content type="html">&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;持续更新中 ——&lt;/p&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;20230119&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#20230119&#34;&gt;#&lt;/a&gt; 2023/01/19&lt;/h1&gt;
+&lt;h2 id=&#34;最近修改&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#最近修改&#34;&gt;#&lt;/a&gt; 最近修改：&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;把配色大换血，主体改为蓝绿色调。&lt;/li&gt;
+&lt;li&gt;更新了搜索引擎的索引收录，目前已通过了百度盒谷歌的站点验证，应该过段时间就可以搜到本站的内容了。&lt;/li&gt;
+&lt;li&gt;增加了两个新的菜单栏：
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;文章-标签&lt;/code&gt; ：目前已经更新了 20 + 标签&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;友情链接&lt;/code&gt; ：虽然现在也没有人来和我投稿，糊逼博客一枚，我链接我自己。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;为配合搜索引擎收录，还是绑定了（二级）域名，现在可以通过 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmJ1bGxldC1ob2xlcy5jbg==&#34;&gt;https://blog.bullet-holes.cn&lt;/span&gt; 访问，没有切主域名是因为备案会很麻烦，github.io 没法用 ip 备案（万一 ip 变动），会牵涉到之前的备案，很麻烦，同时 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYnVsbGV0LWhvbGVzLmNu&#34;&gt;https://www.bullet-holes.cn&lt;/span&gt; 仍可用作旧版 Ghost 博客的入口。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;未来todo&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#未来todo&#34;&gt;#&lt;/a&gt; 未来 todo：&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;把&lt;strong&gt;加载动画&lt;/strong&gt;换了，学习一下怎么做的（发现原主题好像也用的是开源的，目前已经找到了更换加载动画的方法，见👉&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucmV2ZXJzZXNhY2xlLmNvbS9TdXBwbGVtZW50LWZvci1zaG9rYS10aGVtZS8=&#34;&gt;again 又是这位反转天平大佬&lt;/span&gt;）。&lt;/li&gt;
+&lt;li&gt;把赞赏按钮改成&lt;strong&gt;分享到微信&lt;/strong&gt;的按钮（对微信分享有那么点执念的我本人），要动的是 &lt;code&gt;\themes\shoka\layout\_partials\post\reward.njk&lt;/code&gt; （初步看了一下，能看懂，应该能下笔改）。但不知道现在微信开放的接口怎么用，应该可以调个 js，但怎么&lt;strong&gt;设置分享缩略图&lt;/strong&gt;也是需要研究一下的，&lt;strong&gt;转发给朋友和转发至朋友圈&lt;/strong&gt;是不是也不太一样？&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;20230117&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#20230117&#34;&gt;#&lt;/a&gt; 2023/01/17&lt;/h1&gt;
+&lt;h2 id=&#34;最近修改-2&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#最近修改-2&#34;&gt;#&lt;/a&gt; 最近修改：&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;把 gravatar 和 cdn.jsdelivr 做了反代，在墙内可以正确加载评论区头像和评论表情。&lt;/li&gt;
+&lt;li&gt;因为 jsdelivr 不是实时更新，踩了个大坑（一直调用到没更新的静态文件，反复踩坑），最后给资源打了版本才解决的。&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+        <category term="计算机科学" scheme="https://kate-lin.github.io/categories/computer-science/" />
+        <category term="实战" scheme="https://kate-lin.github.io/categories/computer-science/experiment/" />
+        <category term="Hexo" scheme="https://kate-lin.github.io/tags/Hexo/" />
+        <category term="Shoka" scheme="https://kate-lin.github.io/tags/Shoka/" />
+        <category term="网站更新" scheme="https://kate-lin.github.io/tags/%E7%BD%91%E7%AB%99%E6%9B%B4%E6%96%B0/" />
+        <updated>2023-01-19T10:05:42.000Z</updated>
+    </entry>
     <entry>
         <id>https://kate-lin.github.io/computer-science/experiment/site-bug-comment/</id>
         <title>Shoka评论区功能bug修复经验</title>
@@ -435,8 +474,8 @@ M1001 80h400000v40h-400000z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/
 </content>
         <category term="计算机科学" scheme="https://kate-lin.github.io/categories/computer-science/" />
         <category term="密码学" scheme="https://kate-lin.github.io/categories/computer-science/crypto/" />
-        <category term="文献阅读" scheme="https://kate-lin.github.io/tags/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/" />
         <category term="密码学" scheme="https://kate-lin.github.io/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/" />
+        <category term="文献阅读" scheme="https://kate-lin.github.io/tags/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/" />
         <category term="组会" scheme="https://kate-lin.github.io/tags/%E7%BB%84%E4%BC%9A/" />
         <category term="FE" scheme="https://kate-lin.github.io/tags/FE/" />
         <updated>2022-08-22T05:36:00.000Z</updated>
@@ -1636,8 +1675,8 @@ A 给出一对有效消息 - 签名对&lt;span class=&#34;katex&#34;&gt;&lt;span
 </content>
         <category term="计算机科学" scheme="https://kate-lin.github.io/categories/computer-science/" />
         <category term="密码学" scheme="https://kate-lin.github.io/categories/computer-science/crypto/" />
-        <category term="密码学" scheme="https://kate-lin.github.io/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/" />
         <category term="课程" scheme="https://kate-lin.github.io/tags/%E8%AF%BE%E7%A8%8B/" />
+        <category term="密码学" scheme="https://kate-lin.github.io/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/" />
         <updated>2022-01-01T12:19:00.000Z</updated>
     </entry>
     <entry>
@@ -1723,8 +1762,8 @@ A 给出一对有效消息 - 签名对&lt;span class=&#34;katex&#34;&gt;&lt;span
 </content>
         <category term="计算机科学" scheme="https://kate-lin.github.io/categories/computer-science/" />
         <category term="密码学" scheme="https://kate-lin.github.io/categories/computer-science/crypto/" />
-        <category term="密码学" scheme="https://kate-lin.github.io/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/" />
         <category term="课程" scheme="https://kate-lin.github.io/tags/%E8%AF%BE%E7%A8%8B/" />
+        <category term="密码学" scheme="https://kate-lin.github.io/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/" />
         <category term="实践" scheme="https://kate-lin.github.io/tags/%E5%AE%9E%E8%B7%B5/" />
         <category term="电子投票" scheme="https://kate-lin.github.io/tags/%E7%94%B5%E5%AD%90%E6%8A%95%E7%A5%A8/" />
         <updated>2021-12-26T13:03:00.000Z</updated>
