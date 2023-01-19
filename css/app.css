@@ -5243,11 +5243,29 @@ span.label {
 .audio.playing .cover .disc {
   animation-play-state: running;
 }
+.overview .menu .item.active {
+  background-image: linear-gradient(to right, #61b0db 0, var(--color-green) 100%);
+  box-shadow: 0 0 0.75rem var(--color-blue-a3);
+}
 .index.wrap .btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0.3rem 1rem;
+  border-radius: 1rem 0;
+  color: var(--grey-0);
   background-image: linear-gradient(to right, #61b0db 0, var(--color-green) 100%);
   box-shadow: 0 0 0.75rem var(--color-blue-a3);
 }
 .index.wrap .btn::before {
+  position: absolute;
+  display: block;
+  content: '';
+  height: calc(100% - 1rem);
+  width: calc(100% - 1rem);
+  border-radius: 5rem;
+  left: 0.5rem;
+  top: 0.8rem;
   box-shadow: 0 0 0.6rem 0.6rem var(--color-blue-a3);
   background-color: var(--color-blue-a3);
 }
@@ -5257,7 +5275,27 @@ span.label {
   border-radius: 0 1rem;
   background-image: linear-gradient(to right, #61b0db 0, var(--color-green) 100%);
 }
-.page .body h2 .anchor::before {
-  font-size: 0.8125em;
-  color: #61b0db;
+.overview .menu .item.active:hover {
+  box-shadow: 0 0 0.75rem var(--color-blue-a3);
+  color: var(--grey-0);
+}
+.overview .menu .item.active .item {
+  color: currentColor;
+}
+#sidebar .tab {
+  position: absolute;
+  display: inline-flex;
+  padding: 1.875rem 0 0.625rem;
+  margin: 0;
+  min-height: 1.875rem;
+}
+#sidebar .tab .item.active:hover {
+  box-shadow: 0rem 0rem 0.75rem var(--color-blue-a3);
+}
+#sidebar .tab .item::before {
+  font-family: 'ic';
+  font-weight: normal;
+}
+#sidebar .tab .item.active::before {
+  margin-right: 0.3125rem;
 }
