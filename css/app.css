@@ -5243,7 +5243,17 @@ span.label {
 .audio.playing .cover .disc {
   animation-play-state: running;
 }
-.overview .menu .item.active {
+.pagination .prev:hover,
+.pagination .next:hover,
+.pagination .page-number:hover,
+.pagination .page-number.current,
+#nav .menu .submenu .item:hover,
+#nav .menu .submenu .item.active,
+.overview .menu .item.active,
+#sidebar .tab .item:hover,
+#sidebar .tab .item.active,
+#search-pagination .current .page-number {
+  color: var(--grey-0);
   background-image: linear-gradient(to right, #61b0db 0, var(--color-green) 100%);
   box-shadow: 0 0 0.75rem var(--color-blue-a3);
 }
@@ -5274,28 +5284,4 @@ span.label {
   right: auto;
   border-radius: 0 1rem;
   background-image: linear-gradient(to right, #61b0db 0, var(--color-green) 100%);
-}
-.overview .menu .item.active:hover {
-  box-shadow: 0 0 0.75rem var(--color-blue-a3);
-  color: var(--grey-0);
-}
-.overview .menu .item.active .item {
-  color: currentColor;
-}
-#sidebar .tab {
-  position: absolute;
-  display: inline-flex;
-  padding: 1.875rem 0 0.625rem;
-  margin: 0;
-  min-height: 1.875rem;
-}
-#sidebar .tab .item.active:hover {
-  box-shadow: 0rem 0rem 0.75rem var(--color-blue-a3);
-}
-#sidebar .tab .item::before {
-  font-family: 'ic';
-  font-weight: normal;
-}
-#sidebar .tab .item.active::before {
-  margin-right: 0.3125rem;
 }
