@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://kate-lin.github.io/friends/index.html</loc>
+    <loc>https://kate-lin.github.io/about/</loc>
     
     <lastmod>2023-01-19</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://kate-lin.github.io/about/</loc>
+    <loc>https://kate-lin.github.io/friends/index.html</loc>
     
     <lastmod>2023-01-19</lastmod>
     
@@ -218,6 +218,20 @@
   </url>
   
   <url>
+    <loc>https://kate-lin.github.io/tags/Lattice-%E6%A0%BC/</loc>
+    <lastmod>2023-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://kate-lin.github.io/tags/LLL%E7%AE%97%E6%B3%95/</loc>
+    <lastmod>2023-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://kate-lin.github.io/tags/%E8%AF%BE%E7%A8%8B/</loc>
     <lastmod>2023-01-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -233,20 +247,6 @@
   
   <url>
     <loc>https://kate-lin.github.io/tags/%E7%94%B5%E5%AD%90%E6%8A%95%E7%A5%A8/</loc>
-    <lastmod>2023-01-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://kate-lin.github.io/tags/Lattice-%E6%A0%BC/</loc>
-    <lastmod>2023-01-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://kate-lin.github.io/tags/LLL%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2023-01-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -288,13 +288,6 @@
   </url>
   
   <url>
-    <loc>https://kate-lin.github.io/tags/Redis/</loc>
-    <lastmod>2023-01-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://kate-lin.github.io/tags/VPN/</loc>
     <lastmod>2023-01-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -303,6 +296,13 @@
   
   <url>
     <loc>https://kate-lin.github.io/tags/Clash-for-Windows/</loc>
+    <lastmod>2023-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://kate-lin.github.io/tags/Redis/</loc>
     <lastmod>2023-01-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
