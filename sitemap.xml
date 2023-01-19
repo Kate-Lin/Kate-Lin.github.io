@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://kate-lin.github.io/friends/index.html</loc>
+    
+    <lastmod>2023-01-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://kate-lin.github.io/about/</loc>
     
     <lastmod>2023-01-19</lastmod>
@@ -160,27 +169,6 @@
   </url>
   
   <url>
-    <loc>https://kate-lin.github.io/tags/%E4%BB%A3%E7%A0%81%E5%AE%9E%E6%88%98/</loc>
-    <lastmod>2023-01-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://kate-lin.github.io/tags/Web%E5%AE%89%E5%85%A8/</loc>
-    <lastmod>2023-01-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://kate-lin.github.io/tags/SQL%E6%B3%A8%E5%85%A5/</loc>
-    <lastmod>2023-01-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://kate-lin.github.io/tags/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/</loc>
     <lastmod>2023-01-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -273,6 +261,27 @@
   
   <url>
     <loc>https://kate-lin.github.io/tags/%E6%8A%BD%E8%B1%A1%E4%BB%A3%E6%95%B0/</loc>
+    <lastmod>2023-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://kate-lin.github.io/tags/%E4%BB%A3%E7%A0%81%E5%AE%9E%E6%88%98/</loc>
+    <lastmod>2023-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://kate-lin.github.io/tags/Web%E5%AE%89%E5%85%A8/</loc>
+    <lastmod>2023-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://kate-lin.github.io/tags/SQL%E6%B3%A8%E5%85%A5/</loc>
     <lastmod>2023-01-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
