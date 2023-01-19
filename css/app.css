@@ -5269,12 +5269,6 @@ span.label {
   box-shadow: 0 0 0.6rem 0.6rem var(--color-blue-a3);
   background-color: var(--color-blue-a3);
 }
-.segments .btn {
-  left: 0;
-  right: auto;
-  border-radius: 0 1rem;
-  background-image: linear-gradient(to right, #61b0db 0, var(--color-green) 100%);
-}
 .overview .menu .item.active:hover {
   box-shadow: 0 0 0.75rem var(--color-blue-a3);
   color: var(--grey-0);
