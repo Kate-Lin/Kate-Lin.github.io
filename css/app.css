@@ -76,7 +76,7 @@
   --text-color: var(--grey-7);
   --header-text-color: var(--grey-0);
   --primary-color: var(--color-blue);
-  -nav-bg: linear-gradient(-225deg, #ece0e9 0, #a1bcd9 100%);
+  --nav-bg: linear-gradient(-225deg, #ece0e9 0, #a1bcd9 100%);
 }
 [data-theme="dark"]:root {
   --grey-0: #222;
@@ -5244,7 +5244,7 @@ span.label {
   animation-play-state: running;
 }
 .index.wrap .btn {
-  background-image: linear-gradient(to right, var(#61b0db) 0, var(--color-green) 100%);
+  background-image: linear-gradient(to right, #61b0db 0, var(--color-green) 100%);
   box-shadow: 0 0 0.75rem var(--color-blue-a3);
 }
 .index.wrap .btn::before {
@@ -5255,9 +5255,9 @@ span.label {
   left: 0;
   right: auto;
   border-radius: 0 1rem;
-  background-image: linear-gradient(to right, var(#61b0db) 0, var(--color-green) 100%);
+  background-image: linear-gradient(to right, #61b0db 0, var(--color-green) 100%);
 }
 .page .body h2 .anchor::before {
   font-size: 0.8125em;
-  color: var(#61b0db);
+  color: #61b0db;
 }
