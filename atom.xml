@@ -109,6 +109,10 @@
 </content>
         <category term="计算机科学" scheme="https://kate-lin.github.io/categories/computer-science/" />
         <category term="实战" scheme="https://kate-lin.github.io/categories/computer-science/experiment/" />
+        <category term="代码实战" scheme="https://kate-lin.github.io/tags/%E4%BB%A3%E7%A0%81%E5%AE%9E%E6%88%98/" />
+        <category term="Hexo" scheme="https://kate-lin.github.io/tags/Hexo/" />
+        <category term="Shoka" scheme="https://kate-lin.github.io/tags/Shoka/" />
+        <category term="bugs" scheme="https://kate-lin.github.io/tags/bugs/" />
         <updated>2023-01-17T06:15:00.000Z</updated>
     </entry>
     <entry>
@@ -131,6 +135,7 @@
 &lt;p&gt;最后，会自己努力把前路走好。&lt;/p&gt;
 </content>
         <category term="杂谈" scheme="https://kate-lin.github.io/categories/notes/" />
+        <category term="个人" scheme="https://kate-lin.github.io/tags/%E4%B8%AA%E4%BA%BA/" />
         <updated>2022-10-14T00:44:00.000Z</updated>
     </entry>
     <entry>
@@ -182,6 +187,9 @@
 </content>
         <category term="计算机科学" scheme="https://kate-lin.github.io/categories/computer-science/" />
         <category term="安全CTF" scheme="https://kate-lin.github.io/categories/computer-science/CTF/" />
+        <category term="代码实战" scheme="https://kate-lin.github.io/tags/%E4%BB%A3%E7%A0%81%E5%AE%9E%E6%88%98/" />
+        <category term="Web安全" scheme="https://kate-lin.github.io/tags/Web%E5%AE%89%E5%85%A8/" />
+        <category term="SQL注入" scheme="https://kate-lin.github.io/tags/SQL%E6%B3%A8%E5%85%A5/" />
         <updated>2022-10-05T05:58:01.000Z</updated>
     </entry>
     <entry>
@@ -205,6 +213,7 @@
 &lt;h1 id=&#34;about-the-blog&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#about-the-blog&#34;&gt;#&lt;/a&gt; About the blog&lt;/h1&gt;
 &lt;p&gt;最早建于 2021 年的圣诞节，历经无数版本更迭，写于 2022 年 10 月 5 日。&lt;/p&gt;
 </content>
+        <category term="个人" scheme="https://kate-lin.github.io/tags/%E4%B8%AA%E4%BA%BA/" />
         <updated>2022-10-05T03:46:54.000Z</updated>
     </entry>
     <entry>
@@ -426,6 +435,10 @@ M1001 80h400000v40h-400000z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/
 </content>
         <category term="计算机科学" scheme="https://kate-lin.github.io/categories/computer-science/" />
         <category term="密码学" scheme="https://kate-lin.github.io/categories/computer-science/crypto/" />
+        <category term="文献阅读" scheme="https://kate-lin.github.io/tags/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/" />
+        <category term="密码学" scheme="https://kate-lin.github.io/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/" />
+        <category term="组会" scheme="https://kate-lin.github.io/tags/%E7%BB%84%E4%BC%9A/" />
+        <category term="FE" scheme="https://kate-lin.github.io/tags/FE/" />
         <updated>2022-08-22T05:36:00.000Z</updated>
     </entry>
     <entry>
@@ -454,6 +467,8 @@ M1001 80h400000v40h-400000z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/
 </content>
         <category term="计算机科学" scheme="https://kate-lin.github.io/categories/computer-science/" />
         <category term="实战" scheme="https://kate-lin.github.io/categories/computer-science/experiment/" />
+        <category term="代码实战" scheme="https://kate-lin.github.io/tags/%E4%BB%A3%E7%A0%81%E5%AE%9E%E6%88%98/" />
+        <category term="Redis" scheme="https://kate-lin.github.io/tags/Redis/" />
         <updated>2022-06-08T03:24:00.000Z</updated>
     </entry>
     <entry>
@@ -466,6 +481,9 @@ M1001 80h400000v40h-400000z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/
 </content>
         <category term="计算机科学" scheme="https://kate-lin.github.io/categories/computer-science/" />
         <category term="实战" scheme="https://kate-lin.github.io/categories/computer-science/experiment/" />
+        <category term="代码实战" scheme="https://kate-lin.github.io/tags/%E4%BB%A3%E7%A0%81%E5%AE%9E%E6%88%98/" />
+        <category term="VPN" scheme="https://kate-lin.github.io/tags/VPN/" />
+        <category term="Clash for Windows" scheme="https://kate-lin.github.io/tags/Clash-for-Windows/" />
         <updated>2022-04-20T00:04:00.000Z</updated>
     </entry>
     <entry>
@@ -600,6 +618,9 @@ M834 80h400000v40h-400000z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/s
 </content>
         <category term="计算机科学" scheme="https://kate-lin.github.io/categories/computer-science/" />
         <category term="密码学" scheme="https://kate-lin.github.io/categories/computer-science/crypto/" />
+        <category term="密码学" scheme="https://kate-lin.github.io/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/" />
+        <category term="Lattice,格" scheme="https://kate-lin.github.io/tags/Lattice-%E6%A0%BC/" />
+        <category term="LLL算法" scheme="https://kate-lin.github.io/tags/LLL%E7%AE%97%E6%B3%95/" />
         <updated>2022-03-04T07:30:00.000Z</updated>
     </entry>
     <entry>
@@ -621,6 +642,8 @@ M834 80h400000v40h-400000z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/s
 &lt;/ul&gt;
 </content>
         <category term="杂谈" scheme="https://kate-lin.github.io/categories/notes/" />
+        <category term="个人" scheme="https://kate-lin.github.io/tags/%E4%B8%AA%E4%BA%BA/" />
+        <category term="实验室周报" scheme="https://kate-lin.github.io/tags/%E5%AE%9E%E9%AA%8C%E5%AE%A4%E5%91%A8%E6%8A%A5/" />
         <updated>2022-01-02T05:54:00.000Z</updated>
     </entry>
     <entry>
@@ -759,6 +782,9 @@ I 是 (R, +) 的加法子群。&lt;br&gt;
 </content>
         <category term="计算机科学" scheme="https://kate-lin.github.io/categories/computer-science/" />
         <category term="密码学" scheme="https://kate-lin.github.io/categories/computer-science/crypto/" />
+        <category term="课程" scheme="https://kate-lin.github.io/tags/%E8%AF%BE%E7%A8%8B/" />
+        <category term="数学" scheme="https://kate-lin.github.io/tags/%E6%95%B0%E5%AD%A6/" />
+        <category term="抽象代数" scheme="https://kate-lin.github.io/tags/%E6%8A%BD%E8%B1%A1%E4%BB%A3%E6%95%B0/" />
         <updated>2022-01-02T02:30:00.000Z</updated>
     </entry>
     <entry>
@@ -1140,6 +1166,9 @@ M834 80h400000v40h-400000z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/s
 </content>
         <category term="计算机科学" scheme="https://kate-lin.github.io/categories/computer-science/" />
         <category term="密码学" scheme="https://kate-lin.github.io/categories/computer-science/crypto/" />
+        <category term="课程" scheme="https://kate-lin.github.io/tags/%E8%AF%BE%E7%A8%8B/" />
+        <category term="数学" scheme="https://kate-lin.github.io/tags/%E6%95%B0%E5%AD%A6/" />
+        <category term="抽象代数" scheme="https://kate-lin.github.io/tags/%E6%8A%BD%E8%B1%A1%E4%BB%A3%E6%95%B0/" />
         <updated>2022-01-02T02:29:00.000Z</updated>
     </entry>
     <entry>
@@ -1607,6 +1636,8 @@ A 给出一对有效消息 - 签名对&lt;span class=&#34;katex&#34;&gt;&lt;span
 </content>
         <category term="计算机科学" scheme="https://kate-lin.github.io/categories/computer-science/" />
         <category term="密码学" scheme="https://kate-lin.github.io/categories/computer-science/crypto/" />
+        <category term="密码学" scheme="https://kate-lin.github.io/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/" />
+        <category term="课程" scheme="https://kate-lin.github.io/tags/%E8%AF%BE%E7%A8%8B/" />
         <updated>2022-01-01T12:19:00.000Z</updated>
     </entry>
     <entry>
@@ -1621,6 +1652,8 @@ A 给出一对有效消息 - 签名对&lt;span class=&#34;katex&#34;&gt;&lt;span
 &lt;/ul&gt;
 </content>
         <category term="杂谈" scheme="https://kate-lin.github.io/categories/notes/" />
+        <category term="个人" scheme="https://kate-lin.github.io/tags/%E4%B8%AA%E4%BA%BA/" />
+        <category term="实验室周报" scheme="https://kate-lin.github.io/tags/%E5%AE%9E%E9%AA%8C%E5%AE%A4%E5%91%A8%E6%8A%A5/" />
         <updated>2021-12-26T13:32:00.000Z</updated>
     </entry>
     <entry>
@@ -1690,6 +1723,10 @@ A 给出一对有效消息 - 签名对&lt;span class=&#34;katex&#34;&gt;&lt;span
 </content>
         <category term="计算机科学" scheme="https://kate-lin.github.io/categories/computer-science/" />
         <category term="密码学" scheme="https://kate-lin.github.io/categories/computer-science/crypto/" />
+        <category term="密码学" scheme="https://kate-lin.github.io/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/" />
+        <category term="课程" scheme="https://kate-lin.github.io/tags/%E8%AF%BE%E7%A8%8B/" />
+        <category term="实践" scheme="https://kate-lin.github.io/tags/%E5%AE%9E%E8%B7%B5/" />
+        <category term="电子投票" scheme="https://kate-lin.github.io/tags/%E7%94%B5%E5%AD%90%E6%8A%95%E7%A5%A8/" />
         <updated>2021-12-26T13:03:00.000Z</updated>
     </entry>
     <entry>
@@ -1745,6 +1782,10 @@ A 给出一对有效消息 - 签名对&lt;span class=&#34;katex&#34;&gt;&lt;span
 </content>
         <category term="计算机科学" scheme="https://kate-lin.github.io/categories/computer-science/" />
         <category term="密码学" scheme="https://kate-lin.github.io/categories/computer-science/crypto/" />
+        <category term="密码学" scheme="https://kate-lin.github.io/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/" />
+        <category term="对称密码" scheme="https://kate-lin.github.io/tags/%E5%AF%B9%E7%A7%B0%E5%AF%86%E7%A0%81/" />
+        <category term="LowMC" scheme="https://kate-lin.github.io/tags/LowMC/" />
+        <category term="S盒" scheme="https://kate-lin.github.io/tags/S%E7%9B%92/" />
         <updated>2021-12-26T07:12:00.000Z</updated>
     </entry>
 </feed>
