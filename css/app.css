@@ -5295,3 +5295,9 @@ span.label {
 .collapse .item:not(:last-child):not(.title)::after {
   border-left: 0.2rem solid var(--color-blue-a5);
 }
+.breadcrumb span.current {
+  background-color: var(--color-red-a3);
+}
+.contents .active>.a:hover {
+  color: var(--color-green);
+}
