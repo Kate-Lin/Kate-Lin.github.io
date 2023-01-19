@@ -86,8 +86,8 @@
 &lt;li&gt;但上传之后一直没有生效，查看调用的 &lt;code&gt;MiniValine.min.js&lt;/code&gt;  发现仍然是修改之前的内容，搜索帖子发现 &lt;code&gt;cdn.jsdelivr.net&lt;/code&gt;  的链接内容并不是实时刷新，往往一天左右才会更新。&lt;/li&gt;
 &lt;li&gt;&lt;mark&gt;Solve:&lt;/mark&gt;
 &lt;ul&gt;
-&lt;li&gt;** 第一种办法：** 将 &lt;code&gt;MiniValine.min.js&lt;/code&gt;  存到项目文件夹的 &lt;code&gt;theme/shoka/source/js/&lt;/code&gt;  目录下，以 &lt;code&gt;/js/&lt;/code&gt;  相对路径或网站部署的绝对路径访问 js 文件，可参见&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucmV2ZXJzZXNhY2xlLmNvbS9jb21wdXRlci1zY2llbmNlL3Nob2thLXRoZW1lL0ltYWdlLw==&#34;&gt; ReverseScale MiniValine 插件替换思路&lt;/span&gt;），&lt;span class=&#34;orange&#34;&gt;这样可以保障每次部署都可以适应最新的 MiniValine 版本&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;** 第二种办法：** 如果不想把 &lt;code&gt;MiniValine.min.js&lt;/code&gt;  保存在项目里，仍然以 &lt;code&gt;cdn.jsdelivr.net&lt;/code&gt;  调用 js 文件，需要把原仓库的 release 标明版本，以 &lt;code&gt;https://cdn.jsdelivr.net/gh/XXX/YYY@Version/ZZZ/MiniValine.min.js&lt;/code&gt;  为链接调用，在 vendors 中修改即为 &lt;code&gt;valine: gh/XXX/YYY@Version/ZZZ/MiniValine.min.js&lt;/code&gt; （Version 为 release tag）。&lt;/li&gt;
+&lt;li&gt;&lt;ins&gt;第一种办法&lt;/ins&gt;：将 &lt;code&gt;MiniValine.min.js&lt;/code&gt;  存到项目文件夹的 &lt;code&gt;theme/shoka/source/js/&lt;/code&gt;  目录下，以 &lt;code&gt;/js/&lt;/code&gt;  相对路径或网站部署的绝对路径访问 js 文件，可参见&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucmV2ZXJzZXNhY2xlLmNvbS9jb21wdXRlci1zY2llbmNlL3Nob2thLXRoZW1lL0ltYWdlLw==&#34;&gt; ReverseScale MiniValine 插件替换思路&lt;/span&gt;），&lt;span class=&#34;orange&#34;&gt;这样可以保障每次部署都可以适应最新的 MiniValine 版本&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;ins&gt;第二种办法&lt;/ins&gt;：如果不想把 &lt;code&gt;MiniValine.min.js&lt;/code&gt;  保存在项目里，仍然以 &lt;code&gt;cdn.jsdelivr.net&lt;/code&gt;  调用 js 文件，需要把原仓库的 release 标明版本，以 &lt;code&gt;https://cdn.jsdelivr.net/gh/XXX/YYY@Version/ZZZ/MiniValine.min.js&lt;/code&gt;  为链接调用，在 vendors 中修改即为 &lt;code&gt;valine: gh/XXX/YYY@Version/ZZZ/MiniValine.min.js&lt;/code&gt; （Version 为 release tag）。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;

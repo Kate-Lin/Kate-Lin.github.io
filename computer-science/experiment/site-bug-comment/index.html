@@ -115,12 +115,12 @@ Bullet Holes = 双木成申 = 六边形女战士变形中</title>
       </div>
       <div id="imgs" class="pjax">
         <ul>
-          <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2022/10/05/f860898bde07bbdd.jpg"></li>
-          <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2022/10/05/5613e11cfaf249ad.jpg"></li>
           <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2022/10/05/22072775a88a4eba.jpg"></li>
-          <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2022/10/05/f4e611398efa5e2c.jpeg"></li>
-          <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2022/10/05/bbaa183ffca5c77b.jpg"></li>
-          <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2022/10/05/29af7d055ca247cf.jpg"></li>
+          <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2022/10/05/7e450bb2359fce06.jpg"></li>
+          <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2022/10/05/5613e11cfaf249ad.jpg"></li>
+          <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2023/01/17/79193c7a500d63d3.jpg"></li>
+          <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2022/10/05/ad5e03f2f3815e3b.png"></li>
+          <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2022/10/05/0b9340f68c5acd43.jpg"></li>
         </ul>
       </div>
     </header>
@@ -240,8 +240,8 @@ Bullet Holes = 双木成申 = 六边形女战士变形中</title>
 <li>但上传之后一直没有生效，查看调用的 <code>MiniValine.min.js</code>  发现仍然是修改之前的内容，搜索帖子发现 <code>cdn.jsdelivr.net</code>  的链接内容并不是实时刷新，往往一天左右才会更新。</li>
 <li><mark>Solve:</mark>
 <ul>
-<li>** 第一种办法：** 将 <code>MiniValine.min.js</code>  存到项目文件夹的 <code>theme/shoka/source/js/</code>  目录下，以 <code>/js/</code>  相对路径或网站部署的绝对路径访问 js 文件，可参见<span class="exturl" data-url="aHR0cHM6Ly93d3cucmV2ZXJzZXNhY2xlLmNvbS9jb21wdXRlci1zY2llbmNlL3Nob2thLXRoZW1lL0ltYWdlLw=="> ReverseScale MiniValine 插件替换思路</span>），<span class="orange">这样可以保障每次部署都可以适应最新的 MiniValine 版本</span></li>
-<li>** 第二种办法：** 如果不想把 <code>MiniValine.min.js</code>  保存在项目里，仍然以 <code>cdn.jsdelivr.net</code>  调用 js 文件，需要把原仓库的 release 标明版本，以 <code>https://cdn.jsdelivr.net/gh/XXX/YYY@Version/ZZZ/MiniValine.min.js</code>  为链接调用，在 vendors 中修改即为 <code>valine: gh/XXX/YYY@Version/ZZZ/MiniValine.min.js</code> （Version 为 release tag）。</li>
+<li><ins>第一种办法</ins>：将 <code>MiniValine.min.js</code>  存到项目文件夹的 <code>theme/shoka/source/js/</code>  目录下，以 <code>/js/</code>  相对路径或网站部署的绝对路径访问 js 文件，可参见<span class="exturl" data-url="aHR0cHM6Ly93d3cucmV2ZXJzZXNhY2xlLmNvbS9jb21wdXRlci1zY2llbmNlL3Nob2thLXRoZW1lL0ltYWdlLw=="> ReverseScale MiniValine 插件替换思路</span>），<span class="orange">这样可以保障每次部署都可以适应最新的 MiniValine 版本</span></li>
+<li><ins>第二种办法</ins>：如果不想把 <code>MiniValine.min.js</code>  保存在项目里，仍然以 <code>cdn.jsdelivr.net</code>  调用 js 文件，需要把原仓库的 release 标明版本，以 <code>https://cdn.jsdelivr.net/gh/XXX/YYY@Version/ZZZ/MiniValine.min.js</code>  为链接调用，在 vendors 中修改即为 <code>valine: gh/XXX/YYY@Version/ZZZ/MiniValine.min.js</code> （Version 为 release tag）。</li>
 </ul>
 </li>
 </ul>
@@ -271,7 +271,7 @@ Bullet Holes = 双木成申 = 六边形女战士变形中</title>
       <i class="ic i-calendar-check"></i>
     </span>
     <span class="text">更新于</span>
-    <time title="修改时间：2023-01-17 19:38:53" itemprop="dateModified" datetime="2023-01-17T19:38:53+08:00">2023-01-17</time>
+    <time title="修改时间：2023-01-19 10:20:54" itemprop="dateModified" datetime="2023-01-19T10:20:54+08:00">2023-01-19</time>
   </span>
   <span id="computer-science/experiment/site-bug-comment/" class="item leancloud_visitors" data-flag-title="Shoka评论区功能bug修复经验" title="阅读次数">
       <span class="icon">
@@ -311,7 +311,7 @@ Bullet Holes = 双木成申 = 六边形女战士变形中</title>
     <div class="item left">
       
 
-  <a href="/notes/notes20221014/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;s3.bmp.ovh&#x2F;imgs&#x2F;2023&#x2F;01&#x2F;17&#x2F;79193c7a500d63d3.jpg" title="thoughts on 2022-10-14">
+  <a href="/notes/notes20221014/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;s3.bmp.ovh&#x2F;imgs&#x2F;2022&#x2F;10&#x2F;05&#x2F;5613e11cfaf249ad.jpg" title="thoughts on 2022-10-14">
   <span class="type">上一篇</span>
   <span class="category"><i class="ic i-flag"></i> 杂谈</span>
   <h3>thoughts on 2022-10-14</h3>
@@ -431,9 +431,12 @@ Bullet Holes = 双木成申 = 六边形女战士变形中</title>
   <li class="item">
     
 <div class="breadcrumb">
+<a href="/categories/computer-science/" title="分类于 计算机科学">计算机科学</a>
+<i class="ic i-angle-right"></i>
+<a href="/categories/computer-science/crypto/" title="分类于 密码学">密码学</a>
 </div>
 
-    <span><a href="/about/" title="about">about</a></span>
+    <span><a href="/computer-science/crypto/crypto-math1/" title="网安数学复习【1】">网安数学复习【1】</a></span>
   </li>
 
       
@@ -442,30 +445,10 @@ Bullet Holes = 双木成申 = 六边形女战士变形中</title>
 <div class="breadcrumb">
 <a href="/categories/computer-science/" title="分类于 计算机科学">计算机科学</a>
 <i class="ic i-angle-right"></i>
-<a href="/categories/computer-science/CTF/" title="分类于 安全CTF">安全CTF</a>
+<a href="/categories/computer-science/crypto/" title="分类于 密码学">密码学</a>
 </div>
 
-    <span><a href="/computer-science/CTF/ctf-web/" title="毫无基础的Web学习记录">毫无基础的Web学习记录</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/notes/" title="分类于 杂谈">杂谈</a>
-</div>
-
-    <span><a href="/notes/week220102/" title="Weekly Journal 20220102">Weekly Journal 20220102</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/notes/" title="分类于 杂谈">杂谈</a>
-</div>
-
-    <span><a href="/notes/week211226/" title="Weekly Journal 20211226">Weekly Journal 20211226</a></span>
+    <span><a href="/computer-science/crypto/IPE-SA/" title="Fully Secure Functional Encryption for Inner Products, from Standard Assumptions阅读笔记">Fully Secure Functional Encryption for Inner Products, from Standard Assumptions阅读笔记</a></span>
   </li>
 
       
@@ -484,12 +467,19 @@ Bullet Holes = 双木成申 = 六边形女战士变形中</title>
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/computer-science/" title="分类于 计算机科学">计算机科学</a>
-<i class="ic i-angle-right"></i>
-<a href="/categories/computer-science/experiment/" title="分类于 实战">实战</a>
+<a href="/categories/notes/" title="分类于 杂谈">杂谈</a>
 </div>
 
-    <span><a href="/computer-science/experiment/site-bug-comment/" title="Shoka评论区功能bug修复经验">Shoka评论区功能bug修复经验</a></span>
+    <span><a href="/notes/notes20221014/" title="thoughts on 2022-10-14">thoughts on 2022-10-14</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/about/" title="about">about</a></span>
   </li>
 
       
@@ -498,10 +488,10 @@ Bullet Holes = 双木成申 = 六边形女战士变形中</title>
 <div class="breadcrumb">
 <a href="/categories/computer-science/" title="分类于 计算机科学">计算机科学</a>
 <i class="ic i-angle-right"></i>
-<a href="/categories/computer-science/crypto/" title="分类于 密码学">密码学</a>
+<a href="/categories/computer-science/experiment/" title="分类于 实战">实战</a>
 </div>
 
-    <span><a href="/computer-science/crypto/crypto-math1/" title="网安数学复习【1】">网安数学复习【1】</a></span>
+    <span><a href="/computer-science/experiment/clash-for-windows/" title="一些clash for windows踩雷">一些clash for windows踩雷</a></span>
   </li>
 
       
@@ -520,10 +510,22 @@ Bullet Holes = 双木成申 = 六边形女战士变形中</title>
   <li class="item">
     
 <div class="breadcrumb">
+<a href="/categories/computer-science/" title="分类于 计算机科学">计算机科学</a>
+<i class="ic i-angle-right"></i>
+<a href="/categories/computer-science/experiment/" title="分类于 实战">实战</a>
+</div>
+
+    <span><a href="/computer-science/experiment/site-bug-comment/" title="Shoka评论区功能bug修复经验">Shoka评论区功能bug修复经验</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
 <a href="/categories/notes/" title="分类于 杂谈">杂谈</a>
 </div>
 
-    <span><a href="/notes/notes20221014/" title="thoughts on 2022-10-14">thoughts on 2022-10-14</a></span>
+    <span><a href="/notes/week211226/" title="Weekly Journal 20211226">Weekly Journal 20211226</a></span>
   </li>
 
       
@@ -532,10 +534,10 @@ Bullet Holes = 双木成申 = 六边形女战士变形中</title>
 <div class="breadcrumb">
 <a href="/categories/computer-science/" title="分类于 计算机科学">计算机科学</a>
 <i class="ic i-angle-right"></i>
-<a href="/categories/computer-science/crypto/" title="分类于 密码学">密码学</a>
+<a href="/categories/computer-science/CTF/" title="分类于 安全CTF">安全CTF</a>
 </div>
 
-    <span><a href="/computer-science/crypto/LowMC/" title="Cryptanalysis of Full LowMC and LowMC-M with Algebraic Techniques论文报告">Cryptanalysis of Full LowMC and LowMC-M with Algebraic Techniques论文报告</a></span>
+    <span><a href="/computer-science/CTF/ctf-web/" title="毫无基础的Web学习记录">毫无基础的Web学习记录</a></span>
   </li>
 
   </ul>
