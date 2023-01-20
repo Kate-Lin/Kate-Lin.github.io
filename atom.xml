@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://kate-lin.github.io</id>
+    <id>https://blog.bullet-holes.cn</id>
     <title>双木成申</title>
     <subtitle>六边形女战士变形中</subtitle>
-    <icon>https://kate-lin.github.io/images/favicon.ico</icon>
-    <link href="https://kate-lin.github.io" />
+    <icon>https://blog.bullet-holes.cn/images/favicon.ico</icon>
+    <link href="https://blog.bullet-holes.cn" />
     <author>
       <name>Kate Lin</name>
     </author>
@@ -12,9 +12,9 @@
     <category term="CRYPTO" />
     <category term=" Code" />
     <entry>
-        <id>https://kate-lin.github.io/computer-science/coding/202301lc/</id>
+        <id>https://blog.bullet-holes.cn/computer-science/coding/202301lc/</id>
         <title>2023/01Leetcode刷题</title>
-        <link rel="alternate" href="https://kate-lin.github.io/computer-science/coding/202301lc/"/>
+        <link rel="alternate" href="https://blog.bullet-holes.cn/computer-science/coding/202301lc/"/>
         <content type="html">&lt;h1 id=&#34;1819-序列中不同最大公约数的数目&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1819-序列中不同最大公约数的数目&#34;&gt;#&lt;/a&gt; #1819 序列中不同最大公约数的数目&lt;/h1&gt;
 &lt;div class=&#34;note primary&#34;&gt;
 &lt;ul&gt;
@@ -30,17 +30,17 @@
 &lt;li&gt;不要遍历比当前 gcd 小的数，缩短时间。&lt;/li&gt;
 &lt;/ul&gt;
 </content>
-        <category term="计算机科学" scheme="https://kate-lin.github.io/categories/computer-science/" />
-        <category term="编程" scheme="https://kate-lin.github.io/categories/computer-science/coding/" />
-        <category term="编程" scheme="https://kate-lin.github.io/tags/%E7%BC%96%E7%A8%8B/" />
-        <category term="Leetcode" scheme="https://kate-lin.github.io/tags/Leetcode/" />
-        <category term="算法" scheme="https://kate-lin.github.io/tags/%E7%AE%97%E6%B3%95/" />
+        <category term="计算机科学" scheme="https://blog.bullet-holes.cn/categories/computer-science/" />
+        <category term="编程" scheme="https://blog.bullet-holes.cn/categories/computer-science/coding/" />
+        <category term="编程" scheme="https://blog.bullet-holes.cn/tags/%E7%BC%96%E7%A8%8B/" />
+        <category term="Leetcode" scheme="https://blog.bullet-holes.cn/tags/Leetcode/" />
+        <category term="算法" scheme="https://blog.bullet-holes.cn/tags/%E7%AE%97%E6%B3%95/" />
         <updated>2023-01-19T12:36:00.000Z</updated>
     </entry>
     <entry>
-        <id>https://kate-lin.github.io/computer-science/experiment/update-log/</id>
+        <id>https://blog.bullet-holes.cn/computer-science/experiment/update-log/</id>
         <title>本站更新日志</title>
-        <link rel="alternate" href="https://kate-lin.github.io/computer-science/experiment/update-log/"/>
+        <link rel="alternate" href="https://blog.bullet-holes.cn/computer-science/experiment/update-log/"/>
         <content type="html">&lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;持续更新中 ——&lt;/p&gt;
 &lt;/div&gt;
@@ -55,7 +55,7 @@
 &lt;li&gt;&lt;code&gt;友情链接&lt;/code&gt; ：虽然现在也没有人来和我投稿，糊逼博客一枚，我链接我自己。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
-&lt;li&gt;为配合搜索引擎收录，还是绑定了（二级）域名，现在可以通过 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmJ1bGxldC1ob2xlcy5jbg==&#34;&gt;https://blog.bullet-holes.cn&lt;/span&gt; 访问，没有切主域名是因为备案会很麻烦，github.io 没法用 ip 备案（万一 ip 变动），会牵涉到之前的备案，很麻烦，同时 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYnVsbGV0LWhvbGVzLmNu&#34;&gt;https://www.bullet-holes.cn&lt;/span&gt; 仍可用作旧版 Ghost 博客的入口。&lt;/li&gt;
+&lt;li&gt;为配合搜索引擎收录，还是绑定了（二级）域名，现在可以通过 &lt;a href=&#34;https://blog.bullet-holes.cn&#34;&gt;https://blog.bullet-holes.cn&lt;/a&gt; 访问，没有切主域名是因为备案会很麻烦，github.io 没法用 ip 备案（万一 ip 变动），会牵涉到之前的备案，很麻烦，同时 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYnVsbGV0LWhvbGVzLmNu&#34;&gt;https://www.bullet-holes.cn&lt;/span&gt; 仍可用作旧版 Ghost 博客的入口。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;未来todo&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#未来todo&#34;&gt;#&lt;/a&gt; 未来 todo：&lt;/h2&gt;
 &lt;ol&gt;
@@ -69,17 +69,17 @@
 &lt;li&gt;因为 jsdelivr 不是实时更新，踩了个大坑（一直调用到没更新的静态文件，反复踩坑），最后给资源打了版本才解决的。&lt;/li&gt;
 &lt;/ol&gt;
 </content>
-        <category term="计算机科学" scheme="https://kate-lin.github.io/categories/computer-science/" />
-        <category term="实战" scheme="https://kate-lin.github.io/categories/computer-science/experiment/" />
-        <category term="Hexo" scheme="https://kate-lin.github.io/tags/Hexo/" />
-        <category term="Shoka" scheme="https://kate-lin.github.io/tags/Shoka/" />
-        <category term="网站更新" scheme="https://kate-lin.github.io/tags/%E7%BD%91%E7%AB%99%E6%9B%B4%E6%96%B0/" />
+        <category term="计算机科学" scheme="https://blog.bullet-holes.cn/categories/computer-science/" />
+        <category term="实战" scheme="https://blog.bullet-holes.cn/categories/computer-science/experiment/" />
+        <category term="Hexo" scheme="https://blog.bullet-holes.cn/tags/Hexo/" />
+        <category term="Shoka" scheme="https://blog.bullet-holes.cn/tags/Shoka/" />
+        <category term="网站更新" scheme="https://blog.bullet-holes.cn/tags/%E7%BD%91%E7%AB%99%E6%9B%B4%E6%96%B0/" />
         <updated>2023-01-19T10:05:42.000Z</updated>
     </entry>
     <entry>
-        <id>https://kate-lin.github.io/computer-science/experiment/site-bug-comment/</id>
+        <id>https://blog.bullet-holes.cn/computer-science/experiment/site-bug-comment/</id>
         <title>Shoka评论区功能bug修复经验</title>
-        <link rel="alternate" href="https://kate-lin.github.io/computer-science/experiment/site-bug-comment/"/>
+        <link rel="alternate" href="https://blog.bullet-holes.cn/computer-science/experiment/site-bug-comment/"/>
         <content type="html">&lt;blockquote&gt;
 &lt;p&gt;【写在前面】参考链接：&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWUvY29tcHV0ZXItc2NpZW5jZS9ub3RlL3RoZW1lLXNob2thLWRvYy9jb25maWcv&#34;&gt;Shoka 作者的基本配置&lt;/span&gt;&lt;br&gt;
@@ -172,18 +172,18 @@
 &lt;h1 id=&#34;future-todo&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#future-todo&#34;&gt;#&lt;/a&gt; Future Todo&lt;/h1&gt;
 &lt;p&gt;还打算进一步把这个主题魔改一下，最好把配色换得不那么粉嫩一点（但我在配色上真的很没有天赋），bug 最近应该 不会有更多了吧。&lt;/p&gt;
 </content>
-        <category term="计算机科学" scheme="https://kate-lin.github.io/categories/computer-science/" />
-        <category term="实战" scheme="https://kate-lin.github.io/categories/computer-science/experiment/" />
-        <category term="代码实战" scheme="https://kate-lin.github.io/tags/%E4%BB%A3%E7%A0%81%E5%AE%9E%E6%88%98/" />
-        <category term="Hexo" scheme="https://kate-lin.github.io/tags/Hexo/" />
-        <category term="Shoka" scheme="https://kate-lin.github.io/tags/Shoka/" />
-        <category term="bugs" scheme="https://kate-lin.github.io/tags/bugs/" />
+        <category term="计算机科学" scheme="https://blog.bullet-holes.cn/categories/computer-science/" />
+        <category term="实战" scheme="https://blog.bullet-holes.cn/categories/computer-science/experiment/" />
+        <category term="代码实战" scheme="https://blog.bullet-holes.cn/tags/%E4%BB%A3%E7%A0%81%E5%AE%9E%E6%88%98/" />
+        <category term="Hexo" scheme="https://blog.bullet-holes.cn/tags/Hexo/" />
+        <category term="Shoka" scheme="https://blog.bullet-holes.cn/tags/Shoka/" />
+        <category term="bugs" scheme="https://blog.bullet-holes.cn/tags/bugs/" />
         <updated>2023-01-17T06:15:00.000Z</updated>
     </entry>
     <entry>
-        <id>https://kate-lin.github.io/notes/notes20221014/</id>
+        <id>https://blog.bullet-holes.cn/notes/notes20221014/</id>
         <title>thoughts on 2022-10-14</title>
-        <link rel="alternate" href="https://kate-lin.github.io/notes/notes20221014/"/>
+        <link rel="alternate" href="https://blog.bullet-holes.cn/notes/notes20221014/"/>
         <content type="html">&lt;p&gt;睡眠质量一般，勉强睡了六个小时多一点，睡不着，六点多就爬起来了。&lt;/p&gt;
 &lt;p&gt;昨天看了天气预报，说今天会升温，天气也会很好，于是就起来化妆，走到河东食堂吃饭，又走去 manner 买咖啡，一早上获得很多运动量。到了实验室之后又刷了 Leetcode 的每日一题，能写出点 DP 的思路，但不知道用 DFS 怎么做，对于搜索的知识真的学得很差。&lt;/p&gt;
 &lt;p&gt;已经开始和我奇怪的睡眠质量和作息时间和解了，睡不着就不再勉强自己睡，干脆爬起来，于是开始每天都早起。&lt;/p&gt;
@@ -199,14 +199,14 @@
 &lt;p&gt;感谢那些为数不多听我诉说很多的朋友，第一天晚上失眠甚至是因为大家都太热情了，自己又是那种说 “别难过啊” 才会开始掉眼泪的人。&lt;/p&gt;
 &lt;p&gt;最后，会自己努力把前路走好。&lt;/p&gt;
 </content>
-        <category term="杂谈" scheme="https://kate-lin.github.io/categories/notes/" />
-        <category term="个人" scheme="https://kate-lin.github.io/tags/%E4%B8%AA%E4%BA%BA/" />
+        <category term="杂谈" scheme="https://blog.bullet-holes.cn/categories/notes/" />
+        <category term="个人" scheme="https://blog.bullet-holes.cn/tags/%E4%B8%AA%E4%BA%BA/" />
         <updated>2022-10-14T00:44:00.000Z</updated>
     </entry>
     <entry>
-        <id>https://kate-lin.github.io/info-sec/CTF/ctf-web/</id>
+        <id>https://blog.bullet-holes.cn/info-sec/CTF/ctf-web/</id>
         <title>毫无基础的Web学习记录</title>
-        <link rel="alternate" href="https://kate-lin.github.io/info-sec/CTF/ctf-web/"/>
+        <link rel="alternate" href="https://blog.bullet-holes.cn/info-sec/CTF/ctf-web/"/>
         <content type="html">&lt;h1 id=&#34;sql注入&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#sql注入&#34;&gt;#&lt;/a&gt; SQL 注入&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;参考的入门题目：BUUCTF-Web EasySQL，LoveSQL，随便注，三道题目的难度递增。&lt;/li&gt;
@@ -250,17 +250,17 @@
 &lt;li&gt;查询一张表里的列名： &lt;code&gt;1&#39;;show columns from XXX;#&lt;/code&gt; (表名最好加反引号，避免数字直接混入)&lt;/li&gt;
 &lt;/ul&gt;
 </content>
-        <category term="信息安全" scheme="https://kate-lin.github.io/categories/info-sec/" />
-        <category term="安全CTF" scheme="https://kate-lin.github.io/categories/info-sec/CTF/" />
-        <category term="代码实战" scheme="https://kate-lin.github.io/tags/%E4%BB%A3%E7%A0%81%E5%AE%9E%E6%88%98/" />
-        <category term="Web安全" scheme="https://kate-lin.github.io/tags/Web%E5%AE%89%E5%85%A8/" />
-        <category term="SQL注入" scheme="https://kate-lin.github.io/tags/SQL%E6%B3%A8%E5%85%A5/" />
+        <category term="信息安全" scheme="https://blog.bullet-holes.cn/categories/info-sec/" />
+        <category term="安全CTF" scheme="https://blog.bullet-holes.cn/categories/info-sec/CTF/" />
+        <category term="代码实战" scheme="https://blog.bullet-holes.cn/tags/%E4%BB%A3%E7%A0%81%E5%AE%9E%E6%88%98/" />
+        <category term="Web安全" scheme="https://blog.bullet-holes.cn/tags/Web%E5%AE%89%E5%85%A8/" />
+        <category term="SQL注入" scheme="https://blog.bullet-holes.cn/tags/SQL%E6%B3%A8%E5%85%A5/" />
         <updated>2022-10-05T05:58:01.000Z</updated>
     </entry>
     <entry>
-        <id>https://kate-lin.github.io/about/</id>
+        <id>https://blog.bullet-holes.cn/about/</id>
         <title>关于我</title>
-        <link rel="alternate" href="https://kate-lin.github.io/about/"/>
+        <link rel="alternate" href="https://blog.bullet-holes.cn/about/"/>
         <content type="html">&lt;h1 id=&#34;本人&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#本人&#34;&gt;#&lt;/a&gt; 本人&lt;/h1&gt;
 &lt;p&gt;双木成申，从我名字拆分而来。&lt;/p&gt;
 &lt;p&gt;个人现状就是：不愿承认自己是工科生却变得越来越工科的程序媛。平平无奇 ECNU2021 级研究生，自愿从计算机踏入密码学想要摸索一点东西出来。&lt;/p&gt;
@@ -278,13 +278,13 @@
 &lt;h1 id=&#34;about-the-blog&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#about-the-blog&#34;&gt;#&lt;/a&gt; About the blog&lt;/h1&gt;
 &lt;p&gt;最早建于 2021 年的圣诞节，历经无数版本更迭，写于 2022 年 10 月 5 日。&lt;/p&gt;
 </content>
-        <category term="个人" scheme="https://kate-lin.github.io/tags/%E4%B8%AA%E4%BA%BA/" />
+        <category term="个人" scheme="https://blog.bullet-holes.cn/tags/%E4%B8%AA%E4%BA%BA/" />
         <updated>2022-10-05T03:46:54.000Z</updated>
     </entry>
     <entry>
-        <id>https://kate-lin.github.io/info-sec/crypto/research-papers/IPE-SA/</id>
+        <id>https://blog.bullet-holes.cn/info-sec/crypto/research-papers/IPE-SA/</id>
         <title>Fully Secure Functional Encryption for Inner Products, from Standard Assumptions阅读笔记</title>
-        <link rel="alternate" href="https://kate-lin.github.io/info-sec/crypto/research-papers/IPE-SA/"/>
+        <link rel="alternate" href="https://blog.bullet-holes.cn/info-sec/crypto/research-papers/IPE-SA/"/>
         <content type="html">&lt;h1 id=&#34;related-works-and-limitations&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#related-works-and-limitations&#34;&gt;#&lt;/a&gt; Related works and limitations&lt;/h1&gt;
 &lt;p&gt;2015 年，Abdalla 等人提出了一种内积加密方案，可以在 DDH 和 LWE 假设下被实例化。但是这些方案只能实现 selective security，并且不能抵抗合谋。两个敌手获得两个密钥，将这个密钥组合成一个新的有效密钥，通过各自的明文也可以获得一个新的明文。&lt;/p&gt;
 &lt;p&gt;Abdalla 的方案基于 LWE 构造时，只能允许短整数范围内的计算（in a short interval），但本文的方案可以允许计算模素数 p 的内积。&lt;/p&gt;
@@ -498,19 +498,19 @@ M1001 80h400000v40h-400000z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/
 &lt;p&gt;主要调整的是 KeyGen 函数，为了防止利用若干次查询密钥获得主密钥，和模 p 下的 LWE-IPE 方案相同，需要预先判断新的查询是否与已有查询线性相关。&lt;br&gt;
 &lt;img data-src=&#34;/assets/IPE/IPE9.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 </content>
-        <category term="信息安全" scheme="https://kate-lin.github.io/categories/info-sec/" />
-        <category term="密码学" scheme="https://kate-lin.github.io/categories/info-sec/crypto/" />
-        <category term="科研论文" scheme="https://kate-lin.github.io/categories/info-sec/crypto/research-papers/" />
-        <category term="密码学" scheme="https://kate-lin.github.io/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/" />
-        <category term="文献阅读" scheme="https://kate-lin.github.io/tags/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/" />
-        <category term="组会" scheme="https://kate-lin.github.io/tags/%E7%BB%84%E4%BC%9A/" />
-        <category term="FE" scheme="https://kate-lin.github.io/tags/FE/" />
+        <category term="信息安全" scheme="https://blog.bullet-holes.cn/categories/info-sec/" />
+        <category term="密码学" scheme="https://blog.bullet-holes.cn/categories/info-sec/crypto/" />
+        <category term="科研论文" scheme="https://blog.bullet-holes.cn/categories/info-sec/crypto/research-papers/" />
+        <category term="密码学" scheme="https://blog.bullet-holes.cn/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/" />
+        <category term="文献阅读" scheme="https://blog.bullet-holes.cn/tags/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/" />
+        <category term="组会" scheme="https://blog.bullet-holes.cn/tags/%E7%BB%84%E4%BC%9A/" />
+        <category term="FE" scheme="https://blog.bullet-holes.cn/tags/FE/" />
         <updated>2022-08-22T05:36:00.000Z</updated>
     </entry>
     <entry>
-        <id>https://kate-lin.github.io/computer-science/experiment/redis/</id>
+        <id>https://blog.bullet-holes.cn/computer-science/experiment/redis/</id>
         <title>Redis学习笔记</title>
-        <link rel="alternate" href="https://kate-lin.github.io/computer-science/experiment/redis/"/>
+        <link rel="alternate" href="https://blog.bullet-holes.cn/computer-science/experiment/redis/"/>
         <content type="html">&lt;ul&gt;
 &lt;li&gt;开发环境: Centos 7.6&lt;/li&gt;
 &lt;li&gt;安装版本：6.0.8（参考菜鸟教程）&lt;/li&gt;
@@ -531,31 +531,31 @@ M1001 80h400000v40h-400000z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/
 &lt;p&gt;设置 key-value: SET [key] [value]&lt;br&gt;
  查询 key-value: GET [key] -&amp;gt; [value]&lt;/p&gt;
 </content>
-        <category term="计算机科学" scheme="https://kate-lin.github.io/categories/computer-science/" />
-        <category term="实战" scheme="https://kate-lin.github.io/categories/computer-science/experiment/" />
-        <category term="代码实战" scheme="https://kate-lin.github.io/tags/%E4%BB%A3%E7%A0%81%E5%AE%9E%E6%88%98/" />
-        <category term="Redis" scheme="https://kate-lin.github.io/tags/Redis/" />
+        <category term="计算机科学" scheme="https://blog.bullet-holes.cn/categories/computer-science/" />
+        <category term="实战" scheme="https://blog.bullet-holes.cn/categories/computer-science/experiment/" />
+        <category term="代码实战" scheme="https://blog.bullet-holes.cn/tags/%E4%BB%A3%E7%A0%81%E5%AE%9E%E6%88%98/" />
+        <category term="Redis" scheme="https://blog.bullet-holes.cn/tags/Redis/" />
         <updated>2022-06-08T03:24:00.000Z</updated>
     </entry>
     <entry>
-        <id>https://kate-lin.github.io/computer-science/experiment/clash-for-windows/</id>
+        <id>https://blog.bullet-holes.cn/computer-science/experiment/clash-for-windows/</id>
         <title>一些clash for windows踩雷</title>
-        <link rel="alternate" href="https://kate-lin.github.io/computer-science/experiment/clash-for-windows/"/>
+        <link rel="alternate" href="https://blog.bullet-holes.cn/computer-science/experiment/clash-for-windows/"/>
         <content type="html">&lt;p&gt;配置 profile 中：&lt;br&gt;
 一些加密 cipher: none 的代理节点，需要将 none 改成 dummy。&lt;br&gt;
 也可尝试源文件修改，还没试过，&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL01ldGFDdWJlWC9DbGFzaC5NZXRhL2NvbW1pdC81YTQ0NDFjNDdmZGI2MmY0MzkxMDY5OTI5M2EyNDk4MzFmNjQ0NWJm&#34;&gt;https://github.com/MetaCubeX/Clash.Meta/commit/5a4441c47fdb62f43910699293a249831f6445bf&lt;/span&gt;&lt;/p&gt;
 </content>
-        <category term="计算机科学" scheme="https://kate-lin.github.io/categories/computer-science/" />
-        <category term="实战" scheme="https://kate-lin.github.io/categories/computer-science/experiment/" />
-        <category term="代码实战" scheme="https://kate-lin.github.io/tags/%E4%BB%A3%E7%A0%81%E5%AE%9E%E6%88%98/" />
-        <category term="VPN" scheme="https://kate-lin.github.io/tags/VPN/" />
-        <category term="Clash for Windows" scheme="https://kate-lin.github.io/tags/Clash-for-Windows/" />
+        <category term="计算机科学" scheme="https://blog.bullet-holes.cn/categories/computer-science/" />
+        <category term="实战" scheme="https://blog.bullet-holes.cn/categories/computer-science/experiment/" />
+        <category term="代码实战" scheme="https://blog.bullet-holes.cn/tags/%E4%BB%A3%E7%A0%81%E5%AE%9E%E6%88%98/" />
+        <category term="VPN" scheme="https://blog.bullet-holes.cn/tags/VPN/" />
+        <category term="Clash for Windows" scheme="https://blog.bullet-holes.cn/tags/Clash-for-Windows/" />
         <updated>2022-04-20T00:04:00.000Z</updated>
     </entry>
     <entry>
-        <id>https://kate-lin.github.io/info-sec/crypto/research-papers/LLL-knapsack/</id>
+        <id>https://blog.bullet-holes.cn/info-sec/crypto/research-papers/LLL-knapsack/</id>
         <title>LLL算法应用-背包问题</title>
-        <link rel="alternate" href="https://kate-lin.github.io/info-sec/crypto/research-papers/LLL-knapsack/"/>
+        <link rel="alternate" href="https://blog.bullet-holes.cn/info-sec/crypto/research-papers/LLL-knapsack/"/>
         <content type="html">&lt;h1 id=&#34;引入背包问题子集和问题&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#引入背包问题子集和问题&#34;&gt;#&lt;/a&gt; 引入：背包问题（子集和问题）&lt;/h1&gt;
 &lt;p&gt;给定正整数权重向量&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi mathvariant=&#34;bold-italic&#34;&gt;a&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/msub&gt;&lt;mo separator=&#34;true&#34;&gt;,&lt;/mo&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;.&lt;/mi&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;.&lt;/mi&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;.&lt;/mi&gt;&lt;mo separator=&#34;true&#34;&gt;,&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;/msub&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\boldsymbol{a}=(a_1,...,a_n)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.44444em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord boldsymbol&#34;&gt;a&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.30110799999999993em;&#34;&gt;&lt;span style=&#34;top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mpunct&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.16666666666666666em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;mpunct&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.16666666666666666em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.151392em;&#34;&gt;&lt;span style=&#34;top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;n&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 和内积&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;s&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;msubsup&gt;&lt;mo&gt;∑&lt;/mo&gt;&lt;mrow&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/mrow&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;/msubsup&gt;&lt;msub&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;/msub&gt;&lt;msub&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;/msub&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mo stretchy=&#34;false&#34;&gt;⟨&lt;/mo&gt;&lt;mi mathvariant=&#34;bold-italic&#34;&gt;a&lt;/mi&gt;&lt;mo separator=&#34;true&#34;&gt;,&lt;/mo&gt;&lt;mi mathvariant=&#34;bold-italic&#34;&gt;x&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;⟩&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;s=\sum_{i=1}^{n} a_ix_i=\langle\boldsymbol{a},\boldsymbol{x}\rangle&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.43056em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1.104002em;vertical-align:-0.29971000000000003em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mop&#34;&gt;&lt;span class=&#34;mop op-symbol small-op&#34; style=&#34;position:relative;top:-0.0000050000000000050004em;&#34;&gt;∑&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.804292em;&#34;&gt;&lt;span style=&#34;top:-2.40029em;margin-left:0em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;mrel mtight&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mord mtight&#34;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.2029em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;n&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.29971000000000003em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.16666666666666666em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.31166399999999994em;&#34;&gt;&lt;span style=&#34;top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;i&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.31166399999999994em;&#34;&gt;&lt;span style=&#34;top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;i&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;⟨&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord boldsymbol&#34;&gt;a&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mpunct&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.16666666666666666em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord boldsymbol&#34;&gt;x&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;⟩&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;，找到&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi mathvariant=&#34;bold-italic&#34;&gt;x&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/msub&gt;&lt;mo separator=&#34;true&#34;&gt;,&lt;/mo&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;.&lt;/mi&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;.&lt;/mi&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;.&lt;/mi&gt;&lt;mo separator=&#34;true&#34;&gt;,&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;/msub&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\boldsymbol{x}=(x_1,...,x_n)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.44444em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord boldsymbol&#34;&gt;x&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.30110799999999993em;&#34;&gt;&lt;span style=&#34;top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mpunct&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.16666666666666666em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;mpunct&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.16666666666666666em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.151392em;&#34;&gt;&lt;span style=&#34;top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;n&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;，其中&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;/msub&gt;&lt;mo&gt;∈&lt;/mo&gt;&lt;mo stretchy=&#34;false&#34;&gt;{&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;mo separator=&#34;true&#34;&gt;,&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mo stretchy=&#34;false&#34;&gt;}&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;x_i\in\{0,1\}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.6891em;vertical-align:-0.15em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.31166399999999994em;&#34;&gt;&lt;span style=&#34;top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;i&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;∈&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;mpunct&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.16666666666666666em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;。&lt;/p&gt;
 &lt;p&gt;like 之前做过的一些算法题，背包容量是 s，共有 n 个物品，每个物品体积是&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;a_i&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.58056em;vertical-align:-0.15em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.31166399999999994em;&#34;&gt;&lt;span style=&#34;top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;i&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;，每个物品的选择用&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi mathvariant=&#34;bold-italic&#34;&gt;x&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/msub&gt;&lt;mo separator=&#34;true&#34;&gt;,&lt;/mo&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;.&lt;/mi&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;.&lt;/mi&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;.&lt;/mi&gt;&lt;mo separator=&#34;true&#34;&gt;,&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;/msub&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;mo separator=&#34;true&#34;&gt;,&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;/msub&gt;&lt;mo&gt;∈&lt;/mo&gt;&lt;mo stretchy=&#34;false&#34;&gt;{&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;mo separator=&#34;true&#34;&gt;,&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mo stretchy=&#34;false&#34;&gt;}&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\boldsymbol{x}=(x_1,...,x_n), x_i\in\{0,1\}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.44444em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord boldsymbol&#34;&gt;x&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.30110799999999993em;&#34;&gt;&lt;span style=&#34;top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mpunct&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.16666666666666666em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;mpunct&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.16666666666666666em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.151392em;&#34;&gt;&lt;span style=&#34;top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;n&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;mpunct&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.16666666666666666em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.31166399999999994em;&#34;&gt;&lt;span style=&#34;top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;i&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;∈&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;mpunct&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.16666666666666666em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 表示，使得&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mo stretchy=&#34;false&#34;&gt;⟨&lt;/mo&gt;&lt;mi mathvariant=&#34;bold-italic&#34;&gt;a&lt;/mi&gt;&lt;mo separator=&#34;true&#34;&gt;,&lt;/mo&gt;&lt;mi mathvariant=&#34;bold-italic&#34;&gt;x&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;⟩&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi&gt;s&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\langle\boldsymbol{a},\boldsymbol{x}\rangle=s&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;⟨&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord boldsymbol&#34;&gt;a&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mpunct&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.16666666666666666em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord boldsymbol&#34;&gt;x&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;⟩&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.43056em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;s&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;。&lt;/p&gt;
@@ -682,18 +682,18 @@ M834 80h400000v40h-400000z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/s
 &lt;p&gt;关于成功概率的思考:&lt;br&gt;
 &lt;img data-src=&#34;/assets/LLL/LLL1.png&#34; alt=&#34;Variant&#34;&gt;&lt;/p&gt;
 </content>
-        <category term="信息安全" scheme="https://kate-lin.github.io/categories/info-sec/" />
-        <category term="密码学" scheme="https://kate-lin.github.io/categories/info-sec/crypto/" />
-        <category term="科研论文" scheme="https://kate-lin.github.io/categories/info-sec/crypto/research-papers/" />
-        <category term="密码学" scheme="https://kate-lin.github.io/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/" />
-        <category term="Lattice,格" scheme="https://kate-lin.github.io/tags/Lattice-%E6%A0%BC/" />
-        <category term="LLL算法" scheme="https://kate-lin.github.io/tags/LLL%E7%AE%97%E6%B3%95/" />
+        <category term="信息安全" scheme="https://blog.bullet-holes.cn/categories/info-sec/" />
+        <category term="密码学" scheme="https://blog.bullet-holes.cn/categories/info-sec/crypto/" />
+        <category term="科研论文" scheme="https://blog.bullet-holes.cn/categories/info-sec/crypto/research-papers/" />
+        <category term="密码学" scheme="https://blog.bullet-holes.cn/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/" />
+        <category term="Lattice,格" scheme="https://blog.bullet-holes.cn/tags/Lattice-%E6%A0%BC/" />
+        <category term="LLL算法" scheme="https://blog.bullet-holes.cn/tags/LLL%E7%AE%97%E6%B3%95/" />
         <updated>2022-03-04T07:30:00.000Z</updated>
     </entry>
     <entry>
-        <id>https://kate-lin.github.io/notes/week220102/</id>
+        <id>https://blog.bullet-holes.cn/notes/week220102/</id>
         <title>Weekly Journal 20220102</title>
-        <link rel="alternate" href="https://kate-lin.github.io/notes/week220102/"/>
+        <link rel="alternate" href="https://blog.bullet-holes.cn/notes/week220102/"/>
         <content type="html">&lt;p&gt;新年第一篇周记，写了好多噢，要是每次开组会之前就能看一看相关内容就好了。&lt;/p&gt;
 &lt;p&gt;I mainly learned the following knowledge this week:&lt;/p&gt;
 &lt;ul&gt;
@@ -708,15 +708,15 @@ M834 80h400000v40h-400000z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/s
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
-        <category term="杂谈" scheme="https://kate-lin.github.io/categories/notes/" />
-        <category term="个人" scheme="https://kate-lin.github.io/tags/%E4%B8%AA%E4%BA%BA/" />
-        <category term="实验室周报" scheme="https://kate-lin.github.io/tags/%E5%AE%9E%E9%AA%8C%E5%AE%A4%E5%91%A8%E6%8A%A5/" />
+        <category term="杂谈" scheme="https://blog.bullet-holes.cn/categories/notes/" />
+        <category term="个人" scheme="https://blog.bullet-holes.cn/tags/%E4%B8%AA%E4%BA%BA/" />
+        <category term="实验室周报" scheme="https://blog.bullet-holes.cn/tags/%E5%AE%9E%E9%AA%8C%E5%AE%A4%E5%91%A8%E6%8A%A5/" />
         <updated>2022-01-02T05:54:00.000Z</updated>
     </entry>
     <entry>
-        <id>https://kate-lin.github.io/info-sec/crypto/grad-courses/crypto-math2/</id>
+        <id>https://blog.bullet-holes.cn/info-sec/crypto/grad-courses/crypto-math2/</id>
         <title>网安数学复习【2】</title>
-        <link rel="alternate" href="https://kate-lin.github.io/info-sec/crypto/grad-courses/crypto-math2/"/>
+        <link rel="alternate" href="https://blog.bullet-holes.cn/info-sec/crypto/grad-courses/crypto-math2/"/>
         <content type="html">&lt;h1 id=&#34;考点整理&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#考点整理&#34;&gt;#&lt;/a&gt; 考点整理&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#%E5%9F%9F%E7%9A%84%E8%AF%81%E6%98%8E&#34;&gt;域的证明 及例题&lt;/a&gt;✅&lt;/li&gt;
@@ -847,18 +847,18 @@ I 是 (R, +) 的加法子群。&lt;br&gt;
 &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mo fence=&#34;true&#34;&gt;{&lt;/mo&gt;&lt;mtable rowspacing=&#34;0.15999999999999992em&#34; columnalign=&#34;left right&#34; columnspacing=&#34;1em&#34;&gt;&lt;mtr&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;/msub&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;msup&gt;&lt;mi&gt;λ&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/msub&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msub&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mn&gt;8&lt;/mn&gt;&lt;mo&gt;≡&lt;/mo&gt;&lt;mn&gt;15&lt;/mn&gt;&lt;mspace width=&#34;1em&#34;/&gt;&lt;mi&gt;m&lt;/mi&gt;&lt;mi&gt;o&lt;/mi&gt;&lt;mi&gt;d&lt;/mi&gt;&lt;mspace width=&#34;1em&#34;/&gt;&lt;mn&gt;23&lt;/mn&gt;&lt;/mrow&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;/mtr&gt;&lt;mtr&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;/msub&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi&gt;λ&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/msub&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;/msub&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/msub&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mn&gt;19&lt;/mn&gt;&lt;mo&gt;≡&lt;/mo&gt;&lt;mn&gt;4&lt;/mn&gt;&lt;mspace width=&#34;1em&#34;/&gt;&lt;mi&gt;m&lt;/mi&gt;&lt;mi&gt;o&lt;/mi&gt;&lt;mi&gt;d&lt;/mi&gt;&lt;mspace width=&#34;1em&#34;/&gt;&lt;mn&gt;23&lt;/mn&gt;&lt;/mrow&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;/mtr&gt;&lt;/mtable&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\left \{ \begin {array}{lr}x_3=\lambda^2-x_1-x_2=-8 \equiv 15\quad mod\quad 23	\\ y_3=\lambda (x_1-x_3)-y_1=-19 \equiv 4 \quad mod \quad 23 \end {array} \right .&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:2.40003em;vertical-align:-0.95003em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;minner&#34;&gt;&lt;span class=&#34;mopen delimcenter&#34; style=&#34;top:0em;&#34;&gt;&lt;span class=&#34;delimsizing size3&#34;&gt;{&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mtable&#34;&gt;&lt;span class=&#34;arraycolsep&#34; style=&#34;width:0.5em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;col-align-l&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:1.45em;&#34;&gt;&lt;span style=&#34;top:-3.61em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.30110799999999993em;&#34;&gt;&lt;span style=&#34;top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;3&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;λ&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.8141079999999999em;&#34;&gt;&lt;span style=&#34;top:-3.063em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.30110799999999993em;&#34;&gt;&lt;span style=&#34;top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.30110799999999993em;&#34;&gt;&lt;span style=&#34;top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;≡&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:1em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;m&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;o&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;d&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:1em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;3&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-2.4099999999999997em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.03588em;&#34;&gt;y&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.30110799999999993em;&#34;&gt;&lt;span style=&#34;top:-2.5500000000000003em;margin-left:-0.03588em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;3&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;λ&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.30110799999999993em;&#34;&gt;&lt;span style=&#34;top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.30110799999999993em;&#34;&gt;&lt;span style=&#34;top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;3&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.03588em;&#34;&gt;y&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.30110799999999993em;&#34;&gt;&lt;span style=&#34;top:-2.5500000000000003em;margin-left:-0.03588em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;9&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;≡&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:1em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;m&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;o&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;d&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:1em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;3&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.9500000000000004em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;arraycolsep&#34; style=&#34;width:0.5em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose nulldelimiter&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </content>
-        <category term="计算机科学" scheme="https://kate-lin.github.io/categories/computer-science/" />
-        <category term="密码学" scheme="https://kate-lin.github.io/categories/computer-science/crypto/" />
-        <category term="研究生课程" scheme="https://kate-lin.github.io/categories/computer-science/crypto/grad-courses/" />
-        <category term="课程" scheme="https://kate-lin.github.io/tags/%E8%AF%BE%E7%A8%8B/" />
-        <category term="数学" scheme="https://kate-lin.github.io/tags/%E6%95%B0%E5%AD%A6/" />
-        <category term="抽象代数" scheme="https://kate-lin.github.io/tags/%E6%8A%BD%E8%B1%A1%E4%BB%A3%E6%95%B0/" />
+        <category term="计算机科学" scheme="https://blog.bullet-holes.cn/categories/computer-science/" />
+        <category term="密码学" scheme="https://blog.bullet-holes.cn/categories/computer-science/crypto/" />
+        <category term="研究生课程" scheme="https://blog.bullet-holes.cn/categories/computer-science/crypto/grad-courses/" />
+        <category term="课程" scheme="https://blog.bullet-holes.cn/tags/%E8%AF%BE%E7%A8%8B/" />
+        <category term="数学" scheme="https://blog.bullet-holes.cn/tags/%E6%95%B0%E5%AD%A6/" />
+        <category term="抽象代数" scheme="https://blog.bullet-holes.cn/tags/%E6%8A%BD%E8%B1%A1%E4%BB%A3%E6%95%B0/" />
         <updated>2022-01-02T02:30:00.000Z</updated>
     </entry>
     <entry>
-        <id>https://kate-lin.github.io/info-sec/crypto/grad-courses/crypto-math1/</id>
+        <id>https://blog.bullet-holes.cn/info-sec/crypto/grad-courses/crypto-math1/</id>
         <title>网安数学复习【1】</title>
-        <link rel="alternate" href="https://kate-lin.github.io/info-sec/crypto/grad-courses/crypto-math1/"/>
+        <link rel="alternate" href="https://blog.bullet-holes.cn/info-sec/crypto/grad-courses/crypto-math1/"/>
         <content type="html">&lt;h1 id=&#34;考点整理&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#考点整理&#34;&gt;#&lt;/a&gt; 考点整理：&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#%E7%BE%A4%E7%9A%84%E8%AF%81%E6%98%8E&#34;&gt;证某集合是群&lt;/a&gt; ✅&lt;/li&gt;
@@ -1232,18 +1232,18 @@ M834 80h400000v40h-400000z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/s
 &lt;p&gt;&lt;span class=&#34;katex-display&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34; display=&#34;block&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;Z&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;[&lt;/mo&gt;&lt;mi&gt;X&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;]&lt;/mo&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;/&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;mo&gt;≅&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;Z&lt;/mi&gt;&lt;mn&gt;10&lt;/mn&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;Z[X] / (3x+1) \cong Z_{10}
 &lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.07153em;&#34;&gt;Z&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.07847em;&#34;&gt;X&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;≅&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.83333em;vertical-align:-0.15em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.07153em;&#34;&gt;Z&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.30110799999999993em;&#34;&gt;&lt;span style=&#34;top:-2.5500000000000003em;margin-left:-0.07153em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;mord mtight&#34;&gt;0&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 </content>
-        <category term="信息安全" scheme="https://kate-lin.github.io/categories/info-sec/" />
-        <category term="密码学" scheme="https://kate-lin.github.io/categories/info-sec/crypto/" />
-        <category term="研究生课程" scheme="https://kate-lin.github.io/categories/info-sec/crypto/grad-courses/" />
-        <category term="课程" scheme="https://kate-lin.github.io/tags/%E8%AF%BE%E7%A8%8B/" />
-        <category term="数学" scheme="https://kate-lin.github.io/tags/%E6%95%B0%E5%AD%A6/" />
-        <category term="抽象代数" scheme="https://kate-lin.github.io/tags/%E6%8A%BD%E8%B1%A1%E4%BB%A3%E6%95%B0/" />
+        <category term="信息安全" scheme="https://blog.bullet-holes.cn/categories/info-sec/" />
+        <category term="密码学" scheme="https://blog.bullet-holes.cn/categories/info-sec/crypto/" />
+        <category term="研究生课程" scheme="https://blog.bullet-holes.cn/categories/info-sec/crypto/grad-courses/" />
+        <category term="课程" scheme="https://blog.bullet-holes.cn/tags/%E8%AF%BE%E7%A8%8B/" />
+        <category term="数学" scheme="https://blog.bullet-holes.cn/tags/%E6%95%B0%E5%AD%A6/" />
+        <category term="抽象代数" scheme="https://blog.bullet-holes.cn/tags/%E6%8A%BD%E8%B1%A1%E4%BB%A3%E6%95%B0/" />
         <updated>2022-01-02T02:29:00.000Z</updated>
     </entry>
     <entry>
-        <id>https://kate-lin.github.io/info-sec/crypto/grad-courses/crypto-final-exam/</id>
+        <id>https://blog.bullet-holes.cn/info-sec/crypto/grad-courses/crypto-final-exam/</id>
         <title>密码学期末复习【施工暂时完毕】</title>
-        <link rel="alternate" href="https://kate-lin.github.io/info-sec/crypto/grad-courses/crypto-final-exam/"/>
+        <link rel="alternate" href="https://blog.bullet-holes.cn/info-sec/crypto/grad-courses/crypto-final-exam/"/>
         <content type="html">&lt;h1 id=&#34;目录&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#目录&#34;&gt;#&lt;/a&gt; 目录&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#%E5%8F%A4%E5%85%B8%E5%AF%86%E7%A0%81%E7%9A%84%E5%AE%89%E5%85%A8%E6%80%A7&#34;&gt;古典密码的安全性&lt;/a&gt;✅&lt;/li&gt;
@@ -1703,17 +1703,17 @@ A 给出一对有效消息 - 签名对&lt;span class=&#34;katex&#34;&gt;&lt;span
 &lt;img data-src=&#34;/assets/crypto-final-exam/PK-CCA2.png&#34; alt=&#34;PK-CCA2 Exp&#34;&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </content>
-        <category term="信息安全" scheme="https://kate-lin.github.io/categories/info-sec/" />
-        <category term="密码学" scheme="https://kate-lin.github.io/categories/info-sec/crypto/" />
-        <category term="研究生课程" scheme="https://kate-lin.github.io/categories/info-sec/crypto/grad-courses/" />
-        <category term="课程" scheme="https://kate-lin.github.io/tags/%E8%AF%BE%E7%A8%8B/" />
-        <category term="密码学" scheme="https://kate-lin.github.io/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/" />
+        <category term="信息安全" scheme="https://blog.bullet-holes.cn/categories/info-sec/" />
+        <category term="密码学" scheme="https://blog.bullet-holes.cn/categories/info-sec/crypto/" />
+        <category term="研究生课程" scheme="https://blog.bullet-holes.cn/categories/info-sec/crypto/grad-courses/" />
+        <category term="课程" scheme="https://blog.bullet-holes.cn/tags/%E8%AF%BE%E7%A8%8B/" />
+        <category term="密码学" scheme="https://blog.bullet-holes.cn/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/" />
         <updated>2022-01-01T12:19:00.000Z</updated>
     </entry>
     <entry>
-        <id>https://kate-lin.github.io/notes/week211226/</id>
+        <id>https://blog.bullet-holes.cn/notes/week211226/</id>
         <title>Weekly Journal 20211226</title>
-        <link rel="alternate" href="https://kate-lin.github.io/notes/week211226/"/>
+        <link rel="alternate" href="https://blog.bullet-holes.cn/notes/week211226/"/>
         <content type="html">&lt;p&gt;第一次用英文写周记，甚为不适应。&lt;/p&gt;
 &lt;p&gt;The study this week is mainly divided into the following aspects:&lt;/p&gt;
 &lt;ul&gt;
@@ -1721,15 +1721,15 @@ A 给出一对有效消息 - 签名对&lt;span class=&#34;katex&#34;&gt;&lt;span
 &lt;li&gt;In this week, I wrote two course reports about my gains and thoughts. When I reread Cryptanalysis of Full LowMC and LowMC-M with Algebraic Techniques, I find I understand it more deeply and solved some problems left. As for the Network Security Protocols, I combined the experience of my Graduation Project and the reading of the paper Koinonia: Verifiable E-Voting with Long-term Privacy, and wrote a detailed report. Summarizing what I have learned regularly can help me gain a deeper understanding. I also plan to post the course reports, notes and weekly reports written this semester to my personal blog for archives. Next week, I will take 2 course exams, so I spent some time reviewing these 2 courses as well.&lt;/li&gt;
 &lt;/ul&gt;
 </content>
-        <category term="杂谈" scheme="https://kate-lin.github.io/categories/notes/" />
-        <category term="个人" scheme="https://kate-lin.github.io/tags/%E4%B8%AA%E4%BA%BA/" />
-        <category term="实验室周报" scheme="https://kate-lin.github.io/tags/%E5%AE%9E%E9%AA%8C%E5%AE%A4%E5%91%A8%E6%8A%A5/" />
+        <category term="杂谈" scheme="https://blog.bullet-holes.cn/categories/notes/" />
+        <category term="个人" scheme="https://blog.bullet-holes.cn/tags/%E4%B8%AA%E4%BA%BA/" />
+        <category term="实验室周报" scheme="https://blog.bullet-holes.cn/tags/%E5%AE%9E%E9%AA%8C%E5%AE%A4%E5%91%A8%E6%8A%A5/" />
         <updated>2021-12-26T13:32:00.000Z</updated>
     </entry>
     <entry>
-        <id>https://kate-lin.github.io/info-sec/crypto/grad-courses/Koinonia/</id>
+        <id>https://blog.bullet-holes.cn/info-sec/crypto/grad-courses/Koinonia/</id>
         <title>Koinonia：Verifiable E-Voting with Long-term Privacy研究报告</title>
-        <link rel="alternate" href="https://kate-lin.github.io/info-sec/crypto/grad-courses/Koinonia/"/>
+        <link rel="alternate" href="https://blog.bullet-holes.cn/info-sec/crypto/grad-courses/Koinonia/"/>
         <content type="html">&lt;blockquote&gt;
 &lt;p&gt;写在前面：转载请注明出处。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1791,19 +1791,19 @@ A 给出一对有效消息 - 签名对&lt;span class=&#34;katex&#34;&gt;&lt;span
 &lt;/ol&gt;
 &lt;p&gt;总而言之，这个学期的收获还是很大的，不断学习新东西，结合已有的知识进行回顾，才可以走得更远，希望自己以后也可以保持这样学习新东西的动力。&lt;/p&gt;
 </content>
-        <category term="信息安全" scheme="https://kate-lin.github.io/categories/info-sec/" />
-        <category term="密码学" scheme="https://kate-lin.github.io/categories/info-sec/crypto/" />
-        <category term="研究生课程" scheme="https://kate-lin.github.io/categories/info-sec/crypto/grad-courses/" />
-        <category term="课程" scheme="https://kate-lin.github.io/tags/%E8%AF%BE%E7%A8%8B/" />
-        <category term="密码学" scheme="https://kate-lin.github.io/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/" />
-        <category term="实践" scheme="https://kate-lin.github.io/tags/%E5%AE%9E%E8%B7%B5/" />
-        <category term="电子投票" scheme="https://kate-lin.github.io/tags/%E7%94%B5%E5%AD%90%E6%8A%95%E7%A5%A8/" />
+        <category term="信息安全" scheme="https://blog.bullet-holes.cn/categories/info-sec/" />
+        <category term="密码学" scheme="https://blog.bullet-holes.cn/categories/info-sec/crypto/" />
+        <category term="研究生课程" scheme="https://blog.bullet-holes.cn/categories/info-sec/crypto/grad-courses/" />
+        <category term="课程" scheme="https://blog.bullet-holes.cn/tags/%E8%AF%BE%E7%A8%8B/" />
+        <category term="密码学" scheme="https://blog.bullet-holes.cn/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/" />
+        <category term="实践" scheme="https://blog.bullet-holes.cn/tags/%E5%AE%9E%E8%B7%B5/" />
+        <category term="电子投票" scheme="https://blog.bullet-holes.cn/tags/%E7%94%B5%E5%AD%90%E6%8A%95%E7%A5%A8/" />
         <updated>2021-12-26T13:03:00.000Z</updated>
     </entry>
     <entry>
-        <id>https://kate-lin.github.io/info-sec/crypto/grad-courses/LowMC/</id>
+        <id>https://blog.bullet-holes.cn/info-sec/crypto/grad-courses/LowMC/</id>
         <title>Cryptanalysis of Full LowMC and LowMC-M with Algebraic Techniques论文报告</title>
-        <link rel="alternate" href="https://kate-lin.github.io/info-sec/crypto/grad-courses/LowMC/"/>
+        <link rel="alternate" href="https://blog.bullet-holes.cn/info-sec/crypto/grad-courses/LowMC/"/>
         <content type="html">&lt;h1 id=&#34;lowmc简介和主要名词解释&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#lowmc简介和主要名词解释&#34;&gt;#&lt;/a&gt; LowMC 简介和主要名词解释&lt;/h1&gt;
 &lt;h2 id=&#34;lowmc&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#lowmc&#34;&gt;#&lt;/a&gt; LowMC&lt;/h2&gt;
 &lt;p&gt;LowMC 是 SPN 分组密码族中较为新颖的一类，目前被用于 NIST 后量子密码征集第三轮备选签名方案 Picnic 的底层。LowMC 旨在实现低乘法复杂度，并且实例化较为灵活，用户可以独立选择 S 盒数量、线性层、密钥调度函数等参数，进行 LowMC 的实例化。低乘法复杂度的实现方式是使用部分 S 盒层和随机密集线性层。所谓部分 S 盒层，就是只有部分状态位通过 S 盒，其余的状态位都应用了特征映射（identity mapping）。&lt;/p&gt;
@@ -1851,13 +1851,13 @@ A 给出一对有效消息 - 签名对&lt;span class=&#34;katex&#34;&gt;&lt;span
 &lt;p&gt;Rechberger 提出的方案需要使用一对明文对，能以最低&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msup&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mfrac&gt;&lt;mi&gt;k&lt;/mi&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;/mfrac&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;2^\frac{k}{3}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.97902em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.97902em;&#34;&gt;&lt;span style=&#34;top:-3.363em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mopen nulldelimiter sizing reset-size3 size6&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mfrac&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.8800285714285714em;&#34;&gt;&lt;span style=&#34;top:-2.656em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size3 size1 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;3&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.2255000000000003em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;frac-line mtight&#34; style=&#34;border-bottom-width:0.049em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.384em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size3 size1 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34; style=&#34;margin-right:0.03148em;&#34;&gt;k&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.344em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose nulldelimiter sizing reset-size3 size6&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 的成本获得完整的密钥，如果非活跃 S 盒存在，成本将高于这个下限，并且需要使用&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mrow&gt;&lt;mo fence=&#34;true&#34;&gt;∣&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;D&lt;/mi&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;/msub&gt;&lt;mo fence=&#34;true&#34;&gt;∣&lt;/mo&gt;&lt;/mrow&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mrow&gt;&lt;mo fence=&#34;true&#34;&gt;∣&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;D&lt;/mi&gt;&lt;mi&gt;b&lt;/mi&gt;&lt;/msub&gt;&lt;mo fence=&#34;true&#34;&gt;∣&lt;/mo&gt;&lt;/mrow&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\left|D_f\right|+\left|D_b\right|&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1.036108em;vertical-align:-0.286108em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;minner&#34;&gt;&lt;span class=&#34;mopen delimcenter&#34; style=&#34;top:0em;&#34;&gt;∣&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.02778em;&#34;&gt;D&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.3361079999999999em;&#34;&gt;&lt;span style=&#34;top:-2.5500000000000003em;margin-left:-0.02778em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34; style=&#34;margin-right:0.10764em;&#34;&gt;f&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.286108em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose delimcenter&#34; style=&#34;top:0em;&#34;&gt;∣&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;minner&#34;&gt;&lt;span class=&#34;mopen delimcenter&#34; style=&#34;top:0em;&#34;&gt;∣&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.02778em;&#34;&gt;D&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.33610799999999996em;&#34;&gt;&lt;span style=&#34;top:-2.5500000000000003em;margin-left:-0.02778em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;b&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose delimcenter&#34; style=&#34;top:0em;&#34;&gt;∣&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 的空间存储&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;Δ&lt;/mi&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/msub&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\Delta_{r_0+r_1}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.93343em;vertical-align:-0.2501em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;Δ&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.258331em;&#34;&gt;&lt;span style=&#34;top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34; style=&#34;margin-right:0.02778em;&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.31731428571428577em;&#34;&gt;&lt;span style=&#34;top:-2.357em;margin-left:-0.02778em;margin-right:0.07142857142857144em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.5em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size3 size1 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;0&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.143em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mbin mtight&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34; style=&#34;margin-right:0.02778em;&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.31731428571428577em;&#34;&gt;&lt;span style=&#34;top:-2.357em;margin-left:-0.02778em;margin-right:0.07142857142857144em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.5em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size3 size1 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.143em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.2501em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;。这样的方案距离高效的密码分析方案是有距离的。&lt;/p&gt;
 &lt;p&gt;所以本文将对 Rechberger 方案进行优化，将攻击的空间复杂度降至 negligible。&lt;/p&gt;
 </content>
-        <category term="信息安全" scheme="https://kate-lin.github.io/categories/info-sec/" />
-        <category term="密码学" scheme="https://kate-lin.github.io/categories/info-sec/crypto/" />
-        <category term="研究生课程" scheme="https://kate-lin.github.io/categories/info-sec/crypto/grad-courses/" />
-        <category term="密码学" scheme="https://kate-lin.github.io/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/" />
-        <category term="对称密码" scheme="https://kate-lin.github.io/tags/%E5%AF%B9%E7%A7%B0%E5%AF%86%E7%A0%81/" />
-        <category term="LowMC" scheme="https://kate-lin.github.io/tags/LowMC/" />
-        <category term="S盒" scheme="https://kate-lin.github.io/tags/S%E7%9B%92/" />
+        <category term="信息安全" scheme="https://blog.bullet-holes.cn/categories/info-sec/" />
+        <category term="密码学" scheme="https://blog.bullet-holes.cn/categories/info-sec/crypto/" />
+        <category term="研究生课程" scheme="https://blog.bullet-holes.cn/categories/info-sec/crypto/grad-courses/" />
+        <category term="密码学" scheme="https://blog.bullet-holes.cn/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/" />
+        <category term="对称密码" scheme="https://blog.bullet-holes.cn/tags/%E5%AF%B9%E7%A7%B0%E5%AF%86%E7%A0%81/" />
+        <category term="LowMC" scheme="https://blog.bullet-holes.cn/tags/LowMC/" />
+        <category term="S盒" scheme="https://blog.bullet-holes.cn/tags/S%E7%9B%92/" />
         <updated>2021-12-26T07:12:00.000Z</updated>
     </entry>
 </feed>
