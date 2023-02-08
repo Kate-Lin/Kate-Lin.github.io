@@ -26,7 +26,7 @@
             <description><![CDATA[ &lt;h1 id=&#34;同态代码实现&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#同态代码实现&#34;&gt;#&lt;/a&gt; 同态代码实现&lt;/h1&gt;
 &lt;h2 id=&#34;ckk19求逆和开方&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#ckk19求逆和开方&#34;&gt;#&lt;/a&gt; CKK19 求逆和开方&lt;/h2&gt;
 &lt;h3 id=&#34;求逆&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#求逆&#34;&gt;#&lt;/a&gt; 求逆&lt;/h3&gt;
-&lt;figure class=&#34;highlight raw&#34;&gt;&lt;figcaption data-lang=&#34;&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Input: $0&amp;lt;x&amp;lt;2, d \in \mathbb&amp;#123;Z&amp;#125;$&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#&#34;&gt;#&lt;/a&gt; &lt;/h1&gt;
+&lt;figure class=&#34;highlight latex&#34;&gt;&lt;figcaption data-lang=&#34;LaTeX&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Input: &lt;span class=&#34;token equation string&#34;&gt;$0&amp;lt;x&amp;lt;2, d &lt;span class=&#34;token equation-command regex&#34;&gt;\in&lt;/span&gt; &lt;span class=&#34;token equation-command regex&#34;&gt;\mathbb&lt;/span&gt;&amp;#123;Z&amp;#125;$&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Output: an approximate value of &lt;span class=&#34;token equation string&#34;&gt;$1/x$&lt;/span&gt; bounded by &lt;span class=&#34;token equation string&#34;&gt;$(1-x)^&amp;#123;2^^&amp;#123;d+1&amp;#125;&amp;#125;$&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;1: &lt;span class=&#34;token equation string&#34;&gt;$a_0 &lt;span class=&#34;token equation-command regex&#34;&gt;\leftarrow&lt;/span&gt; 2-x$&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;2: &lt;span class=&#34;token equation string&#34;&gt;$b_0 &lt;span class=&#34;token equation-command regex&#34;&gt;\leftarrow&lt;/span&gt; 1-x$&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;3: for &lt;span class=&#34;token equation string&#34;&gt;$n &lt;span class=&#34;token equation-command regex&#34;&gt;\leftarrow&lt;/span&gt; 0$&lt;/span&gt; to &lt;span class=&#34;token equation string&#34;&gt;$d-1$&lt;/span&gt; do&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;4:      &lt;span class=&#34;token equation string&#34;&gt;$b_&amp;#123;n+1&amp;#125; &lt;span class=&#34;token equation-command regex&#34;&gt;\leftarrow&lt;/span&gt; b_n^2$&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;5:      &lt;span class=&#34;token equation string&#34;&gt;$a_&amp;#123;n+1&amp;#125; &lt;span class=&#34;token equation-command regex&#34;&gt;\leftarrow&lt;/span&gt; a_n &lt;span class=&#34;token equation-command regex&#34;&gt;\cdot&lt;/span&gt; (1+b_&amp;#123;n+1&amp;#125;)$&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;6: end for&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;7: return &lt;span class=&#34;token equation string&#34;&gt;$a_d$&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#&#34;&gt;#&lt;/a&gt; &lt;/h1&gt;
  ]]></description>
         </item>
         <item>
@@ -184,8 +184,8 @@ Cookie &lt;strong&gt;容易被篡改&lt;/strong&gt;。&lt;br&gt;
             <category term="信息安全" scheme="https://blog.bullet-holes.cn/categories/info-sec/" />
             <category term="密码学" scheme="https://blog.bullet-holes.cn/categories/info-sec/crypto/" />
             <category term="科研论文" scheme="https://blog.bullet-holes.cn/categories/info-sec/crypto/research-papers/" />
-            <category term="密码学" scheme="https://blog.bullet-holes.cn/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/" />
             <category term="文献阅读" scheme="https://blog.bullet-holes.cn/tags/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/" />
+            <category term="密码学" scheme="https://blog.bullet-holes.cn/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/" />
             <pubDate>Mon, 06 Feb 2023 10:21:00 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;background&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#background&#34;&gt;#&lt;/a&gt; Background&lt;/h1&gt;
 &lt;div class=&#34;note primary&#34;&gt;
@@ -211,8 +211,8 @@ Cookie &lt;strong&gt;容易被篡改&lt;/strong&gt;。&lt;br&gt;
             <category term="信息安全" scheme="https://blog.bullet-holes.cn/categories/info-sec/" />
             <category term="密码学" scheme="https://blog.bullet-holes.cn/categories/info-sec/crypto/" />
             <category term="科研论文" scheme="https://blog.bullet-holes.cn/categories/info-sec/crypto/research-papers/" />
-            <category term="密码学" scheme="https://blog.bullet-holes.cn/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/" />
             <category term="文献阅读" scheme="https://blog.bullet-holes.cn/tags/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/" />
+            <category term="密码学" scheme="https://blog.bullet-holes.cn/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/" />
             <pubDate>Sun, 29 Jan 2023 10:21:00 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;background&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#background&#34;&gt;#&lt;/a&gt; Background&lt;/h1&gt;
 &lt;p&gt;实现多用户写加密数据库的可搜索加密：&lt;/p&gt;
@@ -570,8 +570,8 @@ each writer initializes one DSSE instance.&lt;/p&gt;
             <category term="信息安全" scheme="https://blog.bullet-holes.cn/categories/info-sec/" />
             <category term="密码学" scheme="https://blog.bullet-holes.cn/categories/info-sec/crypto/" />
             <category term="科研论文" scheme="https://blog.bullet-holes.cn/categories/info-sec/crypto/research-papers/" />
-            <category term="密码学" scheme="https://blog.bullet-holes.cn/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/" />
             <category term="文献阅读" scheme="https://blog.bullet-holes.cn/tags/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/" />
+            <category term="密码学" scheme="https://blog.bullet-holes.cn/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/" />
             <category term="组会" scheme="https://blog.bullet-holes.cn/tags/%E7%BB%84%E4%BC%9A/" />
             <category term="FE" scheme="https://blog.bullet-holes.cn/tags/FE/" />
             <pubDate>Mon, 22 Aug 2022 13:36:00 +0800</pubDate>
@@ -1529,8 +1529,8 @@ M834 80h400000v40h-400000z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/s
             <category term="信息安全" scheme="https://blog.bullet-holes.cn/categories/info-sec/" />
             <category term="密码学" scheme="https://blog.bullet-holes.cn/categories/info-sec/crypto/" />
             <category term="研究生课程" scheme="https://blog.bullet-holes.cn/categories/info-sec/crypto/grad-courses/" />
-            <category term="课程" scheme="https://blog.bullet-holes.cn/tags/%E8%AF%BE%E7%A8%8B/" />
             <category term="密码学" scheme="https://blog.bullet-holes.cn/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/" />
+            <category term="课程" scheme="https://blog.bullet-holes.cn/tags/%E8%AF%BE%E7%A8%8B/" />
             <pubDate>Sat, 01 Jan 2022 20:19:00 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;目录&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#目录&#34;&gt;#&lt;/a&gt; 目录&lt;/h1&gt;
 &lt;ul&gt;
@@ -2015,8 +2015,8 @@ A 给出一对有效消息 - 签名对&lt;span class=&#34;katex&#34;&gt;&lt;span
             <category term="信息安全" scheme="https://blog.bullet-holes.cn/categories/info-sec/" />
             <category term="密码学" scheme="https://blog.bullet-holes.cn/categories/info-sec/crypto/" />
             <category term="研究生课程" scheme="https://blog.bullet-holes.cn/categories/info-sec/crypto/grad-courses/" />
-            <category term="课程" scheme="https://blog.bullet-holes.cn/tags/%E8%AF%BE%E7%A8%8B/" />
             <category term="密码学" scheme="https://blog.bullet-holes.cn/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/" />
+            <category term="课程" scheme="https://blog.bullet-holes.cn/tags/%E8%AF%BE%E7%A8%8B/" />
             <category term="实践" scheme="https://blog.bullet-holes.cn/tags/%E5%AE%9E%E8%B7%B5/" />
             <category term="电子投票" scheme="https://blog.bullet-holes.cn/tags/%E7%94%B5%E5%AD%90%E6%8A%95%E7%A5%A8/" />
             <pubDate>Sun, 26 Dec 2021 21:03:00 +0800</pubDate>

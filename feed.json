@@ -11,7 +11,7 @@
             "url": "https://blog.bullet-holes.cn/computer-science/intern/crypto/",
             "title": "面试密码学大合集",
             "date_published": "2023-02-08T13:34:00.000Z",
-            "content_html": "<h1 id=\"同态代码实现\"><a class=\"markdownIt-Anchor\" href=\"#同态代码实现\">#</a> 同态代码实现</h1>\n<h2 id=\"ckk19求逆和开方\"><a class=\"markdownIt-Anchor\" href=\"#ckk19求逆和开方\">#</a> CKK19 求逆和开方</h2>\n<h3 id=\"求逆\"><a class=\"markdownIt-Anchor\" href=\"#求逆\">#</a> 求逆</h3>\n<figure class=\"highlight raw\"><figcaption data-lang=\"\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre>Input: $0&lt;x&lt;2, d \\in \\mathbb&#123;Z&#125;$</pre></td></tr></table></figure><h1 id=\"\"><a class=\"markdownIt-Anchor\" href=\"#\">#</a> </h1>\n",
+            "content_html": "<h1 id=\"同态代码实现\"><a class=\"markdownIt-Anchor\" href=\"#同态代码实现\">#</a> 同态代码实现</h1>\n<h2 id=\"ckk19求逆和开方\"><a class=\"markdownIt-Anchor\" href=\"#ckk19求逆和开方\">#</a> CKK19 求逆和开方</h2>\n<h3 id=\"求逆\"><a class=\"markdownIt-Anchor\" href=\"#求逆\">#</a> 求逆</h3>\n<figure class=\"highlight latex\"><figcaption data-lang=\"LaTeX\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre>Input: <span class=\"token equation string\">$0&lt;x&lt;2, d <span class=\"token equation-command regex\">\\in</span> <span class=\"token equation-command regex\">\\mathbb</span>&#123;Z&#125;$</span></pre></td></tr><tr><td data-num=\"2\"></td><td><pre>Output: an approximate value of <span class=\"token equation string\">$1/x$</span> bounded by <span class=\"token equation string\">$(1-x)^&#123;2^^&#123;d+1&#125;&#125;$</span></pre></td></tr><tr><td data-num=\"3\"></td><td><pre>1: <span class=\"token equation string\">$a_0 <span class=\"token equation-command regex\">\\leftarrow</span> 2-x$</span></pre></td></tr><tr><td data-num=\"4\"></td><td><pre>2: <span class=\"token equation string\">$b_0 <span class=\"token equation-command regex\">\\leftarrow</span> 1-x$</span></pre></td></tr><tr><td data-num=\"5\"></td><td><pre>3: for <span class=\"token equation string\">$n <span class=\"token equation-command regex\">\\leftarrow</span> 0$</span> to <span class=\"token equation string\">$d-1$</span> do</pre></td></tr><tr><td data-num=\"6\"></td><td><pre>4:      <span class=\"token equation string\">$b_&#123;n+1&#125; <span class=\"token equation-command regex\">\\leftarrow</span> b_n^2$</span></pre></td></tr><tr><td data-num=\"7\"></td><td><pre>5:      <span class=\"token equation string\">$a_&#123;n+1&#125; <span class=\"token equation-command regex\">\\leftarrow</span> a_n <span class=\"token equation-command regex\">\\cdot</span> (1+b_&#123;n+1&#125;)$</span></pre></td></tr><tr><td data-num=\"8\"></td><td><pre>6: end for</pre></td></tr><tr><td data-num=\"9\"></td><td><pre>7: return <span class=\"token equation string\">$a_d$</span></pre></td></tr></table></figure><h1 id=\"\"><a class=\"markdownIt-Anchor\" href=\"#\">#</a> </h1>\n",
             "tags": [
                 "计算机科学",
                 "实习",
@@ -42,8 +42,8 @@
                 "信息安全",
                 "密码学",
                 "科研论文",
-                "密码学",
-                "文献阅读"
+                "文献阅读",
+                "密码学"
             ]
         },
         {
@@ -56,8 +56,8 @@
                 "信息安全",
                 "密码学",
                 "科研论文",
-                "密码学",
-                "文献阅读"
+                "文献阅读",
+                "密码学"
             ]
         },
         {
@@ -148,8 +148,8 @@
                 "信息安全",
                 "密码学",
                 "科研论文",
-                "密码学",
                 "文献阅读",
+                "密码学",
                 "组会",
                 "FE"
             ]
@@ -248,8 +248,8 @@
                 "信息安全",
                 "密码学",
                 "研究生课程",
-                "课程",
-                "密码学"
+                "密码学",
+                "课程"
             ]
         },
         {
@@ -274,8 +274,8 @@
                 "信息安全",
                 "密码学",
                 "研究生课程",
-                "课程",
                 "密码学",
+                "课程",
                 "实践",
                 "电子投票"
             ]
