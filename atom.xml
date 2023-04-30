@@ -15,7 +15,11 @@
         <id>https://blog.bullet-holes.cn/computer-science/intern/spring-intern/</id>
         <title>2023春招实习大总结</title>
         <link rel="alternate" href="https://blog.bullet-holes.cn/computer-science/intern/spring-intern/"/>
-        <content type="html">&lt;h1 id=&#34;timeline&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#timeline&#34;&gt;#&lt;/a&gt; timeline&lt;/h1&gt;
+        <content type="html">&lt;h1 id=&#34;写在前面&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#写在前面&#34;&gt;#&lt;/a&gt; 写在前面&lt;/h1&gt;
+&lt;p&gt;随便写写，觉得一个阶段告一段落需要有点总结性文字纪念一下。由于写得不那么及时，可能很多记忆都模糊了。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;一些基本情况&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;进入暑期实习的时候攒了 3 段实习，简历上写了 2 个项目（太多了删掉一点，把主角留给实习），一些无关紧要的奖学金和荣誉。反正把舞台交给实习和项目就对了。&lt;/p&gt;
+&lt;h1 id=&#34;timeline&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#timeline&#34;&gt;#&lt;/a&gt; timeline&lt;/h1&gt;
 &lt;h2 id=&#34;日常实习&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#日常实习&#34;&gt;#&lt;/a&gt; 日常实习&lt;/h2&gt;
 &lt;p&gt;从 2 月初开始投的，因为来不及复习开发八股，所以投的都以测试和产品为主。&lt;/p&gt;
 &lt;ul&gt;
@@ -48,6 +52,68 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;可以看出一些规律 = 传统大厂不卷开发，非传统大厂去浑水摸鱼。&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&#34;一些面经&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#一些面经&#34;&gt;#&lt;/a&gt; 一些面经&lt;/h1&gt;
+&lt;p&gt;其实基本上都录了音，但有点羞耻不太想听了啊啊啊啊啊…&lt;/p&gt;
+&lt;h2 id=&#34;小红书&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#小红书&#34;&gt;#&lt;/a&gt; 小红书&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;主要问项目：很笼统的问题，项目做了什么，难点是什么，收获是什么。&lt;/li&gt;
+&lt;li&gt;一些测试基础：等价类划分、黑盒白盒测试、测试工具。&lt;/li&gt;
+&lt;li&gt;八股：C++ 的继承和多态、static 的各种知识、this 的作用、数据库的索引、服务器的服务部署。&lt;/li&gt;
+&lt;li&gt;手撕算法题：二叉树节点求和，两数之和。&lt;/li&gt;
+&lt;li&gt;情景题：如何测试一个登录界面。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;观感：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;一面是温柔同事姐姐，二面是 leader，很领世面的样子。两面都采访了同事在小红书的工作感想，还没进去就预感到会很卷，会是 tough job，不过我也坚持下来了。&lt;/p&gt;
+&lt;h2 id=&#34;蔚来&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#蔚来&#34;&gt;#&lt;/a&gt; 蔚来&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;项目：基本上没怎么问吧，反而问我研究生怎么没拿过奖学金，我：噢拿过的没写上去，无关紧要。&lt;/li&gt;
+&lt;li&gt;测试基础：基本上没怎么问。&lt;/li&gt;
+&lt;li&gt;八股：简单的计网和数据库。&lt;/li&gt;
+&lt;li&gt;手撕算法题：判断回文串、冒泡排序。&lt;/li&gt;
+&lt;li&gt;情景题：测试抖音分享页、如果测试机有限怎么和同时协调（大无语）。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;观感：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;一天速通 offer，应该比较缺人，但感觉面试官不太专业。一行代码都没写，开口闭口就是这个逻辑可能实现不出来 / 写出来会有 bug。很多 “开动脑筋再想想” 最后的结果都很莫名其妙，比如判断回文串可以先把字符串翻转然后比较（？搞毛，小丑竟是我自己是吧）。面试官感觉不知道在面点什么，也没有想好什么问题，特别是二面的面试官，讲话全程慢吞吞的，没有反馈感，如果没准备好面试可以不用把进度推那么快的。而且作为 base 在上海的业务组，对上海的 985 也没有基本的了解，简直让人怀疑组里根本没有多少 985 的人（不是凡尔赛也不是自视甚高，就是觉得业务组可能缺乏行业认知）。最后就是听起来加班挺狠的，一二面都提到了工作时间的问题，虽然菜，但还不想这么早就去干苦力。以后估计也不会投了。&lt;/p&gt;
+&lt;h2 id=&#34;美团&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#美团&#34;&gt;#&lt;/a&gt; 美团&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;主要围绕着毕设的隐私保护项目问。用到了同态加密的知识，感觉他们很缺这方面的人，想引进同态的技术，各种问我觉得 xxx 技术的效率如何，用在金融平台上可行性如何，但又不置可否。&lt;/li&gt;
+&lt;li&gt;问了一些开源代码之类的问题，问我对隐语之类的技术的了解，我：不太了解。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;观感：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;属于是他们没看上我，我也没看上他们，虽然不想说得很难听，但看起来真的很像套我方案的，面试体验很不好。&lt;/p&gt;
+&lt;h2 id=&#34;京东&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#京东&#34;&gt;#&lt;/a&gt; 京东&lt;/h2&gt;
+&lt;p&gt;因为没有开摄像头，及时记下了各种知识点。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;八股：&lt;br&gt;
+TCP/IP 有几层，应用层有哪些协议，http 的特点，http 请求头，http 长连接，cookie 和 session 的区别，tcp 和 udp 的区别。&lt;/li&gt;
+&lt;li&gt;实习：&lt;br&gt;
+用 python 写过脚本吗，测试实习的工作主要有哪些，写自动化用例是怎么写的，用过哪些测试工具，项目交付的整体流程有哪些，app 测试有没有用过性能分析的工具，抓包用的什么工具。小红书和京东各有什么吸引你的地方。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;观感：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;所有的实习面试里八股问的最多的了。但本来也是投着玩，一面面试官美其名曰 “想让实习生尽早体验 618 氛围”，实际上就是希望尽快到岗缺韭菜加班了。表现得不是很想去的样子，就把我泡池子里去了（不过我本来想的也是要是收到 oc 就美美拒掉）。&lt;/p&gt;
+&lt;h2 id=&#34;众安&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#众安&#34;&gt;#&lt;/a&gt; 众安&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;项目：&lt;br&gt;
+微信小程序项目主要干了什么，自己负责哪部分，心率检测怎么做的。毕业设计项目主要做的是什么（应该是完全不懂隐私保护），有什么具体应用。&lt;/li&gt;
+&lt;li&gt;实习：&lt;br&gt;
+对职业生涯是怎么规划的，系统测试、自动化测试、测试开发有什么不同。为什么不在小红书继续实习，对于职业的行业选择有什么偏向性吗。&lt;/li&gt;
+&lt;li&gt;八股：&lt;br&gt;
+http 有哪些请求方式，post 和 get 有什么不同。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;观感：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;听起来也是要加班的，虽然给的钱还不错，分配的事业群也是能赚钱的，但是感觉技术真的很水（…），而且又表现得不是很想去，看起来很像骑驴找马的（实际上也确实是），又泡池子然后 gg 了。&lt;/p&gt;
+&lt;h2 id=&#34;sap&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#sap&#34;&gt;#&lt;/a&gt; SAP&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;算法题：&lt;br&gt;
+笔试两道算法题直接爆零，只记得第一道题是约瑟夫问题，第二道题一点都没做。线下群面给了两道简单算法手写，一道是判断邮箱格式是否合法，一道是两数之和。&lt;/li&gt;
+&lt;li&gt;其他面试题：&lt;br&gt;
+无领导小组讨论题目是销毁过期面包遇到难民和记者，如何让大家都满意。技术面问了 web 3.0 的知识（大家都不太了解，我凭着专业硬答了一些）；如何在 618 大促来临之际增加电商服务稳定性，大家头脑风暴，主要还是高并发；http 状态码有哪些（有个大哥从 1XX 背到了 5XX），cookie 和 JWT token 的区别。&lt;/li&gt;
+&lt;li&gt;hr 电面：&lt;br&gt;
+英文自我介绍，问了一些实习的工作，家乡哪里的，毕业之后职业规划如何，为什么不想呆在小红书，为什么想来 SAP，对于学习新编程语言的看法如何。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;观感：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;总体过下来是最顺，发挥也是最好的吧，虽然笔试考崩了痛哭了一晚上，但感谢自己痛定思痛，好好准备了剩下的面试。大三面 SAP 的时候感觉 HR 非常 mean，听说我要继续读研把我怼了一顿，这次碰到的倒是都挺正常。&lt;/p&gt;
 </content>
         <category term="计算机科学" scheme="https://blog.bullet-holes.cn/categories/computer-science/" />
         <category term="实习" scheme="https://blog.bullet-holes.cn/categories/computer-science/intern/" />
