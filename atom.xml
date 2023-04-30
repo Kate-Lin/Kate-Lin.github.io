@@ -13,7 +13,7 @@
     <category term=" Code" />
     <entry>
         <id>https://blog.bullet-holes.cn/computer-science/intern/spring-intern/</id>
-        <title>2023春招实习大总结</title>
+        <title>2023春招实习面经总结</title>
         <link rel="alternate" href="https://blog.bullet-holes.cn/computer-science/intern/spring-intern/"/>
         <content type="html">&lt;h1 id=&#34;写在前面&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#写在前面&#34;&gt;#&lt;/a&gt; 写在前面&lt;/h1&gt;
 &lt;p&gt;随便写写，觉得一个阶段告一段落需要有点总结性文字纪念一下。由于写得不那么及时，可能很多记忆都模糊了。&lt;/p&gt;
@@ -114,6 +114,13 @@ http 有哪些请求方式，post 和 get 有什么不同。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;strong&gt;观感：&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;总体过下来是最顺，发挥也是最好的吧，虽然笔试考崩了痛哭了一晚上，但感谢自己痛定思痛，好好准备了剩下的面试。大三面 SAP 的时候感觉 HR 非常 mean，听说我要继续读研把我怼了一顿，这次碰到的倒是都挺正常。&lt;/p&gt;
+&lt;h1 id=&#34;写在最后&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#写在最后&#34;&gt;#&lt;/a&gt; 写在最后&lt;/h1&gt;
+&lt;p&gt;想了一想，自己这个春招水平可能只能算比上不足、比下有余，如果是大佬点进来可能是见笑了。如果非要总结点什么的话，那么我觉得有几点是自己可以继续坚持的，写下来让自己时常看看。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;看清楚自己站在哪，又能迈多大步子。明确目标，缩小范围，劲用在刀刃上。想要的就努力得到，不想要的毋论有无都不必伤心。（为什么突然想到了上周组会讲的 refined search，有海投的心，但还得小范围才能有高效的结果。）&lt;/li&gt;
+&lt;li&gt;可以接受短期性吃苦，不接受无期的苦熬。不用身体换工资，我需要有自己的生活。&lt;/li&gt;
+&lt;li&gt;路还很长，继续走着继续看～&lt;/li&gt;
+&lt;/ol&gt;
 </content>
         <category term="计算机科学" scheme="https://blog.bullet-holes.cn/categories/computer-science/" />
         <category term="实习" scheme="https://blog.bullet-holes.cn/categories/computer-science/intern/" />
@@ -2151,8 +2158,8 @@ A 给出一对有效消息 - 签名对&lt;span class=&#34;katex&#34;&gt;&lt;span
         <category term="信息安全" scheme="https://blog.bullet-holes.cn/categories/info-sec/" />
         <category term="密码学" scheme="https://blog.bullet-holes.cn/categories/info-sec/crypto/" />
         <category term="研究生课程" scheme="https://blog.bullet-holes.cn/categories/info-sec/crypto/grad-courses/" />
-        <category term="课程" scheme="https://blog.bullet-holes.cn/tags/%E8%AF%BE%E7%A8%8B/" />
         <category term="密码学" scheme="https://blog.bullet-holes.cn/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/" />
+        <category term="课程" scheme="https://blog.bullet-holes.cn/tags/%E8%AF%BE%E7%A8%8B/" />
         <updated>2022-01-01T12:19:00.000Z</updated>
     </entry>
     <entry>
