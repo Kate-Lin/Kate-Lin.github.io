@@ -49,11 +49,11 @@ https://blog.bullet-holes.cn/tags/LowMC/
 https://blog.bullet-holes.cn/tags/S%E7%9B%92/
 https://blog.bullet-holes.cn/tags/%E6%95%B0%E5%AD%A6/
 https://blog.bullet-holes.cn/tags/%E6%8A%BD%E8%B1%A1%E4%BB%A3%E6%95%B0/
-https://blog.bullet-holes.cn/tags/Lattice-%E6%A0%BC/
-https://blog.bullet-holes.cn/tags/LLL%E7%AE%97%E6%B3%95/
 https://blog.bullet-holes.cn/tags/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/
 https://blog.bullet-holes.cn/tags/%E7%BB%84%E4%BC%9A/
 https://blog.bullet-holes.cn/tags/FE/
+https://blog.bullet-holes.cn/tags/Lattice-%E6%A0%BC/
+https://blog.bullet-holes.cn/tags/LLL%E7%AE%97%E6%B3%95/
 https://blog.bullet-holes.cn/categories/notes/
 https://blog.bullet-holes.cn/categories/computer-science/
 https://blog.bullet-holes.cn/categories/computer-science/intern/
