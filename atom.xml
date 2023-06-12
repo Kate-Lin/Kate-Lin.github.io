@@ -8,9 +8,19 @@
     <author>
       <name>Kate Lin</name>
     </author>
-    <updated>2023-04-30T09:44:00.000Z</updated>
+    <updated>2023-06-12T07:07:00.000Z</updated>
     <category term="CRYPTO" />
     <category term=" Code" />
+    <entry>
+        <id>https://blog.bullet-holes.cn/notes/notes20230612/</id>
+        <title>thoughts on 2023-06-12</title>
+        <link rel="alternate" href="https://blog.bullet-holes.cn/notes/notes20230612/"/>
+        <content type="html">&lt;p&gt;很懒得取什么标题，直接扒了上一篇 notes 的标题。一个人闷在宿舍里，没有什么工作需要完成，论文有大把要去看，却好像没个头绪。好像是被什么情绪裹挟了。&lt;/p&gt;
+</content>
+        <category term="杂谈" scheme="https://blog.bullet-holes.cn/categories/notes/" />
+        <category term="个人" scheme="https://blog.bullet-holes.cn/tags/%E4%B8%AA%E4%BA%BA/" />
+        <updated>2023-06-12T07:07:00.000Z</updated>
+    </entry>
     <entry>
         <id>https://blog.bullet-holes.cn/computer-science/intern/spring-intern/</id>
         <title>2023春招实习面经总结</title>
@@ -2158,24 +2168,8 @@ A 给出一对有效消息 - 签名对&lt;span class=&#34;katex&#34;&gt;&lt;span
         <category term="信息安全" scheme="https://blog.bullet-holes.cn/categories/info-sec/" />
         <category term="密码学" scheme="https://blog.bullet-holes.cn/categories/info-sec/crypto/" />
         <category term="研究生课程" scheme="https://blog.bullet-holes.cn/categories/info-sec/crypto/grad-courses/" />
-        <category term="密码学" scheme="https://blog.bullet-holes.cn/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/" />
         <category term="课程" scheme="https://blog.bullet-holes.cn/tags/%E8%AF%BE%E7%A8%8B/" />
+        <category term="密码学" scheme="https://blog.bullet-holes.cn/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/" />
         <updated>2022-01-01T12:19:00.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://blog.bullet-holes.cn/notes/week211226/</id>
-        <title>Weekly Journal 20211226</title>
-        <link rel="alternate" href="https://blog.bullet-holes.cn/notes/week211226/"/>
-        <content type="html">&lt;p&gt;第一次用英文写周记，甚为不适应。&lt;/p&gt;
-&lt;p&gt;The study this week is mainly divided into the following aspects:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;I submitted the survey on the security strength of classic and post-quantum public key cryptography. Luping Wang then gave some comments and suggestions for improvement on the survey notes. Firstly, the research content of classic cryptographic schemes is not yet sufficient. In the next stage, I will look for more classic cryptographic schemes, including but not limited to the classic schemes on the NIST standard. I will also add some other classic schemes to the post-quantum cryptography section. Secondly, I still need to add some more content, such as commercial application cryptographic schemes, including scheme parameters or standards currently used by domestic and international government departments and large enterprises. After the final exam, I will organize the notes into the form of the first draft of the paper. Since the final exam is coming, I will focus more on reviewing my professional courses. Before the Spring Festival, I will finish the draft.&lt;/li&gt;
-&lt;li&gt;In this week, I wrote two course reports about my gains and thoughts. When I reread Cryptanalysis of Full LowMC and LowMC-M with Algebraic Techniques, I find I understand it more deeply and solved some problems left. As for the Network Security Protocols, I combined the experience of my Graduation Project and the reading of the paper Koinonia: Verifiable E-Voting with Long-term Privacy, and wrote a detailed report. Summarizing what I have learned regularly can help me gain a deeper understanding. I also plan to post the course reports, notes and weekly reports written this semester to my personal blog for archives. Next week, I will take 2 course exams, so I spent some time reviewing these 2 courses as well.&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-        <category term="杂谈" scheme="https://blog.bullet-holes.cn/categories/notes/" />
-        <category term="个人" scheme="https://blog.bullet-holes.cn/tags/%E4%B8%AA%E4%BA%BA/" />
-        <category term="实验室周报" scheme="https://blog.bullet-holes.cn/tags/%E5%AE%9E%E9%AA%8C%E5%AE%A4%E5%91%A8%E6%8A%A5/" />
-        <updated>2021-12-26T13:32:00.000Z</updated>
     </entry>
 </feed>
