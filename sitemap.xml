@@ -241,20 +241,6 @@
   </url>
   
   <url>
-    <loc>https://blog.bullet-holes.cn/tags/%E5%AE%9E%E4%B9%A0/</loc>
-    <lastmod>2023-09-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.bullet-holes.cn/tags/%E9%9D%A2%E7%BB%8F/</loc>
-    <lastmod>2023-09-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.bullet-holes.cn/tags/%E4%BB%A3%E7%A0%81%E5%AE%9E%E6%88%98/</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -326,6 +312,20 @@
   
   <url>
     <loc>https://blog.bullet-holes.cn/tags/%E7%AE%97%E6%B3%95/</loc>
+    <lastmod>2023-09-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.bullet-holes.cn/tags/%E5%AE%9E%E4%B9%A0/</loc>
+    <lastmod>2023-09-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.bullet-holes.cn/tags/%E9%9D%A2%E7%BB%8F/</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -460,13 +460,6 @@
   </url>
   
   <url>
-    <loc>https://blog.bullet-holes.cn/categories/computer-science/experiment/</loc>
-    <lastmod>2023-09-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.bullet-holes.cn/categories/computer-science/intern/</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -474,7 +467,7 @@
   </url>
   
   <url>
-    <loc>https://blog.bullet-holes.cn/categories/computer-science/coding/</loc>
+    <loc>https://blog.bullet-holes.cn/categories/computer-science/experiment/</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -489,6 +482,13 @@
   
   <url>
     <loc>https://blog.bullet-holes.cn/categories/computer-science/crypto/</loc>
+    <lastmod>2023-09-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.bullet-holes.cn/categories/computer-science/coding/</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
