@@ -1,4 +1,4 @@
-var CONFIG = {"version":"0.2.5","hostname":"https://blog.bullet-holes.cn","root":"/","statics":"/","favicon":{"normal":"images/favicon.ico","hidden":"images/failure.ico"},"darkmode":false,"auto_scroll":true,"js":{"valine":"gh/Kate-Lin/static@test1.1/MiniValine.min.js","chart":"npm/frappe-charts@1.5.0/dist/frappe-charts.min.iife.min.js","copy_tex":"npm/katex@0.12.0/dist/contrib/copy-tex.min.js","fancybox":"combine/npm/jquery@3.5.1/dist/jquery.min.js,npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js,npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js"},"css":{"valine":"css/comment.css","katex":"npm/katex@0.12.0/dist/katex.min.css","mermaid":"css/mermaid.css","fancybox":"combine/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css,npm/justifiedGallery@3.8.1/dist/css/justifiedGallery.min.css"},"loader":{"start":false,"switch":false},"search":{"appID":"DG06A7QJI2","apiKey":"89f91d939c597c9abd73558a6e4156f2","indexName":"hexo","hits":{"per_page":10}},"valine":{"appId":"Vt9Waze9QD9juQzOG38bAjzG-gzGzoHsz","appKey":"krwTo2hVI2fewUTfcBmspFV6","placeholder":"ヽ(○´∀`)ﾉ♪","avatar":"retro","pageSize":10,"lang":"zh-CN","visitor":true,"NoRecordIP":false,"serverURLs":"https://vt9waze9.lc-cn-n1-shared.com","powerMode":true,"tagMeta":{"visitor":"新朋友","master":"博主","friend":"小伙伴","author":"作者"},"tagColor":{"master":"var(--color-orange)","friend":"var(--color-aqua)"},"tagMember":{"master":["e1005e0834d8b42c59824e67496a042b"],"friend":null}},"quicklink":{"timeout":3000,"priority":true},"fireworks":["rgba(255,182,185,.9)","rgba(250,227,217,.9)","rgba(187,222,214,.9)","rgba(138,198,209,.9)"]};const getRndInteger = function (min, max) {
+var CONFIG = {"version":"0.2.5","hostname":"https://blog.bullet-holes.cn","root":"/","statics":"/","favicon":{"normal":"images/favicon.ico","hidden":"images/failure.ico"},"darkmode":false,"auto_scroll":true,"js":{"valine":"js/MiniValine.min.js","chart":"unpkg.com/frappe-charts@1.5.0/dist/frappe-charts.min.iife.min.js","copy_tex":"unpkg.com/katex@0.12.0/dist/contrib/copy-tex.min.js","fancybox":"unpkg.com/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"},"css":{"valine":"css/comment.css","katex":"unpkg.com/katex@0.12.0/dist/katex.min.css","mermaid":"css/mermaid.css","fancybox":"unpkg.com/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"},"loader":{"start":false,"switch":false},"search":{"appID":"DG06A7QJI2","apiKey":"89f91d939c597c9abd73558a6e4156f2","indexName":"hexo","hits":{"per_page":10}},"valine":{"appId":"Vt9Waze9QD9juQzOG38bAjzG-gzGzoHsz","appKey":"krwTo2hVI2fewUTfcBmspFV6","placeholder":"ヽ(○´∀`)ﾉ♪","avatar":"retro","pageSize":10,"lang":"zh-CN","visitor":true,"NoRecordIP":false,"serverURLs":"https://vt9waze9.lc-cn-n1-shared.com","powerMode":true,"tagMeta":{"visitor":"新朋友","master":"博主","friend":"小伙伴","author":"作者"},"tagColor":{"master":"var(--color-orange)","friend":"var(--color-aqua)"},"tagMember":{"master":["e1005e0834d8b42c59824e67496a042b"],"friend":null}},"quicklink":{"timeout":3000,"priority":true},"fireworks":["rgba(255,182,185,.9)","rgba(250,227,217,.9)","rgba(187,222,214,.9)","rgba(138,198,209,.9)"]};const getRndInteger = function (min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
@@ -23,14 +23,19 @@ const getScript = function(url, callback, condition) {
   }
 }
 
+//unpkg 链接与 jsdelivr 链接的混合写法
 const assetUrl = function(asset, type) {
-  var str = CONFIG[asset][type]
-  if(str.indexOf('npm')>-1||str.indexOf('gh')>-1||str.indexOf('combine')>-1)
-    return "//cdn.jsdelivr.net/" + str
+  var str = CONFIG[asset][type];
 
-  if(str.indexOf('http')>-1)
-    return str
+  if(-1 != str.indexOf("combine") || -1 != str.indexOf("npm"))
+    return "https://cdn.jsdelivr.net/" + str;
 
+  if(-1 != str.indexOf("unpkg.com"))
+    return "https://" + str;
+  
+  if (-1 != str.indexOf('http'))
+    return str;
+  
   return statics + str;
 }
 

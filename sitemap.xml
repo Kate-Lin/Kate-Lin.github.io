@@ -346,7 +346,7 @@
   </url>
   
   <url>
-    <loc>https://blog.bullet-holes.cn/tags/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/</loc>
+    <loc>https://blog.bullet-holes.cn/tags/%E8%AF%BE%E7%A8%8B/</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -354,41 +354,6 @@
   
   <url>
     <loc>https://blog.bullet-holes.cn/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/</loc>
-    <lastmod>2023-09-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.bullet-holes.cn/tags/%E7%BB%84%E4%BC%9A/</loc>
-    <lastmod>2023-09-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.bullet-holes.cn/tags/FE/</loc>
-    <lastmod>2023-09-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.bullet-holes.cn/tags/Lattice-%E6%A0%BC/</loc>
-    <lastmod>2023-09-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.bullet-holes.cn/tags/LLL%E7%AE%97%E6%B3%95/</loc>
-    <lastmod>2023-09-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.bullet-holes.cn/tags/%E8%AF%BE%E7%A8%8B/</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -443,6 +408,41 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://blog.bullet-holes.cn/tags/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/</loc>
+    <lastmod>2023-09-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.bullet-holes.cn/tags/%E7%BB%84%E4%BC%9A/</loc>
+    <lastmod>2023-09-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.bullet-holes.cn/tags/FE/</loc>
+    <lastmod>2023-09-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.bullet-holes.cn/tags/Lattice-%E6%A0%BC/</loc>
+    <lastmod>2023-09-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.bullet-holes.cn/tags/LLL%E7%AE%97%E6%B3%95/</loc>
+    <lastmod>2023-09-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -488,6 +488,13 @@
   </url>
   
   <url>
+    <loc>https://blog.bullet-holes.cn/categories/computer-science/crypto/</loc>
+    <lastmod>2023-09-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.bullet-holes.cn/categories/info-sec/CTF/</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -502,7 +509,7 @@
   </url>
   
   <url>
-    <loc>https://blog.bullet-holes.cn/categories/info-sec/crypto/research-papers/</loc>
+    <loc>https://blog.bullet-holes.cn/categories/computer-science/crypto/grad-courses/</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -516,14 +523,7 @@
   </url>
   
   <url>
-    <loc>https://blog.bullet-holes.cn/categories/computer-science/crypto/</loc>
-    <lastmod>2023-09-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.bullet-holes.cn/categories/computer-science/crypto/grad-courses/</loc>
+    <loc>https://blog.bullet-holes.cn/categories/info-sec/crypto/research-papers/</loc>
     <lastmod>2023-09-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
